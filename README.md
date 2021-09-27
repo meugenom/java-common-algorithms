@@ -35,7 +35,7 @@ easy:
 - [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
 - [21. Merge Two Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
 - [35. Search Insert Position](src/main/java/dev/eugenem/leetcode/SearchInsertPosition)
-- [53. Maximum Subarray](src/main/java/dev/eugenem/leetcode/MaxSubarray)
+- [53. Maximum Subarray](src/main/java/dev/eugenem/leetcode/MaxSubArray)
 - [88. Merge Sorted Array](src/main/java/dev/eugenem/leetcode/MergeSortedArray)
 - [121. Best Time to Buy and Sell Stock](src/main/java/dev/eugenem/leetcode/BestTimeToBuyAndSellStock)
 - [136. Single Number](src/main/java/dev/eugenem/leetcode/SingleNumber)
