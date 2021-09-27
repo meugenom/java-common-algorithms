@@ -11,8 +11,13 @@ Minimal and clean example implementations of data structures and algorithms in J
 ## List of Implementations
 
 ### Data Structures:
-- [arrays](algorithms/src/eugenem/dev/arrays)
 
+simple:
+- [Arrays](src/main/java/dev/eugenem/dataStructures/Arrays)
+- [Single Linked List](src/main/java/dev/eugenem/dataStructures/SingleLinkedList)
+- [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
+- [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
+- [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
 
 ### Generics
 - [GenericArray](algorithms/src/eugenem/generics/GenericArray.java)
@@ -20,10 +25,10 @@ Minimal and clean example implementations of data structures and algorithms in J
 ### Leetcode tasks:
 
 easy:
-- [1. Two Sum](main/java/dev/eugenem/leetcode/TwoSum)
-- [7. Reverse Integer](main/java/dev/eugenem/leetcode/ReverseInteger)
-- [9. Palindrome Number](main/java/dev/eugenem/leetcode/PalindromeNumbe)
-- [13. Roman to Integer](main/java/dev/eugenem/leetcode/RomanToInteger)
+- [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
+- [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
+- [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumbe)
+- [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger)
 - [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
 - [21. Merge Two Sorted Lists](main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
 - [35. Search Insert Position](main/java/dev/eugenem/leetcode/SearchInsertPosition)
@@ -42,10 +47,10 @@ medium:
 - [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber)
 
 hard:
-- [4. Median of Two Sorted Arrays](main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays)
-- [23. Merge k Sorted Lists](main/java/dev/eugenem/leetcode/MergeKSortedLists)
+- [4. Median of Two Sorted Arrays](src/main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays)
+- [23. Merge k Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeKSortedLists)
 
 ### HackerRank
 
-- [A very big sum](main/java/dev/eugenem/hackerrank/AVeryBigSum.java)
-- [Compare the triplets](main/java/dev/eugenem/hackerrank/CompareTheTriplets.java)
+- [A very big sum](src/main/java/dev/eugenem/hackerrank/AVeryBigSum.java)
+- [Compare the triplets](src/main/java/dev/eugenem/hackerrank/CompareTheTriplets.java)
