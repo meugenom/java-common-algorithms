@@ -28,9 +28,9 @@ simple:
 ### Leetcode tasks:
 
 easy:
-+ [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
-+ [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
-- [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumbe)
+- [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
+- [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
+- [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumber)
 - [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger)
 - [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
 - [21. Merge Two Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
