@@ -1,4 +1,4 @@
-Java Data Structures and Algorithms
+# Java Data Structures and Algorithms
 =========================================
 
 Minimal and clean example implementations of data structures and algorithms in Java.
@@ -28,8 +28,8 @@ simple:
 ### Leetcode tasks:
 
 easy:
-- [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
-- [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
++ [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
++ [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
 - [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumbe)
 - [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger)
 - [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
@@ -42,7 +42,7 @@ easy:
 - [155. Min Stack](src/main/java/dev/eugenem/leetcode/MinStack)
 - [202. Happy Number](src/main/java/dev/eugenem/leetcode/HappyNumber)
 - [206. Reverse Linked List](src/main/java/dev/eugenem/leetcode/ReverseLinkedList)
-- [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString)
++ [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString)
 - [771. Jewels and Stones](src/main/java/dev/eugenem/leetcode/JewelsAndStones)
 
 medium:
