@@ -23,7 +23,7 @@ simple:
 - [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch)
 
 ### Generics
-- [GenericArray](src/eugenem/generics/GenericArray.java)
+- [GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java)
 
 ### Leetcode tasks:
 
