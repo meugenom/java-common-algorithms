@@ -13,6 +13,7 @@ Minimal and clean example implementations of data structures and algorithms in J
 ### Data Structures:
 - [arrays](algorithms/src/eugenem/dev/arrays)
 
+
 ### Generics
 - [GenericArray](algorithms/src/eugenem/generics/GenericArray.java)
 
@@ -23,7 +24,7 @@ easy:
 - [7. Reverse Integer](main/java/dev/eugenem/leetcode/ReverseInteger)
 - [9. Palindrome Number](main/java/dev/eugenem/leetcode/PalindromeNumbe)
 - [13. Roman to Integer](main/java/dev/eugenem/leetcode/RomanToInteger)
-- [20. Valid Parentheses](main/java/dev/eugenem/leetcode/ValidParentheses)
+- [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
 - [21. Merge Two Sorted Lists](main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
 - [35. Search Insert Position](main/java/dev/eugenem/leetcode/SearchInsertPosition)
 - [53. Maximum Subarray](main/java/dev/eugenem/leetcode/MaxSubarray)
@@ -36,9 +37,9 @@ easy:
 - [771. Jewels and Stones](main/java/dev/eugenem/leetcode/JewelsAndStones)
 
 medium:
-- [2. Add Two Numbers](main/java/dev/eugenem/leetcode/AddTwoNumbers)
-- [3. Longest Substring Without Repeating Characters](main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters)
-- [198. House Robber](main/java/dev/eugenem/leetcode/HouseRobber)
+- [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers)
+- [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters)
+- [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber)
 
 hard:
 - [4. Median of Two Sorted Arrays](main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays)
