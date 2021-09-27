@@ -1,7 +1,7 @@
 # Java Data Structures and Algorithms
 =========================================
 
-Minimal and clean example implementations of data structures and algorithms in Java.
+Implementations of data structures and algorithms in Java.
 
 ## Tests
 ...
