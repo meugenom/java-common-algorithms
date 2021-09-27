@@ -1,4 +1,4 @@
-package dev.eugenem.leetcode.BinarySearch;
+package dev.eugenem.Search.BinarySearch;
 
 public class BinarySearch {
 

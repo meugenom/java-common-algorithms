@@ -19,6 +19,9 @@ simple:
 - [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
 - [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
 
+### Search
+- [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch)
+
 ### Generics
 - [GenericArray](src/eugenem/generics/GenericArray.java)
 
