@@ -1,4 +1,4 @@
-package dev.eugenem.generics.generics;
+package dev.eugenem.generics;
 
 public class GenericArray<T> {
 
