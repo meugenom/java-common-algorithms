@@ -20,7 +20,7 @@ simple:
 - [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
 
 ### Generics
-- [GenericArray](algorithms/src/eugenem/generics/GenericArray.java)
+- [GenericArray](src/eugenem/generics/GenericArray.java)
 
 ### Leetcode tasks:
 
@@ -30,16 +30,16 @@ easy:
 - [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumbe)
 - [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger)
 - [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
-- [21. Merge Two Sorted Lists](main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
-- [35. Search Insert Position](main/java/dev/eugenem/leetcode/SearchInsertPosition)
-- [53. Maximum Subarray](main/java/dev/eugenem/leetcode/MaxSubarray)
-- [88. Merge Sorted Array](main/java/dev/eugenem/leetcode/MergeSortedArray)
-- [121. Best Time to Buy and Sell Stock](main/java/dev/eugenem/leetcode/BestTimeToBuyAndSellStock)
-- [136. Single Number](main/java/dev/eugenem/leetcode/SingleNumber)
-- [155. Min Stack](main/java/dev/eugenem/leetcode/MinStack)
-- [202. Happy Number](main/java/dev/eugenem/leetcode/HappyNumber)
-- [206. Reverse Linked List](main/java/dev/eugenem/leetcode/ReverseLinkedList)
-- [771. Jewels and Stones](main/java/dev/eugenem/leetcode/JewelsAndStones)
+- [21. Merge Two Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
+- [35. Search Insert Position](src/main/java/dev/eugenem/leetcode/SearchInsertPosition)
+- [53. Maximum Subarray](src/main/java/dev/eugenem/leetcode/MaxSubarray)
+- [88. Merge Sorted Array](src/main/java/dev/eugenem/leetcode/MergeSortedArray)
+- [121. Best Time to Buy and Sell Stock](src/main/java/dev/eugenem/leetcode/BestTimeToBuyAndSellStock)
+- [136. Single Number](src/main/java/dev/eugenem/leetcode/SingleNumber)
+- [155. Min Stack](src/main/java/dev/eugenem/leetcode/MinStack)
+- [202. Happy Number](src/main/java/dev/eugenem/leetcode/HappyNumber)
+- [206. Reverse Linked List](src/main/java/dev/eugenem/leetcode/ReverseLinkedList)
+- [771. Jewels and Stones](src/main/java/dev/eugenem/leetcode/JewelsAndStones)
 
 medium:
 - [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers)
