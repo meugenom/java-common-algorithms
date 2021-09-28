@@ -32,14 +32,14 @@ simple:
 
 - [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
     - soon [-]
-- [Stack README.md](src/main/java/dev/eugenem/dataStructures/stack)
+- [Stack](src/main/java/dev/eugenem/dataStructures/stack)
     1. ListNodeStack :
-    - [push(int value)](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L19) [+]
-    - [pop()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L30) [+]
-    - [peak()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L39) [+]
-    - [getMin()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L48) [+]
+    - [push](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L19) [+]
+    - [pop](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L30) [+]
+    - [peak](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L39) [+]
+    - [getMin](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L48) [+]
     
-- [Matrix README.md](src/main/java/dev/eugenem/dataStructures/matrix)
+- [Matrix](src/main/java/dev/eugenem/dataStructures/matrix)
     - [rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L9) [+]
     - [transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L19) [+]
     - [reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L33) [+]
