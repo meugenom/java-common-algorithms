@@ -49,5 +49,4 @@ public class SinglyLinkedList {
         }
         return i;
     }
-
 }
