@@ -35,9 +35,9 @@ simple:
 - [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
     - soon [-]
 - [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
-    - [rotate](src/main/java/dev/eugenem/dataStructures/Matrix) [-]
-    - transpose [-]
-    - reflect [-]
+    - [rotate](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L9) [+] 
+    - [transpose](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L19) [+] 
+    - [reflect](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L33) [+] 
 ### Search
 - [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch) [+]
 
