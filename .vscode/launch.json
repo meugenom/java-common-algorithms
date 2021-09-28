@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Matrix",
+            "request": "launch",
+            "mainClass": "dev.eugenem.dataStructures.Matrix.Matrix",
+            "projectName": "main.java"
+        },
+        {
+            "type": "java",
             "name": "Launch RotateImage",
             "request": "launch",
             "mainClass": "dev.eugenem.leetcode.RotateImage.RotateImage",

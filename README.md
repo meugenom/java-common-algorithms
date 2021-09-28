@@ -35,7 +35,7 @@ simple:
 - [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
     - soon [-]
 - [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
-    - rotate [-]
+    - [rotate](src/main/java/dev/eugenem/dataStructures/Matrix) [-]
     - transpose [-]
     - reflect [-]
 ### Search
