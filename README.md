@@ -33,7 +33,7 @@ simple:
 - [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
     - soon [-]
 - [Stack README.md](src/main/java/dev/eugenem/dataStructures/stack)
-    ListNodeStack:
+    1. ListNodeStack :
     - [push(int value)](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L19) [+]
     - [pop()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L30) [+]
     - [peak()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L39) [+]

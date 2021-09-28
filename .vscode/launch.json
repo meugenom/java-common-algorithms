@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ListNodeStack",
+            "request": "launch",
+            "mainClass": "dev.eugenem.dataStructures.stack.ListNodeStack",
+            "projectName": "main.java"
+        },
+        {
+            "type": "java",
             "name": "Launch Matrix",
             "request": "launch",
             "mainClass": "dev.eugenem.dataStructures.Matrix.Matrix",
