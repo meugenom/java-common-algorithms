@@ -59,14 +59,15 @@ easy:
 - [155. Min Stack](src/main/java/dev/eugenem/leetcode/MinStack) [+]
 - [202. Happy Number](src/main/java/dev/eugenem/leetcode/HappyNumber) [+]
 - [206. Reverse Linked List](src/main/java/dev/eugenem/leetcode/ReverseLinkedList) [+]
-+ [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString) [+]
+- [234. Palindrome Linked List](src/main/java/dev/eugenem/leetcode/PalindromeLinkedList) [-] 69/85 test cases passed.
+- [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString) [+]
 - [771. Jewels and Stones](src/main/java/dev/eugenem/leetcode/JewelsAndStones) [+]
 
 medium:
 - [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers) [+]
 - [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters) [+]
 - [148. Sort List](src/main/java/dev/eugenem/leetcode/SortList) [-] 26/28 test cases passed
-- [189. Rotate Array](src/main/java/dev/eugenem/leetcode/RotateArray) [-] 37 / 38 test cases passed.
+- [189. Rotate Array](src/main/java/dev/eugenem/leetcode/RotateArray) [-] 37/38 test cases passed.
 - [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber) [+]
 
 hard:
