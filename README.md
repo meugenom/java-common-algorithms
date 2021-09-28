@@ -35,7 +35,9 @@ simple:
 - [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
     - soon [-]
 - [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
-    - soon [-]
+    - rotate [-]
+    - transpose [-]
+    - reflect [-]
 ### Search
 - [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch) [+]
 
@@ -66,6 +68,7 @@ easy:
 medium:
 - [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers) [+]
 - [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters) [+]
+- [48. Rotate Image](src/main/java/dev/eugenem/leetcode/RotateImage) [+]
 - [148. Sort List](src/main/java/dev/eugenem/leetcode/SortList) [-] 26/28 test cases passed
 - [189. Rotate Array](src/main/java/dev/eugenem/leetcode/RotateArray) [-] 37/38 test cases passed.
 - [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber) [+]
