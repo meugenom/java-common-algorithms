@@ -18,7 +18,8 @@ simple:
     - reverse [-]
     - merge [-]
 - [Singly Linked List](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList)
-    - length [-]
+    - [length](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L37) [+]
+    - [reverse](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L5) [+]
     - insert (position) [-]
     - insertFirst [-]
     - insertLast [-]
@@ -26,7 +27,6 @@ simple:
     - deleteFirst [-]
     - deleteLast [-]
     - find (value) [-]
-    - reverse [-]
     - sort [-]
     - sortIn [-] (O(n logn) time and O(1) memory)
 
