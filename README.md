@@ -48,7 +48,8 @@ easy:
 medium:
 - [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers)
 - [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters)
-- [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber)
+- [148. Sort List](src/main/java/dev/eugenem/leetcode/SortList) [ ] 26/28 tests passed
+- [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber) [x]
 
 hard:
 - [4. Median of Two Sorted Arrays](src/main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays)
