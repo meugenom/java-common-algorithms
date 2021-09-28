@@ -1,4 +1,4 @@
-package dev.eugenem.dataStructures.Matrix;
+package dev.eugenem.dataStructures.matrix;
 
 public class Matrix {
 

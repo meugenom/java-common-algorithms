@@ -32,12 +32,17 @@ simple:
 
 - [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
     - soon [-]
-- [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
-    - soon [-]
-- [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
-    - [rotate](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L9) [+] 
-    - [transpose](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L19) [+] 
-    - [reflect](src/main/java/dev/eugenem/dataStructures/Matrix/Matrix.java#L33) [+] 
+- [Stack README.md](src/main/java/dev/eugenem/dataStructures/stack)
+    ListNodeStack:
+    - [push(int value)](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L19) [+]
+    - [pop()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L30) [+]
+    - [peak()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L39) [+]
+    - [getMin()](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L48) [+]
+    
+- [Matrix README.md](src/main/java/dev/eugenem/dataStructures/matrix)
+    - [rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L9) [+]
+    - [transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L19) [+]
+    - [reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L33) [+]
 ### Search
 - [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch) [+]
 
