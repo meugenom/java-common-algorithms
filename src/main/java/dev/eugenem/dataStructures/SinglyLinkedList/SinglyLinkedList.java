@@ -1,4 +1,4 @@
-package dev.eugenem.dataStructures.singlyLinkedList;
+package dev.eugenem.dataStructures.SinglyLinkedList;
 
 import dev.eugenem.dataStructures.stack.ListNode;
 
