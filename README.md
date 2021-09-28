@@ -14,48 +14,65 @@ Implementations of data structures and algorithms in Java.
 
 simple:
 - [Arrays](src/main/java/dev/eugenem/dataStructures/Arrays)
-- [Single Linked List](src/main/java/dev/eugenem/dataStructures/SingleLinkedList)
-- [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
-- [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
-- [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
+    - findMin [-]
+    - reverse [-]
+    - merge [-]
+- [Singly Linked List](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList)
+    - length [-]
+    - insert (position) [-]
+    - insertFirst [-]
+    - insertLast [-]
+    - delete (position) [-]
+    - deleteFirst [-]
+    - deleteLast [-]
+    - find (value) [-]
+    - reverse [-]
+    - sort [-]
+    - sortIn [-] (O(n logn) time and O(1) memory)
 
+- [Double Linked List](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
+    - soon [-]
+- [Stack](src/main/java/dev/eugenem/dataStructures/Stack)
+    - soon [-]
+- [Matrix](src/main/java/dev/eugenem/dataStructures/Matrix)
+    - soon [-]
 ### Search
-- [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch)
+- [Binary Search](src/main/java/dev/eugenem/Search/BinarySearch) [+]
 
 ### Generics
-- [GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java)
+- [GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java) [+]
 
 ### Leetcode tasks:
 
 easy:
-- [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum)
-- [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger)
-- [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumber)
-- [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger)
-- [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses)
-- [21. Merge Two Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeTwoSortedLists)
-- [35. Search Insert Position](src/main/java/dev/eugenem/leetcode/SearchInsertPosition)
-- [53. Maximum Subarray](src/main/java/dev/eugenem/leetcode/MaxSubArray)
-- [88. Merge Sorted Array](src/main/java/dev/eugenem/leetcode/MergeSortedArray)
-- [121. Best Time to Buy and Sell Stock](src/main/java/dev/eugenem/leetcode/BestTimeToBuyAndSellStock)
-- [136. Single Number](src/main/java/dev/eugenem/leetcode/SingleNumber)
-- [155. Min Stack](src/main/java/dev/eugenem/leetcode/MinStack)
-- [202. Happy Number](src/main/java/dev/eugenem/leetcode/HappyNumber)
-- [206. Reverse Linked List](src/main/java/dev/eugenem/leetcode/ReverseLinkedList)
-+ [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString)
-- [771. Jewels and Stones](src/main/java/dev/eugenem/leetcode/JewelsAndStones)
+- [1. Two Sum](src/main/java/dev/eugenem/leetcode/TwoSum) [+]
+- [7. Reverse Integer](src/main/java/dev/eugenem/leetcode/ReverseInteger) [+]
+- [9. Palindrome Number](src/main/java/dev/eugenem/leetcode/PalindromeNumber) [+]
+- [13. Roman to Integer](src/main/java/dev/eugenem/leetcode/RomanToInteger) [+]
+- [20. Valid Parentheses](src/main/java/dev/eugenem/leetcode/ValidParentheses) [+]
+- [21. Merge Two Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeTwoSortedLists) [+]
+- [35. Search Insert Position](src/main/java/dev/eugenem/leetcode/SearchInsertPosition) []
+- [53. Maximum Subarray](src/main/java/dev/eugenem/leetcode/MaxSubArray) [+]
+- [88. Merge Sorted Array](src/main/java/dev/eugenem/leetcode/MergeSortedArray) [+]
+- [121. Best Time to Buy and Sell Stock](src/main/java/dev/eugenem/leetcode/BestTimeToBuyAndSellStock) [+]
+- [136. Single Number](src/main/java/dev/eugenem/leetcode/SingleNumber) [+]
+- [155. Min Stack](src/main/java/dev/eugenem/leetcode/MinStack) [+]
+- [202. Happy Number](src/main/java/dev/eugenem/leetcode/HappyNumber) [+]
+- [206. Reverse Linked List](src/main/java/dev/eugenem/leetcode/ReverseLinkedList) [+]
++ [344. Reverse String](src/main/java/dev/eugenem/leetcode/ReverseString) [+]
+- [771. Jewels and Stones](src/main/java/dev/eugenem/leetcode/JewelsAndStones) [+]
 
 medium:
-- [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers)
-- [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters)
-- [148. Sort List](src/main/java/dev/eugenem/leetcode/SortList) [ ] 26/28 tests passed
-- [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber) [x]
+- [2. Add Two Numbers](src/main/java/dev/eugenem/leetcode/AddTwoNumbers) [+]
+- [3. Longest Substring Without Repeating Characters](src/main/java/dev/eugenem/leetcode/LongestSubstringWithoutRepeatingCharacters) [+]
+- [148. Sort List](src/main/java/dev/eugenem/leetcode/SortList) [-] 26/28 tests passed
+- [198. House Robber](src/main/java/dev/eugenem/leetcode/HouseRobber) [+]
 
 hard:
-- [4. Median of Two Sorted Arrays](src/main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays)
-- [23. Merge k Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeKSortedLists)
+- [4. Median of Two Sorted Arrays](src/main/java/dev/eugenem/leetcode/MedianOfTwoSortedArrays) [+]
+- [23. Merge k Sorted Lists](src/main/java/dev/eugenem/leetcode/MergeKSortedLists) [+]
 
 ### HackerRank
 
-- [A very big sum](src/main/java/dev/eugenem/hackerrank/AVeryBigSum.java)
-- [Compare the triplets](src/main/java/dev/eugenem/hackerrank/CompareTheTriplets.java)
+- [A very big sum](src/main/java/dev/eugenem/hackerrank/AVeryBigSum.java) [+]
+- [Compare the triplets](src/main/java/dev/eugenem/hackerrank/CompareTheTriplets.java) [+]
