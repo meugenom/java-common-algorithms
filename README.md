@@ -13,7 +13,7 @@ Implementations of data structures and algorithms in Java.
 ### Data Structures:
 
 simple:
-- [Arrays](src/main/java/dev/eugenem/dataStructures/Arrays)
+- [Arrays](src/main/java/dev/eugenem/dataStructures/arrays)
     - [findMin](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L45) [+]
     - [push](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L7) [+]
     - [pop](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L20) [+]
