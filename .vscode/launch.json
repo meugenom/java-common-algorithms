@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "dev.eugenem.dataStructures.arrays.Arrays",
+            "projectName": "main.java"
+        },
+        {
+            "type": "java",
             "name": "Launch Singly Linked List",
             "request": "launch",
             "mainClass": "dev.eugenem.dataStructures.singlyLinkedList.SinglyLinkedList",

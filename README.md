@@ -14,9 +14,17 @@ Implementations of data structures and algorithms in Java.
 
 simple:
 - [Arrays](src/main/java/dev/eugenem/dataStructures/Arrays)
-    - findMin [-]
-    - reverse [-]
+    - [findMin](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L45) [+]
+    - [push](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L7) [+]
+    - [pop](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L20) [+]
+    - [remove](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L63) [+]
+    - [size](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L31) [+]
+    - [reverse](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L87) [+]
+    - [reverse( start, end)](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L102) [+]
+    - twoSum [-]
+    - ordered [-]
     - merge [-]
+    
 - [Singly Linked List](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList)
     - [length](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L39) [+]
     - [reverse](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L7) [+]
