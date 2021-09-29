@@ -24,7 +24,7 @@ public class Arrays {
         int[] tmp = new int[this.arr.length - 1];
         for(int i = 0; i < tmp.length; i++) {
             tmp[i] = this.arr[i];
-        }        
+        }
         this.arr = tmp;
     }
 
@@ -114,6 +114,22 @@ public class Arrays {
         }
     }
 
+    /**
+     * sort array
+     */
+    public void sort(){
+        int temp; 
+        for(int i=0; i < this.arr.length; i++){
+            for(int j=0; j < this.arr.length; j++){
+                if(arr[j] > this.arr[i]){
+                    temp = this.arr[i];
+                    this.arr[i] = this.arr[j];
+                    this.arr[j] = temp;
+                }
+            }
+        }
+    }
+
     public void autoFill() {
         this.arr = new int[]{1, 3, 6, 8, 2, 4, 7};
     }
@@ -147,7 +163,10 @@ public class Arrays {
         System.out.println("min  = " + arr.findMin());
         System.out.println("size  = " + arr.size());
         arr.pop();
+        arr.push(5);
+        arr.push(-1);
         System.out.println(arr.toString());
-
+        arr.sort();
+        System.out.println(arr.toString());
     }
 }
