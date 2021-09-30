@@ -1,4 +1,4 @@
-package dev.eugenem.Search.BinarySearch;
+package dev.eugenem.search.BinarySearch;
 
 public class BinarySearch {
 
