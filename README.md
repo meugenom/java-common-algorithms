@@ -55,7 +55,7 @@ insertLast |`🟢`|[`✍🏻`]|
 [length](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`
 [reverse](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)`
 sort |`🟢`|[`✍🏻`]|
-sortIn |`🟢`|[`✍🏻`]| (⭕️(n logn) time and ⭕️(1) memory)
+sortIn |`🟢`|[`✍🏻`]| `⭕️(N logN)`
 
 
 - #### Data Structure: [**Double Linked List**](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
