@@ -54,9 +54,9 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
-[rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L15)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L10)
-[transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L31)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L24)
-[reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L37)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L48)
+[rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L15)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/MatrixTest.java#L10)
+[transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L24)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/MatrixTest.java#L29)
+[reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L37)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/MatrixTest.java#L48)
 
 - #### Data Structure: [**Singly Linked List**](src/main/java/dev/eugenem/dataStructures/singlyLinkedList)
 
