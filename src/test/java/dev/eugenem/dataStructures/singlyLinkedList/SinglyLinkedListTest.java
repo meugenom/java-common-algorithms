@@ -1,4 +1,4 @@
-package dev.eugenem.dataStructures.SinglyLinkedList;
+package dev.eugenem.dataStructures.singlyLinkedList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import dev.eugenem.dataStructures.singlyLinkedList.SinglyLinkedList;
 
 public class SinglyLinkedListTest {
 
