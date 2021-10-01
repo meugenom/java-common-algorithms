@@ -2,6 +2,12 @@ package dev.eugenem.dataStructures.search.binarySearch;
 
 public class BinarySearch {
 
+	/**
+	 * @see !!! binary search works with sorted nums
+	 * @param nums - int array
+	 * @param target - searched value
+	 * @return 
+	 */
     public int search(int[] nums, int target) {
 
         int mid;

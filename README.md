@@ -150,7 +150,7 @@ undirected           | `🔴`  | [`✍🏻`]  |
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java)|`🟢`|[`✔️`]|`⭕️(N)`
+[Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java#L5)|`🟢`|[`✔️`]|`⭕️(N)`
 
 
 - #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
