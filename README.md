@@ -146,11 +146,11 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 directed             | `🔴`  | [`✍🏻`]  |
 undirected           | `🔴`  | [`✍🏻`]  |
 
-- #### Data Structure: [**Search**](src/main/java/dev/eugenem/dataStructures/search)
+- #### Data Structure: [**Search**](src/main/java/dev/eugenem/dataStructures/search/binarySearch)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[Binary Search](src/main/java/dev/eugenem/dataStructures/search/BinarySearch)|`🟢`|[`✔️`]|`⭕️(N)`
+[Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java)|`🟢`|[`✔️`]|`⭕️(N)`
 
 
 - #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
