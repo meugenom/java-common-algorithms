@@ -57,7 +57,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 [transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L19)|`🟡`|[`✔️`]|`⭕️(N^2)`
 [reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L33)|`🟡`|[`✔️`]|`⭕️(N^2)`
 
-- #### Data Structure: [**Singly Linked List**](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList)
+- #### Data Structure: [**Singly Linked List**](src/main/java/dev/eugenem/dataStructures/singlyLinkedList)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
@@ -74,7 +74,7 @@ sort |`🟢`|[`✍🏻`]|
 sortIn |`🟢`|[`✍🏻`]| `⭕️(N logN)`
 
 
-- #### Data Structure: [**Double Linked List**](src/main/java/dev/eugenem/dataStructures/DoubleLinkedList)
+- #### Data Structure: [**Double Linked List**](src/main/java/dev/eugenem/dataStructures/doubleLinkedList)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
@@ -146,18 +146,18 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 directed             | `🔴`  | [`✍🏻`]  |
 undirected           | `🔴`  | [`✍🏻`]  |
 
-- #### Data Structure: [**Search**](src/main/java/dev/eugenem/Search)
+- #### Data Structure: [**Search**](src/main/java/dev/eugenem/dataStructures/search)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[Binary Search](src/main/java/dev/eugenem/search/BinarySearch)|`🟢`|[`✔️`]|`⭕️(N)`
+[Binary Search](src/main/java/dev/eugenem/dataStructures/search/BinarySearch)|`🟢`|[`✔️`]|`⭕️(N)`
 
 
-- #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/sorting)
+- #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[Bubble Sort](src/main/java/dev/eugenem/sorting/BubbleSort.java)|`🟢`|[`✍🏻`]|
+[Bubble Sort](src/main/java/dev/eugenem/dataStructures/sorting/BubbleSort.java)|`🟢`|[`✍🏻`]|
 
 - [_Generic Array_](src/main/java/dev/eugenem/generics)
     - [ [`✔️`] `🟢` GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java)
