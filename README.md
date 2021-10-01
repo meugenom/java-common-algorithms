@@ -2,8 +2,24 @@
 
 Implementations of data structures and algorithms in Java.
 
-### 🛠 Use Unit Tests
-    How to start ... soon.
+🛠 Use Unit Tests:
+
+- run all tests
+```
+mvn clean test
+```
+- and result in the terminal:
+```
+-------------------------------------------------------
+T E S T S
+-------------------------------------------------------
+Running dev.eugenem.dataStructures.SinglyLinkedList.SinglyLinkedListTest
+Test - Singly linked list : autoFill() - passed ok
+Test - Singly linked list : reverse() - passed ok
+Test - Singly linked list : length() - passed ok
+Test - Singly linked list : create linked list with NULL array - passed ok
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+```
 
  📌 *notation keys:*:
  - `🟢` - easy;
