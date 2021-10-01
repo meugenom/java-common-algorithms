@@ -30,6 +30,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
  - [`🙇🏻‍♂️`] - hard to solve;
  - [`❓`] - the solution is not optimal;
  - [`✔️`] - done;
+ - [`🆗`] - Test passed Ok;
 
 ### List of Implementations:
 
@@ -59,8 +60,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 
 - #### Data Structure: [**Singly Linked List**](src/main/java/dev/eugenem/dataStructures/singlyLinkedList)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
+---------------------|-------|--------|------------------|--------------
 delete (position) |`🟢`|[`✍🏻`]|
 deleteFirst |`🟢`|[`✍🏻`]|
 deleteLast |`🟢`|[`✍🏻`]|
@@ -68,8 +69,8 @@ find (value) |`🟢`|[`✍🏻`]|
 insert (position) |`🟢`|[`✍🏻`]|
 insertFirst |`🟢`|[`✍🏻`]|
 insertLast |`🟢`|[`✍🏻`]|
-[length](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`
-[reverse](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)`
+[length](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
+[reverse](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
 sort |`🟢`|[`✍🏻`]|
 sortIn |`🟢`|[`✍🏻`]| `⭕️(N logN)`
 
@@ -148,9 +149,9 @@ undirected           | `🔴`  | [`✍🏻`]  |
 
 - #### Data Structure: [**Search**](src/main/java/dev/eugenem/dataStructures/search/binarySearch)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-[Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java#L5)|`🟢`|[`✔️`]|`⭕️(N)`
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
+---------------------|-------|--------|------------------|--------------
+[Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java#L5)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearchTest.java#L10)
 
 
 - #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
