@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import dev.eugenem.dataStructures.singlyLinkedList.SinglyLinkedList;
 
 public class SinglyLinkedListTest {
 
@@ -14,7 +15,7 @@ public class SinglyLinkedListTest {
 	@DisplayName("autofill linked list with array")
 	public void testAutoFill(){
 
-		SinglyLinkedList actualList = new SinglyLinkedList();                
+		SinglyLinkedList actualList = new SinglyLinkedList();
 		int[] arr = new int []{1,2,3,4,5,6,7};
 		actualList.autoFill(arr);
 		
@@ -50,7 +51,7 @@ public class SinglyLinkedListTest {
 	@DisplayName("length of the linked list")
 	public void testLength(){
 		
-		SinglyLinkedList actualList = new SinglyLinkedList();                
+		SinglyLinkedList actualList = new SinglyLinkedList();
 		int[] arr = new int []{1,2,3,4,5,6,7};
 		actualList.autoFill(arr);
 
@@ -59,7 +60,7 @@ public class SinglyLinkedListTest {
 		assertEquals(expected, 7,
 		"Length should work");
 
-		System.out.println("Test - Singly linked list : length() - passed ok");         
+		System.out.println("Test - Singly linked list : length() - passed ok");
 	}
 
 	@Test

@@ -68,8 +68,8 @@ find (value) |`🟢`|[`✍🏻`]|
 insert (position) |`🟢`|[`✍🏻`]|
 insertFirst |`🟢`|[`✍🏻`]|
 insertLast |`🟢`|[`✍🏻`]|
-[length](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`
-[reverse](src/main/java/dev/eugenem/dataStructures/SinglyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)`
+[length](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`
+[reverse](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)`
 sort |`🟢`|[`✍🏻`]|
 sortIn |`🟢`|[`✍🏻`]| `⭕️(N logN)`
 
