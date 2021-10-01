@@ -1,6 +1,8 @@
 package dev.eugenem.dataStructures.matrix;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -62,5 +64,17 @@ public class MatrixTest {
 
 		assertEquals(expected, actual, "Reflect matrix should work");
 		System.out.println("Test - Matrix : reflect() - passed ok");
+	}
+
+	@Test
+	public void testSet_IS_NULL() {
+
+		int[][] expectedArr = null;
+		Matrix a = new Matrix();
+		assertThrows(IllegalArgumentException.class, () -> {
+			a.set(expectedArr);
+			fail("Input null matrix");
+		});
+		System.out.println("Test - Matrix : added  NULL array - passed ok");
 	}
 }

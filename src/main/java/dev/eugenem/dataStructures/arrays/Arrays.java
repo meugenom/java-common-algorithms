@@ -2,7 +2,7 @@ package dev.eugenem.dataStructures.arrays;
 
 public class Arrays {
 
-    public int[] arr;
+    private int[] arr;
 
     /**
      * push new value in the end to the array
@@ -131,7 +131,7 @@ public class Arrays {
     }
 
     public void autoFill() {
-        this.arr = new int[]{1, 3, 6, 8, 2, 4, 7};
+        this.arr = new int[]{1, 3, 6, 8, 2, 4, 7, 11, 25, 63, 32, 0, -4};
     }
 
     
@@ -150,23 +150,14 @@ public class Arrays {
         return  out;
     }
 
-    public static void main(String[] args) {
-        Arrays arr = new Arrays();
-        arr.autoFill();
-        System.out.println(arr.toString());
-        arr.remove(2);
-        System.out.println(arr.toString());
-        arr.push(11);
-        System.out.println(arr.toString());
-        arr.reverse();
-        System.out.println(arr.toString());
-        System.out.println("min  = " + arr.findMin());
-        System.out.println("size  = " + arr.size());
-        arr.pop();
-        arr.push(5);
-        arr.push(-1);
-        System.out.println(arr.toString());
-        arr.sort();
-        System.out.println(arr.toString());
-    }
+	public void set(int [] newArray) {
+		if(newArray == null)
+			throw new IllegalArgumentException("Input Array isn't exist");
+		this.arr = newArray;
+	}
+
+	public int [] get() {
+		return this.arr;
+	}
+
 }

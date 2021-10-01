@@ -5,6 +5,9 @@ public class Matrix {
 	private int[][] matrix;
 
 	public void set(int[][] m) {
+		if(m == null)
+			throw new IllegalArgumentException("Input matrix is NULL");
+
 		this.matrix = m;
 	}
 

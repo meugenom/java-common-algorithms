@@ -37,17 +37,17 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
 
 - #### Data Structure: [**Arrays**](src/main/java/dev/eugenem/dataStructures/arrays) 
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-[findMin](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L45) | `🟢` | [`✔️`] | `⭕️(N)`
- merge |`🟢`|[`✍🏻`]|
-[pop](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L20)|`🟢`|[`✔️`]|`⭕️(N)`
-[push](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L7)|`🟢`|[`✔️`]|`⭕️(N)`
-[remove(position)](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L63)|`🟢`|[`✔️`]|`⭕️(N)`
-[reverse](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L87)|`🟡`|[`✔️`]|`⭕️(N)`
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
+---------------------|-------|--------|-------------------|---------------
+[findMin](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L45) | `🟢` | [`✔️`] | `⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L14)
+ merge |`🟢`|[`✍🏻`]
+[pop](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L20)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L44)
+[push](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L7)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L61)
+[remove(position)](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L63)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L26)
+[reverse](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L87)|`🟡`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L78)
 [reverse(start, end)](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L102)|`🟡`|[`✔️`]|`⭕️(N)`
-[size](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`
-[sort](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`
+[size](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L95)
+[sort](src/main/java/dev/eugenem/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/arrays/ArraysTest.java#L109)
 
 
  - #### Data Structure: [**Matrix**](src/main/java/dev/eugenem/dataStructures/matrix)
