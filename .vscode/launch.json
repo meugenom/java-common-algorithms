@@ -4,405 +4,412 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Arrays",
-            "request": "launch",
-            "mainClass": "dev.eugenem.dataStructures.arrays.Arrays",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Singly Linked List",
-            "request": "launch",
-            "mainClass": "dev.eugenem.dataStructures.singlyLinkedList.SinglyLinkedList",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ListNodeStack",
-            "request": "launch",
-            "mainClass": "dev.eugenem.dataStructures.stack.ListNodeStack",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Matrix",
-            "request": "launch",
-            "mainClass": "dev.eugenem.dataStructures.Matrix.Matrix",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch RotateImage",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.RotateImage.RotateImage",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MergeSortedArray",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.MergeSortedArray.MergeSortedArray",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch CountPrimes",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.CountPrimes.CountPrimes",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch JewelsAndStones",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.JewelsAndStones.JewelsAndStones",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch PalindromeLinkedList",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.PalindromeLinkedList.PalindromeLinkedList",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch RotateArray",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.RotateArray.RotateArray",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch HappyNumber",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.HappyNumber.HappyNumber",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch RomanToInteger",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.RomanToInteger.RomanToInteger",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MinStack",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.MinStack.MinStack",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReverseLinkedList",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.ReverseLinkedList.ReverseLinkedList",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch LongestCommonPrefix",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.LongestCommonPrefix.LongestCommonPrefix",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch PalindromeNumber",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.PalindromeNumber.PalindromeNumber",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReverseNumber",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.ReverseNumber.ReverseNumber",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "-enableassertions"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "dev.eugenem.algorithms.generics.Main",
-            "projectName": "main.java",
-            "vmArgs": "-enableassertions"
-        },
-        {
-            "type": "java",
-            "name": "Launch Anagram",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.anagram.Anagram",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch RailwayPlatformService",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.RailwayPlatformService",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReadJSON",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.ReadJSON",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Station",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.models.Station",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch _Board",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.models._Board",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.flightsearch.Test",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch _FlightService",
-            "request": "launch",
-            "mainClass": "dev.eugenem.entwicklerheld.flightsearch._FlightService",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MyMainClass",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.animal.MyMainClass",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReaderJSON",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.json.ReaderJSON",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch AboutStream",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.AboutStream",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Chick",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.Chick",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ImportExample",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.ImportExample",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch NewAuto",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.NewAuto",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Swan",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.Swan",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Zoo",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other.Zoo",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch _Animal",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.other._Animal",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch PhonesUser",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.phone.PhonesUser",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Smartphone",
-            "request": "launch",
-            "mainClass": "dev.eugenem.example.phone.Smartphone",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch AVeryBigSum",
-            "request": "launch",
-            "mainClass": "dev.eugenem.hackerrank.AVeryBigSum",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch CompareTheTriplets",
-            "request": "launch",
-            "mainClass": "dev.eugenem.hackerrank.CompareTheTriplets",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ParserToCards",
-            "request": "launch",
-            "mainClass": "dev.eugenem.languages.ParserToCards",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch AddTwoNumbers",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.AddTwoNumbers.AddTwoNumbers",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch BestTimeToBuyAndSellStock",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch HouseRobber",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.HouseRobber.HouseRobber",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch LongestSubstringWithoutRepeatingCharacters",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.LongestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MaxSubArray",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.MaxSubArray.MaxSubArray",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MedianOfTwoSortedArrays",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.MedianOfTwoSortedArrays.MedianOfTwoSortedArrays",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MergeTwoSortedLists",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.MergeTwoSortedLists.MergeTwoSortedLists",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReverseString",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.ReverseString.ReverseString",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch SingleNumber",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.SingleNumber.SingleNumber",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch SortList",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.SortList.SortList",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch SubstringWithConcantenationAllWords",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.SubstringWithConcantenationAllWords.SubstringWithConcantenationAllWords",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ValidParentheses",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.ValidParentheses.ValidParentheses",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch BinarySearch",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.binarySearch.BinarySearch",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch MergeKSortedLists",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.mergeKSortedLists.MergeKSortedLists",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch TwoSum",
-            "request": "launch",
-            "mainClass": "dev.eugenem.leetcode.twoSum.TwoSum",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReadFile",
-            "request": "launch",
-            "mainClass": "dev.eugenem.traincrm.ReadFile",
-            "projectName": "main.java"
-        },
-        {
-            "type": "java",
-            "name": "Launch Station(1)",
-            "request": "launch",
-            "mainClass": "dev.eugenem.traincrm.Station",
-            "projectName": "main.java"
-        }
-    ]
+		{
+			"type": "java",
+			"name": "Launch Matrix",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.matrix.Matrix",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Arrays",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.arrays.Arrays",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Singly Linked List",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.singlyLinkedList.SinglyLinkedList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ListNodeStack",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.stack.ListNodeStack",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Matrix",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.Matrix.Matrix",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RotateImage",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.RotateImage.RotateImage",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MergeSortedArray",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.MergeSortedArray.MergeSortedArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch CountPrimes",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.CountPrimes.CountPrimes",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch JewelsAndStones",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.JewelsAndStones.JewelsAndStones",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PalindromeLinkedList",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.PalindromeLinkedList.PalindromeLinkedList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RotateArray",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.RotateArray.RotateArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch HappyNumber",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.HappyNumber.HappyNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RomanToInteger",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.RomanToInteger.RomanToInteger",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MinStack",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.MinStack.MinStack",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReverseLinkedList",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.ReverseLinkedList.ReverseLinkedList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LongestCommonPrefix",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.LongestCommonPrefix.LongestCommonPrefix",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PalindromeNumber",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.PalindromeNumber.PalindromeNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReverseNumber",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.ReverseNumber.ReverseNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Current File",
+			"request": "launch",
+			"mainClass": "${file}",
+			"vmArgs": "-enableassertions"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "dev.eugenem.algorithms.generics.Main",
+			"projectName": "main.java",
+			"vmArgs": "-enableassertions"
+		},
+		{
+			"type": "java",
+			"name": "Launch Anagram",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.anagram.Anagram",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RailwayPlatformService",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.RailwayPlatformService",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReadJSON",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.ReadJSON",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Station",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.models.Station",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch _Board",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.deutscheBahnChallenge.models._Board",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Test",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.flightsearch.Test",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch _FlightService",
+			"request": "launch",
+			"mainClass": "dev.eugenem.entwicklerheld.flightsearch._FlightService",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MyMainClass",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.animal.MyMainClass",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReaderJSON",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.json.ReaderJSON",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AboutStream",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.AboutStream",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Chick",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.Chick",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ImportExample",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.ImportExample",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch NewAuto",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.NewAuto",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Swan",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.Swan",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Zoo",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other.Zoo",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch _Animal",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.other._Animal",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PhonesUser",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.phone.PhonesUser",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Smartphone",
+			"request": "launch",
+			"mainClass": "dev.eugenem.example.phone.Smartphone",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AVeryBigSum",
+			"request": "launch",
+			"mainClass": "dev.eugenem.hackerrank.AVeryBigSum",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch CompareTheTriplets",
+			"request": "launch",
+			"mainClass": "dev.eugenem.hackerrank.CompareTheTriplets",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ParserToCards",
+			"request": "launch",
+			"mainClass": "dev.eugenem.languages.ParserToCards",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AddTwoNumbers",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.AddTwoNumbers.AddTwoNumbers",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BestTimeToBuyAndSellStock",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch HouseRobber",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.HouseRobber.HouseRobber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LongestSubstringWithoutRepeatingCharacters",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.LongestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MaxSubArray",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.MaxSubArray.MaxSubArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MedianOfTwoSortedArrays",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.MedianOfTwoSortedArrays.MedianOfTwoSortedArrays",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MergeTwoSortedLists",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.MergeTwoSortedLists.MergeTwoSortedLists",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReverseString",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.ReverseString.ReverseString",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch SingleNumber",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.SingleNumber.SingleNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch SortList",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.SortList.SortList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch SubstringWithConcantenationAllWords",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.SubstringWithConcantenationAllWords.SubstringWithConcantenationAllWords",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ValidParentheses",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.ValidParentheses.ValidParentheses",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BinarySearch",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.binarySearch.BinarySearch",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MergeKSortedLists",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.mergeKSortedLists.MergeKSortedLists",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch TwoSum",
+			"request": "launch",
+			"mainClass": "dev.eugenem.leetcode.twoSum.TwoSum",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReadFile",
+			"request": "launch",
+			"mainClass": "dev.eugenem.traincrm.ReadFile",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Station(1)",
+			"request": "launch",
+			"mainClass": "dev.eugenem.traincrm.Station",
+			"projectName": "main.java"
+		}
+	]
 }

@@ -52,11 +52,11 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 
  - #### Data Structure: [**Matrix**](src/main/java/dev/eugenem/dataStructures/matrix)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-[rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L9)|`🟡`|[`✔️`]|`⭕️(N^2)`
-[transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L19)|`🟡`|[`✔️`]|`⭕️(N^2)`
-[reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L33)|`🟡`|[`✔️`]|`⭕️(N^2)`
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
+---------------------|-------|--------|------------------|--------------
+[rotate](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L15)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L10)
+[transpose](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L31)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L24)
+[reflect](src/main/java/dev/eugenem/dataStructures/matrix/Matrix.java#L37)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/matrix/matrixTest.java#L48)
 
 - #### Data Structure: [**Singly Linked List**](src/main/java/dev/eugenem/dataStructures/singlyLinkedList)
 
@@ -159,6 +159,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
 [Bubble Sort](src/main/java/dev/eugenem/dataStructures/sorting/BubbleSort.java)|`🟢`|[`✍🏻`]|
+[Merge Sort](src/main/java/dev/eugenem/dataStructures/sorting/MergeSort.java)|`🟢`|[`✍🏻`]|
+[Quick Sort](src/main/java/dev/eugenem/dataStructures/sorting/QuickSort.java)|`🟢`|[`✍🏻`]|
 
 - [_Generic Array_](src/main/java/dev/eugenem/generics)
     - [ [`✔️`] `🟢` GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java)
