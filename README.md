@@ -86,8 +86,8 @@ soon                 |`🟢`   | [`✍🏻`]|
 
 - #### Data Structure: [**Stack**\<Listnode\>](src/main/java/dev/eugenem/dataStructures/stack)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
+---------------------|-------|--------|------------------|--------------
 [getMin()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L47)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L10)
 [peak()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L37)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L26)
 [pop()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L29)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L44)
