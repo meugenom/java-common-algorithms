@@ -13,16 +13,16 @@ public class BinarySearchTreeTest {
 
 		BinarySearchTree tree = new BinarySearchTree();
 
-		tree.insertation(7);
-		tree.insertation(20);
-		tree.insertation(5);
-		tree.insertation(15);
-		tree.insertation(10);
-		tree.insertation(4);
-		tree.insertation(33);
-		tree.insertation(2);
-		tree.insertation(25);
-		tree.insertation(6);
+		tree.insert(7);
+		tree.insert(20);
+		tree.insert(5);
+		tree.insert(15);
+		tree.insert(10);
+		tree.insert(4);
+		tree.insert(33);
+		tree.insert(2);
+		tree.insert(25);
+		tree.insert(6);
 
 		tree.print(tree.root);
 
@@ -30,6 +30,24 @@ public class BinarySearchTreeTest {
 		String expected = "[7->(5)][5->(4)][4->(2)][5->(6)][7->(20)][20->(15)][15->(10)][20->(33)][33->(25)]";
 
 		assertEquals(expected, actual, "insertation of new value into BST should work");
+
+		tree.root = null;
+		tree.out = "";
+
+		tree.insert(1);
+		tree.insert(2);
+		tree.insert(3);
+		tree.insert(4);
+		tree.insert(5);
+		tree.insert(6);
+
+		tree.print(tree.root);
+
+		actual = tree.out;
+		expected = "[1->(2)][2->(3)][3->(4)][4->(5)][5->(6)]";
+		
+		assertEquals(expected, actual, "insertation of new value into BST should work");
+
 		System.out.println("Test - Binary Search Tree : insertation(data) - passed ok");
 	}
 }

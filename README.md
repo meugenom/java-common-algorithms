@@ -135,7 +135,7 @@ deleteWord      | `🔴` | [`✍🏻`] |
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
 [**Binary Search Tree**](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree)| `🔴` | [`✍🏻`] |
-[BST: add(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTree.java#L13)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeTest.java#L10)
+[BST: insert(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTree.java#L14)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeTest.java#L10)
 [AVL Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Fenwick Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Red-Black Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
