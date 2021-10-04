@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BinaryTree",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.tree.BinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch Link",
 			"request": "launch",
 			"mainClass": "Link",
