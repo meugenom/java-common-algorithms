@@ -63,6 +63,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("testing autofill input for null")
 	public void testAutoFill_IS_NULL(){
 
 		int[] expectedArr = null;
@@ -77,6 +78,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("append new value to the end of the list")
 	public void testAppend(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -95,6 +97,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("preppend new value to the start of the list")
 	public void testPreppend(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -112,6 +115,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("delete current position")
 	public void testDeletePos(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -129,6 +133,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("delete first position")
 	public void testDeleteFirst(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -146,6 +151,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("delete last position")
 	public void testDeleteLast(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -163,6 +169,7 @@ public class SinglyLinkedListTest {
 	}
 
 	@Test
+	@DisplayName("find element value by target")
 	public void testFind(){
 
 		SinglyLinkedList actualList = new SinglyLinkedList();
@@ -172,9 +179,9 @@ public class SinglyLinkedListTest {
 		int expected = 4;
 		
 		assertEquals(expected, actual,
-		"Find(position) should work");
+		"Find(element) should work");
 
-		System.out.println("Test - Singly linked list : find(position) int the list - passed ok");
+		System.out.println("Test - Singly linked list : find(element) element position from the list - passed ok");
 	}
 
 }

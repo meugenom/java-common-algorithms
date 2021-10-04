@@ -88,12 +88,10 @@ soon                 |`🟢`   | [`✍🏻`]|
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[getMin](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L48) | `🟢` | [`✔️`] | `⭕️(N)`
-[peak](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L39) | `🟢` | [`✔️`] | `⭕️(1)`
-[pop](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L30) | `🟢` | [`✔️`] | `⭕️(1)`
-[push](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L19) | `🟢` | [`✔️`] | `⭕️(1)`
-[search(data)](src/main/java/dev/eugenem/dataStructures/stack) | `🟢` | [`✍🏻`] | `⭕️(N)` 
-
+[getMin()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L47)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L10)
+[peak()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L37)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L26)
+[pop()](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L29)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L44)
+[push(data)](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L17)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/stack/StackTest.java#L63)
 
 - #### Data Structure: [**Queue**](src/main/java/dev/eugenem/dataStructures/queue)
 

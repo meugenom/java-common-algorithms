@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch Stack",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.stack.Stack",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch DoublyLinkedList",
 			"request": "launch",
 			"mainClass": "dev.eugenem.dataStructures.doublyLinkedList.DoublyLinkedList",
