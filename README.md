@@ -81,10 +81,10 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
-[append(data)](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/ç.java#L17)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L8)
-[preppend(data)](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/ç.java#L41)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L26)
-[deleteFirst()](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/ç.java#L139)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L43)
-[deleteLast()](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/ç.java#L161)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L61)
+[append(data)](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedList.java#L17)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L8)
+[preppend(data)](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedList.java#L41)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L26)
+[deleteFirst()](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedList.java#L139)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L43)
+[deleteLast()](src/main/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedList.java#L161)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L61)
 
 - #### Data Structure: [**Stack**\<Listnode\>](src/main/java/dev/eugenem/dataStructures/stack)
 
