@@ -1,10 +1,53 @@
 package dev.eugenem.dataStructures.singlyLinkedList;
 
-import dev.eugenem.dataStructures.stack.ListNode;
-
 public class SinglyLinkedList {
 
-	public ListNode head;
+	public SinglyLinkedListNode head;
+
+	/**
+	 * attach new node to the end of the list
+	 * 
+	 * @param data
+	 */
+	public SinglyLinkedListNode append(int data) {
+
+		SinglyLinkedListNode node = new SinglyLinkedListNode();
+
+		if (head == null) {
+			head = node;
+			return head;
+		}
+
+		node.data = data;
+		node.next = head;
+		head = node;
+		return head;
+
+	}
+
+	/**
+	 * attach new node to the head and of the list
+	 * 
+	 * @param data
+	 * @return head
+	 */
+	public SinglyLinkedListNode preppend(int data) {
+
+		SinglyLinkedListNode node = new SinglyLinkedListNode();
+		SinglyLinkedListNode current = head;
+		if (head == null) {
+			head = node;
+			return head;
+		}
+
+		while (current.next != null) {
+			current = current.next;
+		}
+		node.data = data;
+		current.next = node;
+
+		return head;
+	}
 
 	/**
 	 * reverse current singly linked list
@@ -14,8 +57,8 @@ public class SinglyLinkedList {
 	 */
 	public void reverse() {
 
-		ListNode curr = new ListNode();
-		ListNode res = new ListNode();
+		SinglyLinkedListNode curr = new SinglyLinkedListNode();
+		SinglyLinkedListNode res = new SinglyLinkedListNode();
 		res = null;
 		curr = head;
 
@@ -25,10 +68,10 @@ public class SinglyLinkedList {
 
 			while (head != null) {
 
-				if (head.val == curr.val && this.length(head) == this.length(curr)) {
+				if (head.data == curr.data && this.length(head) == this.length(curr)) {
 
-					ListNode r = new ListNode();
-					r.val = head.val;
+					SinglyLinkedListNode r = new SinglyLinkedListNode();
+					r.data = head.data;
 					r.next = res;
 					res = r;
 				}
@@ -41,21 +84,77 @@ public class SinglyLinkedList {
 		head = res;
 	}
 
-	public void delete(int position){
-		
-		if(position == 1){
+	/**
+	 * delete some position from linked list start position in the list = 0;
+	 * 
+	 * @param position
+	 */
+	public void deletePos(int position) {
+
+		if (position == 0) {
 			head = head.next;
 		} else {
-			ListNode previous = head;
-			int i = 1;
-			while(i < position - 1){
+
+			SinglyLinkedListNode previous = head;
+			int i = this.length() - 1;
+			while (i > position + 1) {
 				previous = previous.next;
-				i++;
+				i--;
 			}
 
-			ListNode current = previous.next;
+			SinglyLinkedListNode current = previous.next;
 			previous.next = current.next;
 		}
+	}
+
+	/**
+	 * delete first position from the list
+	 */
+	public void deleteFirst() {
+
+		SinglyLinkedListNode previous = head;
+		int i = this.length();
+
+		while (i > 2) {
+			previous = previous.next;
+			i--;
+		}
+
+		SinglyLinkedListNode current = previous.next;
+		previous.next = current.next;
+	}
+
+	/**
+	 * delete last position from the list
+	 */
+	public void deleteLast() {
+
+		head = head.next;
+
+	}
+
+	/**
+	 * 
+	 * @param data
+	 * @return position of value
+	 */
+	public int find(int data) {
+
+		SinglyLinkedListNode curr = head;
+
+		int count = this.length() - 1;
+
+		while (curr != null) {
+
+			if (curr.data == data) {
+				return count;
+			}
+
+			curr = curr.next;
+			count--;
+		}
+
+		return count;
 	}
 
 	/**
@@ -68,7 +167,7 @@ public class SinglyLinkedList {
 			return 0;
 		}
 
-		ListNode curr = head;
+		SinglyLinkedListNode curr = head;
 		int count = 0;
 
 		while (curr != null) {
@@ -82,7 +181,7 @@ public class SinglyLinkedList {
 	 * @param current ListNode
 	 * @return length of the linked list
 	 */
-	public int length(ListNode curr) {
+	public int length(SinglyLinkedListNode curr) {
 
 		if (head == null) {
 			return 0;
@@ -99,15 +198,16 @@ public class SinglyLinkedList {
 
 	/**
 	 * autofill linkedList from the array
+	 * 
 	 * @param arr
 	 */
 	public void autoFill(int[] arr) {
-		if(arr == null)
+		if (arr == null)
 			throw new IllegalArgumentException("Input Array isn't exist");
 
-		for(int i = 0; i < arr.length; i++){
-			ListNode node = new ListNode();
-			node.val = arr[i];
+		for (int i = 0; i < arr.length; i++) {
+			SinglyLinkedListNode node = new SinglyLinkedListNode();
+			node.data = arr[i];
 			node.next = head;
 			head = node;
 		}

@@ -11,14 +11,20 @@ mvn clean test
 - and result in the terminal:
 ```
 -------------------------------------------------------
-T E S T S
+ T E S T S
 -------------------------------------------------------
-Running dev.eugenem.dataStructures.SinglyLinkedList.SinglyLinkedListTest
-Test - Singly linked list : autoFill() - passed ok
-Test - Singly linked list : reverse() - passed ok
-Test - Singly linked list : length() - passed ok
-Test - Singly linked list : create linked list with NULL array - passed ok
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running dev.eugenem.dataStructures.search.binarySearch.BinarySearchTest
+Test - Binary Search : search() - passed ok
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running dev.eugenem.dataStructures.arrays.ArraysTest
+Test - Arrays : findMin() - passed ok
+Test - Arrays : remove(index) - passed ok
+Test - Arrays : pop() - passed ok
+Test - Arrays : push(element) - passed ok
+Test - Arrays : reverse() - passed ok
+...
+Results :
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
 ```
 
  📌 *notation keys:*:
@@ -62,18 +68,14 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
-delete (position) |`🟢`|[`✍🏻`]|
-deleteFirst |`🟢`|[`✍🏻`]|
-deleteLast |`🟢`|[`✍🏻`]|
-find (value) |`🟢`|[`✍🏻`]|
-insert (position) |`🟢`|[`✍🏻`]|
-insertFirst |`🟢`|[`✍🏻`]|
-insertLast |`🟢`|[`✍🏻`]|
-[length](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L39)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
-[reverse](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
-sort |`🟢`|[`✍🏻`]|
-sortIn |`🟢`|[`✍🏻`]| `⭕️(N logN)`
-
+[append(data)](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
+[preppend(data)](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L28)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L97)
+[find(data)](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L136)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L165)
+[deleteFirst()](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L110)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L131)
+[deleteLast()](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L148)
+[deletePos(position)](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L114)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
+[length()](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L160)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
+[reverse()](src/main/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedList.java#L53)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
 
 - #### Data Structure: [**Double Linked List**](src/main/java/dev/eugenem/dataStructures/doubleLinkedList)
 
@@ -86,11 +88,11 @@ soon                 |`🟢`   | [`✍🏻`]|
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
-[getMin](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L48) | `🟢` | [`✔️`] | `⭕️(N)`
-[peak](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L39) | `🟢` | [`✔️`] | `⭕️(1)`
-[pop](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L30) | `🟢` | [`✔️`] | `⭕️(1)`
-[push](src/main/java/dev/eugenem/dataStructures/stack/ListNodeStack.java#L19) | `🟢` | [`✔️`] | `⭕️(1)`
-[search(value)](src/main/java/dev/eugenem/dataStructures/stack) | `🟢` | [`✍🏻`] | `⭕️(N)` 
+[getMin](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L48) | `🟢` | [`✔️`] | `⭕️(N)`
+[peak](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L39) | `🟢` | [`✔️`] | `⭕️(1)`
+[pop](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L30) | `🟢` | [`✔️`] | `⭕️(1)`
+[push](src/main/java/dev/eugenem/dataStructures/stack/Stack.java#L19) | `🟢` | [`✔️`] | `⭕️(1)`
+[search(data)](src/main/java/dev/eugenem/dataStructures/stack) | `🟢` | [`✍🏻`] | `⭕️(N)` 
 
 
 - #### Data Structure: [**Queue**](src/main/java/dev/eugenem/dataStructures/queue)
