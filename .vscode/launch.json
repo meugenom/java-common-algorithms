@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BinarySearchTreeRecursive",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.tree.binarySearchTree.BinarySearchTreeRecursive",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BinarySearchTreeIterative",
+			"request": "launch",
+			"mainClass": "dev.eugenem.dataStructures.tree.binarySearchTree.BinarySearchTreeIterative",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BinarySearchTree",
 			"request": "launch",
 			"mainClass": "dev.eugenem.dataStructures.tree.binarySearchTree.BinarySearchTree",

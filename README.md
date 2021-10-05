@@ -135,7 +135,10 @@ deleteWord      | `🔴` | [`✍🏻`] |
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
 [**Binary Search Tree**](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree)| `🔴` | [`✍🏻`] |
-[BST: insert(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTree.java#L14)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeTest.java#L10)
+[BST Recursive: insert(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L13)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L15)
+[BST Recursive: preOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L39)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L59)
+[BST Recursive: inOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L55)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L83)
+[BST Recursive: postOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
 [AVL Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Fenwick Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Red-Black Tree](src/main/java/dev/eugenem/dataStructures/tree)| `🔴` | [`✍🏻`] |
