@@ -76,7 +76,7 @@ public class BinarySearchTreeRecursiveTest {
 
 		String expectedOutput = " 5 2 1 4 8 7 9";
 
-		assertEquals(expectedOutput, outContent.toString(), "preOrderPrintRecursive");
+		assertEquals(expectedOutput, outContent.toString(), "preOrderPrintRecursive should work");
 		System.out.println("Test - Binary Search Tree Recursive: preOrderPrintRecursive() - passed ok");
 	}
 
