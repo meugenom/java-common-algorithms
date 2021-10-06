@@ -139,6 +139,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [BST Recursive: preOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L39)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L59)
 [BST Recursive: inOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L55)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L83)
 [BST Recursive: postOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
+[BST Recursive: find(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
+[BST Recursive: remove(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
 [BST Iterative: insert(data)](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L13)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
 [BST Iterative: preOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L50)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
 [BST Iterative: inOrderPrint()](src/main/java/dev/eugenem/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L80)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L40)
@@ -166,9 +168,9 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 
 - #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-[Bubble Sort](src/main/java/dev/eugenem/dataStructures/sorting/BubbleSort.java)|`🟢`|[`✍🏻`]|
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
+---------------------|-------|--------|------------------|--------------
+[Buble Sort \<T\>](src/main/java/dev/eugenem/sorting/BubleSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/sorting/BubleSortTest.java#L11)
 [Merge Sort](src/main/java/dev/eugenem/dataStructures/sorting/MergeSort.java)|`🟢`|[`✍🏻`]|
 [Quick Sort](src/main/java/dev/eugenem/dataStructures/sorting/QuickSort.java)|`🟢`|[`✍🏻`]|
 
