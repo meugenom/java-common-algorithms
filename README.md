@@ -171,8 +171,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
 [Buble Sort \<T\>](src/main/java/dev/eugenem/sorting/BubleSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/sorting/BubleSortTest.java#L11)
+[Quick Sort](src/main/java/dev/eugenem/sorting/QuickSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dev/eugenem/sorting/QuickSortTest.java#L9)
 [Merge Sort](src/main/java/dev/eugenem/dataStructures/sorting/MergeSort.java)|`🟢`|[`✍🏻`]|
-[Quick Sort](src/main/java/dev/eugenem/dataStructures/sorting/QuickSort.java)|`🟢`|[`✍🏻`]|
 
 - [_Generic Array_](src/main/java/dev/eugenem/generics)
     - [ [`✔️`] `🟢` GenericArray](src/main/java/dev/eugenem/generics/GenericArray.java)

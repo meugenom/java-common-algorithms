@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch QuickSort",
+			"request": "launch",
+			"mainClass": "dev.eugenem.sorting.QuickSort",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch DataTypes",
+			"request": "launch",
+			"mainClass": "dev.eugenem.hackerrank.DataTypes",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BubleSort",
 			"request": "launch",
 			"mainClass": "dev.eugenem.Sorting.BubleSort",
