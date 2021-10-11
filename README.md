@@ -166,7 +166,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [Binary Search](src/main/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearch.java#L5)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dev/eugenem/dataStructures/search/binarySearch/BinarySearchTest.java#L10)
 
 
-- #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/dataStructures/sorting)
+- #### Data Structure: [**Sorting**](src/main/java/dev/eugenem/sorting)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
