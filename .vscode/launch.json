@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MergeSort",
+			"request": "launch",
+			"mainClass": "dev.eugenem.sorting.MergeSort",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch _QuickSort",
+			"request": "launch",
+			"mainClass": "dev.eugenem.sorting._QuickSort",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch QuickSort",
 			"request": "launch",
 			"mainClass": "dev.eugenem.sorting.QuickSort",
