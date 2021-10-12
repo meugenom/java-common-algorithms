@@ -19,6 +19,13 @@ public class BinarySearchTreeRecursive {
 		this.root = this.insert(root, data);
 	}
 
+	/**
+	 * it's a recursive helper for insertation new value
+	 * 
+	 * @param node
+	 * @param data
+	 * @return node
+	 */
 	private TreeNode insert(TreeNode node, int data) {
 
 		if (node == null) {
@@ -29,11 +36,6 @@ public class BinarySearchTreeRecursive {
 			node.right = insert(node.right, data);
 		}
 		return node;
-	}
-
-	public boolean find(int data) {
-
-		return false;
 	}
 
 	/**
@@ -91,6 +93,7 @@ public class BinarySearchTreeRecursive {
 
 	/**
 	 * print parent-childs nodes
+	 * 
 	 * @param parent TreeNode
 	 */
 	public void print(TreeNode parent) {
@@ -109,6 +112,90 @@ public class BinarySearchTreeRecursive {
 
 			out = out + "[" + parent.data + "->(" + right + ")]";
 			print(tree.right);
+		}
+	}
+
+	/**
+	 * find value
+	 * 
+	 * @param data
+	 * @return true then value exists in the BST, return false then doesn't exist
+	 */
+	public boolean find(int data) {
+
+		Boolean found = this.find(root, data);
+
+		if (found)
+			return true;
+
+		return false;
+	}
+
+	/**
+	 * recursive helper for finding value in the BST
+	 * 
+	 * @param node
+	 * @param data
+	 * @return true then exists and false then doesn't exist
+	 */
+	public boolean find(TreeNode node, int data) {
+
+		if (node == null) {
+			return false;
+
+		} else if (node.data == data) {
+			return true;
+
+		} else if (node.data > data) {
+			return find(node.left, data);
+
+		} else {
+			return find(node.right, data);
+		}
+	}
+
+	/**
+	 * delete node from the tree
+	 * @param root
+	 * @param target
+	 * @return
+	 */
+	public TreeNode delete(TreeNode root, int target) {
+		
+		if (root == null)
+			return root;
+		
+		if (target < root.data){
+			root.left = delete(root.left, target);
+		} else if (target > root.data) {
+			root.right = delete(root.right, target);
+		} else {
+			if (root.left == null){
+				return root.right;
+			}
+
+			if (root.right == null) {
+				return root.left;
+			}
+				
+			root.data = min(root.right);
+			root.right = delete(root.right, root.data);
+		}
+		return root;
+	}
+
+	/**
+	 * 
+	 * @param root
+	 * @return
+	 */
+	public int min(TreeNode root) {
+
+		if (root.left == null){
+			return root.data;
+		
+		} else {			
+			return min(root.left);
 		}
 	}
 }

@@ -128,4 +128,30 @@ public class BinarySearchTreeRecursiveTest {
 		System.out.println("Test - Binary Search Tree Recursive: postOrderPrintRecursive() - passed ok");
 	}
 
+	@Test
+	@DisplayName("delete Node from BST")
+	public void testDeleteNode() throws Exception {
+
+		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+		System.setOut(new PrintStream(outContent));
+
+		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		tree.insert(5);
+		tree.insert(2);
+		tree.insert(8);
+		tree.insert(1);
+		tree.insert(4);
+		tree.insert(9);
+		tree.insert(7);
+
+		tree.delete(tree.root, 5);
+
+		tree.inOrderPrintRecursive(tree.root);
+
+		String expectedOutput = " 1 2 4 7 8 9"; //was " 1, 2, 4, 5, 7, 8, 9"
+
+		assertEquals(expectedOutput, outContent.toString(), "deleteNode() should work");
+		System.out.println("Test - Binary Search Tree Recursive: deleteNode() - passed ok");
+	}
+
 }
