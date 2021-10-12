@@ -10,7 +10,7 @@ public class BubleSortTest {
 	
 	@Test
 	@DisplayName("buble sorting with Integers")
-	void testSortIntegerArray() {
+	public void testSortIntegerArray() {
 
 		Integer[] actualArray = new Integer[] { 7, 10, 8, 9, 2, 5, 3, 1, 0, -1, 4 };
 
@@ -30,7 +30,7 @@ public class BubleSortTest {
 
 	@Test
 	@DisplayName("buble sorting with Strings")
-	void testSortStringArray() {
+	public void testSortStringArray() {
 
 		String[] actualArray = new String[] { "h", "a", "v", "c", "t", "i", "r" };
 

@@ -8,7 +8,7 @@ public class MergeSortTest {
 	
 	@Test
 	@DisplayName(" mergesort")
-	void testMergeSort() {
+	public void testMergeSort() {
 
 		MergeSort ms = new MergeSort();
 
