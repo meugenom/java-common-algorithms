@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SimpleEncryption",
+			"request": "launch",
+			"mainClass": "com.meugenom.codewars.SimpleEncryption",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch HelpTheBookSeller",
+			"request": "launch",
+			"mainClass": "com.meugenom.codewars.HelpTheBookSeller",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch Knapsack",
 			"request": "launch",
 			"mainClass": "dev.eugenem.dataStructures.dp.Knapsack",
