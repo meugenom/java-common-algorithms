@@ -6,6 +6,34 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SquaresOfSortedArray",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SquaresOfSortedArray.SquaresOfSortedArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RotateArray",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.RotateArray.RotateArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LongestPalindromicSubstring",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.LongestPalindromicSubstring.LongestPalindromicSubstring",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch GreatestEnglishLetter",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcodeContest.GreatestEnglishLetter",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch SimpleEncryption",
 			"request": "launch",
 			"mainClass": "com.meugenom.codewars.SimpleEncryption",

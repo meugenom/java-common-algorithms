@@ -1,68 +1,85 @@
 package com.meugenom.leetcode.RotateArray;
 
-// 37/38 test cases passed 
-// doesn't optimal
-
-
 public class RotateArray {
 
-    public void rotate(int[] nums, int k) {  
-        
-        if(nums.length == 2) {
-            if ( k % 2 != 0 ) {
-                int tmp = nums[0];
-                nums[0] = nums[1];
-                nums[1] = tmp;
-            }
-        }
-        if(k != 0 && nums.length > 2) {
-            nums = turn(nums, k);
-        }
-    }
+	public static void _rotate(int[] nums, int k) {
 
-    public int[] turn ( int[] nums, int k) {
+		if(nums.length < k) {
+			
+			int koeff  = (k/nums.length);
+			k = k - (nums.length * koeff);
+			_turn(nums, k);
 
-        int start = 0;
-        int end = nums.length - 1;
-        int tmp = nums[start];
-        int last;
-        nums[start] = nums[end]; 
-        start++;
-        
-        while(start < end) {
-            if(start == 1) {
-                last = nums[start + 1];
-                nums[start + 1] = nums[start];
-                nums[start] = tmp;
-                tmp = last;    
-            }            
-            if(start + 1 <= end && start != 1) {
-                last = nums[start + 1];
-                nums[start + 1] = tmp;
-                tmp = last;
-            }
-            start++;
+		} else if(nums.length != 1) {
+			_turn(nums, k);
+		} 
+	}
+
+	public static void _turn(int[] nums, int k){
+			
+		int step_array = 0;
+		int length = nums.length;
+		int[] first = new int[nums.length - k];
+		int[] second = new int[k];
+		int step_second = 0;
+
+		while(step_array < length){
+			
+			if( length - k > step_array){
+				first[step_array] = nums[step_array];
+			}
+			
+			if( length - k <= step_array){
+				second[step_second] = nums[step_array];
+				step_second++;
+			}
+			
+			step_array++;
+		}
+
+
+		/*
+		for(int i=0; i < first.length; i++){
+            System.out.println("first["+i+"]= "+first[i]);
         }
 
-        k--;
-        if(k > 0) {
-            this.turn(nums, k);
-        }
-        return nums;
-    }
+		for(int i=0; i < second.length; i++){
+            System.out.println("second["+i+"]= "+second[i]);
+		}
+		*/
+		
 
+		
+		step_array = 0;
+
+		while(step_array < length){
+
+			if( step_array < k){
+				nums[step_array] = second[step_array];
+				//System.out.println("from second array : " + second[step_array]);
+			}
+			
+			if( step_array >= k){
+				//System.out.println("from first array : " + first[step_array - k]);
+				nums[step_array] =  first[step_array - k];
+				
+			}
+
+			step_array ++;
+		}
+
+	}
 
     public static void main(String[] args){
 
-        RotateArray c = new RotateArray();
-        int[] nums = new int[]{1,2,3,4,5,6};
-        int k = 2;
-        c.rotate(nums, k);
-        for(int i=0; i < nums.length; i++){
+        int[] nums = new int[]{1,2,3,4,5,6,7};
+		//int[] nums = new int[]{1,2};
+        int k = 3;
+        _rotate(nums, k);
+        
+		for(int i=0; i < nums.length; i++){
             System.out.println("num["+i+"]= "+nums[i]);
         }
-
-
     }   
     
 }

@@ -54,6 +54,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 [reverse(start, end)](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L102)|`🟡`|[`✔️`]|`⭕️(N)`
 [size](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L95)
 [sort](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L109)
+[binary search](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L3)|`🟢`|[`✔️`]|`⭕️(N^2)`|
 
 
  - #### Data Structure: [**Matrix**](src/main/java/com/meugenom/dataStructures/matrix)
@@ -198,13 +199,14 @@ _easy:_
 - [ [`❓`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList) [-] 69/85 test cases passed.
 - [ [`✔️`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString)
 - [ [`✔️`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones)
+- [ [`✔️`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray)
 
 _medium:_
 - [ [`✔️`] `🟡` 2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers)
 - [ [`✔️`] `🟡` 3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters)
 - [ [`✔️`] `🟡` 48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage)
 - [ [`❓`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList)  26/28 test cases passed
-- [ [`❓`] `🟡` 189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray) 37/38 test cases passed.
+- [ [`✔️`] `🟡` 189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray)
 - [ [`✔️`] `🟡` 198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber)
 - [ [`✔️`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber)
 
@@ -216,3 +218,8 @@ _hard:_
 
 - [ [`✔️`] `🟢` A very big sum](src/main/java/com/meugenom/hackerrank/AVeryBigSum.java)
 - [ [`✔️`] `🟢` Compare the triplets](src/main/java/com/meugenom/hackerrank/CompareTheTriplets.java)
+
+### CodeWars
+
+- [ [`✔️`] `🟢` Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
+- [ [`✔️`] `🟢` Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
