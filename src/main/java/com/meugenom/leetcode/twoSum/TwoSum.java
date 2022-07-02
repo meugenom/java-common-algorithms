@@ -1,4 +1,4 @@
-package com.meugenom.leetcode.twoSum;
+package com.meugenom.leetcode.TwoSum;
 
 public class TwoSum {    
 

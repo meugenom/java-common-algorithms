@@ -182,44 +182,49 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ### Leetcode tasks:
 
 _easy:_
-- [ [`✔️`] `🟢` 1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum)
-- [ [`✔️`] `🟢` 7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger)
-- [ [`✔️`] `🟢` 9. Palindrome Number](src/main/java/com/meugenom/leetcode/PalindromeNumber)
-- [ [`✔️`] `🟢` 13. Roman to Integer](src/main/java/com/meugenom/leetcode/RomanToInteger)
-- [ [`✔️`] `🟢` 20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses)
-- [ [`✔️`] `🟢` 21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists)
-- [ [`✔️`] `🟢` 35. Search Insert Position](src/main/java/com/meugenom/leetcode/SearchInsertPosition)
-- [ [`✔️`] `🟢` 53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray)
-- [ [`✔️`] `🟢` 88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray)
-- [ [`✔️`] `🟢` 121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock)
-- [ [`✔️`] `🟢` 136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber)
-- [ [`✔️`] `🟢` 155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack)
-- [ [`✔️`] `🟢` 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber)
-- [ [`✔️`] `🟢` 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList)
-- [ [`❓`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList) [-] 69/85 test cases passed.
-- [ [`✔️`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString)
-- [ [`✔️`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones)
-- [ [`✔️`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray)
+- [ [`✔️ Java`] `🟢` 1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
+- [ [`✔️ Java`] `🟢` 7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger/ReverseInteger.java)
+- [ [`✔️ Java`] `🟢` 9. Palindrome Number](src/main/java/com/meugenom/leetcode/PalindromeNumber/PalindromeNumber.java)
+- [ [`✔️ Java`] `🟢` 13. Roman to Integer](src/main/java/com/meugenom/leetcode/RomanToInteger/RomanToInteger.java)
+- [ [`✔️ Java`] `🟢` 20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses/ValidParentheses.java)
+- [ [`✔️ Java`] `🟢` 21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
+- [ [`✔️ Java`] `🟢` 35. Search Insert Position](src/main/java/com/meugenom/leetcode/SearchInsertPosition/SearchInsertPosition.java)
+- [ [`✔️ Java`] `🟢` 53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
+- [ [`✔️ Java`] `🟢` 88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
+- [ [`✔️ Java`] `🟢` 121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
+- [ [`✔️ Java`] `🟢` 136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
+- [ [`✔️ Java`] `🟢` 155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
+- [ [`✔️ Java`] `🟢` 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
+- [ [`✔️ Java`] `🟢` 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+- [ [`❓ Java`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java) [-] 69/85 test cases passed.
+- [ [`✔️ Java`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
+- [ [`✔️ Java`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
+- [ [`✔️ Java`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
 
 _medium:_
-- [ [`✔️`] `🟡` 2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers)
-- [ [`✔️`] `🟡` 3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters)
-- [ [`✔️`] `🟡` 48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage)
-- [ [`❓`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList)  26/28 test cases passed
-- [ [`✔️`] `🟡` 189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray)
-- [ [`✔️`] `🟡` 198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber)
-- [ [`✔️`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber)
+- [ [`✔️ Java`] `🟡` 2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
+- [ [`✔️ Java`] `🟡` 3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+- [ [`✔️ Java`] `🟡` 5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
+- [ [`✔️ Java`] `🟡` 48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage/RotateImage.java)
+- [ [`❓ Java`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)  26/28 test cases passed
+- [ [`✔️ Java`] `🟡` 189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray/RotateArray.java)
+- [ [`✔️ Java`] `🟡` 198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
+- [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
+
 
 _hard:_
-- [ [`✔️`] `🔴` 4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays)
-- [ [`✔️`] `🔴` 23. Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists)
+- [ [`✔️ Java`] `🔴` 4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+- [ [`✔️ Java`] `🔴` 23. Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
 
 ### HackerRank
 
-- [ [`✔️`] `🟢` A very big sum](src/main/java/com/meugenom/hackerrank/AVeryBigSum.java)
-- [ [`✔️`] `🟢` Compare the triplets](src/main/java/com/meugenom/hackerrank/CompareTheTriplets.java)
+- [ [`✔️ Java`] A very big sum](src/main/java/com/meugenom/hackerrank/AVeryBigSum.java)
+- [ [`✔️ Java`] Compare the triplets](src/main/java/com/meugenom/hackerrank/CompareTheTriplets.java)
 
 ### CodeWars
 
-- [ [`✔️`] `🟢` Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
-- [ [`✔️`] `🟢` Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
+- [ [`✔️ JS`] Build Tower](src/main/js/codewars/buildTower.js)
+- [ [`✔️ JS`] Camel Case](src/main/js/codewars/camelCase.js)
+- [ [`✔️ Java`] Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
+- [ [`✔️ Java`] Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
+- [ [`✔️ JS`] Pete The Baker](src/main/js/codewars/peteTheBaker.js)
