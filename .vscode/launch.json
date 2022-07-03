@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch CountingDuplicates",
+			"request": "launch",
+			"mainClass": "com.meugenom.codewars.CountingDuplicates",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MoveZeroes",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.MoveZeroes.MoveZeroes",
