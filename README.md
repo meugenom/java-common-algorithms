@@ -197,6 +197,7 @@ _easy:_
 - [ [`✔️ Java`] `🟢` 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
 - [ [`✔️ Java`] `🟢` 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
 - [ [`❓ Java`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java) [-] 69/85 test cases passed.
+- [ [`✔️ Java`] `🟢` 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
 - [ [`✔️ Java`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 - [ [`✔️ Java`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
 - [ [`✔️ Java`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
