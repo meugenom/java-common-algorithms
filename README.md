@@ -227,6 +227,7 @@ _hard:_
 
 - [ [`✔️ JS`] Build Tower](src/main/js/codewars/buildTower.js)
 - [ [`✔️ JS`] Camel Case](src/main/js/codewars/camelCase.js)
+- [ [`✔️ Java`] Counting Duplicates](src/main/java/com/meugenom/codewars/CountingDuplicates.java)
 - [ [`✔️ Java`] Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
 - [ [`✔️ Java`] Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
 - [ [`✔️ JS`] Pete The Baker](src/main/js/codewars/peteTheBaker.js)
