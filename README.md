@@ -232,3 +232,4 @@ _hard:_
 - [ [`✔️ Java`] Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
 - [ [`✔️ Java`] Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
 - [ [`✔️ JS`] Pete The Baker](src/main/js/codewars/peteTheBaker.js)
+- [ [`✔️ Java`] Playing With Digits](src/main/java/com/meugenom/codewars/PlayingWithDigits.java)
