@@ -6,6 +6,41 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MiddleOfTheLinkedList",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.MiddleOfTheLinkedList.MiddleOfTheLinkedList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PlayingWithDigits",
+			"request": "launch",
+			"mainClass": "com.meugenom.codewars.PlayingWithDigits",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReverseWordsInStringIII",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ReverseWordsInStringIII.ReverseWordsInStringIII",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ShortestPalindrome",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ShortestPalindrome.ShortestPalindrome",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ShortestPalindrom",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ShortestPalindrom.ShortestPalindrom",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch CountingDuplicates",
 			"request": "launch",
 			"mainClass": "com.meugenom.codewars.CountingDuplicates",
