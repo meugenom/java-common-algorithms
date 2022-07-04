@@ -201,6 +201,7 @@ _easy:_
 - [ [`✔️ Java`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 - [ [`✔️ Java`] `🟢` 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 - [ [`✔️ Java`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
+- [ [`✔️ Java`] `🟢` 876. Middle of the Linked List](src/main/java/com/meugenom/leetcode/MiddleOfTheLinkedList/MiddleOfTheLinkedList.java)
 - [ [`✔️ Java`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
 
 _medium:_
@@ -232,3 +233,4 @@ _hard:_
 - [ [`✔️ Java`] Help The Book Seller](src/main/java/com/meugenom/codewars/HelpTheBookSeller.java)
 - [ [`✔️ Java`] Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
 - [ [`✔️ JS`] Pete The Baker](src/main/js/codewars/peteTheBaker.js)
+- [ [`✔️ Java`] Playing With Digits](src/main/java/com/meugenom/codewars/PlayingWithDigits.java)
