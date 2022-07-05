@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch RemoveNthNodeFromEndList",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.RemoveNthNodeFromEndList.RemoveNthNodeFromEndList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MiddleOfTheLinkedList",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.MiddleOfTheLinkedList.MiddleOfTheLinkedList",
