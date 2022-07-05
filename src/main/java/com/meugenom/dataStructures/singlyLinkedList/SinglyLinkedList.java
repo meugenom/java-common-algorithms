@@ -91,20 +91,31 @@ public class SinglyLinkedList {
 	 */
 	public void deletePos(int position) {
 
+		// private case
+		if (head == null)
+			return;
+
+		SinglyLinkedListNode temp = head;
+
+		// private case
 		if (position == 0) {
-			head = head.next;
-		} else {
-
-			SinglyLinkedListNode previous = head;
-			int i = this.length() - 1;
-			while (i > position + 1) {
-				previous = previous.next;
-				i--;
-			}
-
-			SinglyLinkedListNode current = previous.next;
-			previous.next = current.next;
+			head = temp.next;
+			return;
 		}
+
+		// find previous node of the node to be deleted
+		for (int i = 0; temp != null && i < position - 1; i++) {
+			temp = temp.next;
+		}
+
+		// if position is more than number of nodes
+		if (temp == null || temp.next == null)
+			return;
+
+		SinglyLinkedListNode next = temp.next.next;
+		
+		// unlink the deleted node from the list
+		temp.next = next;
 	}
 
 	/**

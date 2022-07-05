@@ -126,7 +126,7 @@ public class SinglyLinkedListTest {
 		actualList.deletePos(5);
 
 		SinglyLinkedList expectedList = new SinglyLinkedList();
-		expectedList.autoFill(new int []{1,2,3,4,5,7});
+		expectedList.autoFill(new int []{1, 3, 4, 5, 6, 7});
 
 		assertEquals(expectedList.head.toString(), actualList.head.toString(),
 		"Delete some position should work");
