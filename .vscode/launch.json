@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ContainerWithMostWater",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ContainerWithMostWater.ContainerWithMostWater",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch PermutationInString",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.PermutationInString.PermutationInString",
