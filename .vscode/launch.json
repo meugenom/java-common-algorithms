@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MaxAreaOfIslands",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.MaxAreaOfIslands.MaxAreaOfIslands",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ContainerWithMostWater",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.ContainerWithMostWater.ContainerWithMostWater",

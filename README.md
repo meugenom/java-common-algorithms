@@ -217,6 +217,7 @@ _medium:_
 - [ [`✔️ Java`] `🟡` 198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
 - [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
 - [ [`✔️ Java`] `🟡` 567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
+- [ [`✔️ Java`] `🟡` 695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
 
 
 _hard:_
