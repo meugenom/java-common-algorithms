@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch FloodFill",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.FloodFill.FloodFill",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaxAreaOfIslands",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.MaxAreaOfIslands.MaxAreaOfIslands",
