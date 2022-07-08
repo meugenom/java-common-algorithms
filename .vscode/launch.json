@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch PopulatingNextRightPointersEachNode",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.PopulatingNextRightPointersEachNode.PopulatingNextRightPointersEachNode",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MergeTwoBinaryTrees",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.MergeTwoBinaryTrees.MergeTwoBinaryTrees",
