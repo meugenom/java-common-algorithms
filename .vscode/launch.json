@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MergeTwoBinaryTrees",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.MergeTwoBinaryTrees.MergeTwoBinaryTrees",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LetterCombinationsOfPhoneNumber",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.LetterCombinationsOfPhoneNumber.LetterCombinationsOfPhoneNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch FloodFill",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.FloodFill.FloodFill",
