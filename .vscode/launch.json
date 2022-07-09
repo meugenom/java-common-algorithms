@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch FibonacciNumber",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.FibonacciNumber.FibonacciNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch FibonacciNumber",
+			"request": "launch",
+			"mainClass": "FibonacciNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch RottingOranges",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.RottingOranges.RottingOranges",
