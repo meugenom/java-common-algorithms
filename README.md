@@ -223,6 +223,7 @@ _medium:_
 - [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
 - [ [`✔️ Java`] `🟡` 567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
 - [ [`✔️ Java`] `🟡` 695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
+- [ [`✔️ Java`] `🟡` 784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
 - [ [`✔️ Java`] `🟡` 994. Rotting Oranges](src/main/java/com/meugenom/leetcode/RottingOranges/RottingOranges.java)
 
 
