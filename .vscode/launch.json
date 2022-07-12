@@ -6,6 +6,48 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch Permuatations",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.Permutations.Permuatations",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LetterCasePermutation",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.LetterCasePermutation.LetterCasePermutation",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Combinations",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.Combinations.Combinations",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Coombinations",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.Combinations.Coombinations",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch NullOneMatrix",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.NullOneMatrix.NullOneMatrix",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BasicCalculator",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.BasicCalculator.BasicCalculator",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch FibonacciNumber",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.FibonacciNumber.FibonacciNumber",

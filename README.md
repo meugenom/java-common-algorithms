@@ -213,6 +213,7 @@ _medium:_
 - [ [`✔️ Java`] `🟡` 5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
 - [ [`✔️ Java`] `🟡` 11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
 - [ [`✔️ Java`] `🟡` 19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
+- [ [`✔️ Java`] `🟡` 46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
 - [ [`✔️ Java`] `🟡` 48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage.java)
 - [ [`✔️ Java`] `🟡` 77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
 - [ [`✔️ Java`] `🟡` 116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
