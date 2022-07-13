@@ -6,6 +6,8 @@ c
 python
 bin
 .setting
+.vscode
+.idea
 target
 books
 MY-ROAD.md
