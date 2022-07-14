@@ -1,47 +1,20 @@
 # 🧠 📚 ⏱ Java Data Structures and Algorithms
 
-Implementations of data structures and algorithms in Java.
-
-🛠 Use Unit Tests:
-
-- run all tests
-```
-mvn clean test
-```
-- and result in the terminal:
-```
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running com.meugenom.dataStructures.search.binarySearch.BinarySearchTest
-Test - Binary Search : search() - passed ok
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running com.meugenom.dataStructures.arrays.ArraysTest
-Test - Arrays : findMin() - passed ok
-Test - Arrays : remove(index) - passed ok
-Test - Arrays : pop() - passed ok
-Test - Arrays : push(element) - passed ok
-Test - Arrays : reverse() - passed ok
-...
-Results :
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
-```
+Implementation of data structures and algorithms.
 
  📌 *notation keys:*:
  - `🟢` - easy;
  - `🟡` - medium;
  - `🔴` - hard;
  - `⭕️(1)`, `⭕️log(N)`, `⭕️(N^2)`... - Big O notations;
- - [`✍🏻`] - by proccess;
+ - [`✍🏻`] - in progress;
  - [`🙇🏻‍♂️`] - hard to solve;
  - [`❓`] - the solution is not optimal;
  - [`✔️`] - done;
  - [`🆗`] - Test passed Ok;
 
-### List of Implementations:
 
-
-- #### Data Structure: [**Arrays**](src/main/java/com/meugenom/dataStructures/arrays) 
+#### Data Structure: [**Arrays**](src/main/java/com/meugenom/dataStructures/arrays) 
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 ---------------------|-------|--------|-------------------|---------------
@@ -55,9 +28,10 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 [size](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L95)
 [sort](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L109)
 [binary search](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L3)|`🟢`|[`✔️`]|`⭕️(N^2)`|
+[*GenericArray](src/main/java/com/meugenom/generics/GenericArray.java)|`🟢`|[`✔️`]|
 
 
- - #### Data Structure: [**Matrix**](src/main/java/com/meugenom/dataStructures/matrix)
+ #### Data Structure: [**Matrix**](src/main/java/com/meugenom/dataStructures/matrix)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -65,7 +39,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [transpose](src/main/java/com/meugenom/dataStructures/matrix/Matrix.java#L24)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/matrix/MatrixTest.java#L29)
 [reflect](src/main/java/com/meugenom/dataStructures/matrix/Matrix.java#L37)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/matrix/MatrixTest.java#L48)
 
-- #### Data Structure: [**Singly Linked List**](src/main/java/com/meugenom/dataStructures/singlyLinkedList)
+#### Data Structure: [**Singly Linked List**](src/main/java/com/meugenom/dataStructures/singlyLinkedList)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -78,7 +52,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [length()](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L160)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
 [reverse()](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L53)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
 
-- #### Data Structure: [**Doubly Linked List**](src/main/java/com/meugenom/dataStructures/doublyLinkedList)
+#### Data Structure: [**Doubly Linked List**](src/main/java/com/meugenom/dataStructures/doublyLinkedList)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -87,7 +61,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [deleteFirst()](src/main/java/com/meugenom/dataStructures/doublyLinkedList/DoublyLinkedList.java#L139)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L43)
 [deleteLast()](src/main/java/com/meugenom/dataStructures/doublyLinkedList/DoublyLinkedList.java#L161)|`🟢`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L61)
 
-- #### Data Structure: [**Stack**\<Listnode\>](src/main/java/com/meugenom/dataStructures/stack)
+#### Data Structure: [**Stack**\<Listnode\>](src/main/java/com/meugenom/dataStructures/stack)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -96,7 +70,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [pop()](src/main/java/com/meugenom/dataStructures/stack/Stack.java#L29)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/stack/StackTest.java#L44)
 [push(data)](src/main/java/com/meugenom/dataStructures/stack/Stack.java#L17)|`🟢`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/stack/StackTest.java#L63)
 
-- #### Data Structure: [**Queue**](src/main/java/com/meugenom/dataStructures/queue)
+#### Data Structure: [**Queue**](src/main/java/com/meugenom/dataStructures/queue)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
@@ -105,7 +79,7 @@ peak    | `🟢` | [`✍🏻`] |
 enqueue | `🟢` | [`✍🏻`] |
 dequeue | `🟢` | [`✍🏻`] |
 
-- #### Data Structure: [**Hash Table**\<Listnode\>](src/main/java/com/meugenom/dataStructures/hashTable)
+#### Data Structure: [**Hash Table**\<Listnode\>](src/main/java/com/meugenom/dataStructures/hashTable)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
@@ -117,21 +91,21 @@ has(key) | `🟢` | [`✍🏻`] |
 getKeys() | `🟢` | [`✍🏻`] |
 getValues() | `🟢` | [`✍🏻`] |
 
-- #### Data Structure: [**Heap**](src/main/java/com/meugenom/dataStructures/heap)
+#### Data Structure: [**Heap**](src/main/java/com/meugenom/dataStructures/heap)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
 add       | `🔴` | [`✍🏻`] |
 remove       | `🔴` | [`✍🏻`] |
 
-- #### Data Structure: [**Trie**](src/main/java/com/meugenom/dataStructures/trie)
+#### Data Structure: [**Trie**](src/main/java/com/meugenom/dataStructures/trie)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
 addWord       | `🔴` | [`✍🏻`] |
 deleteWord      | `🔴` | [`✍🏻`] |
 
-- #### Data Structure: [**Tree**](src/main/java/com/meugenom/dataStructures/tree)
+#### Data Structure: [**Tree**](src/main/java/com/meugenom/dataStructures/tree)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -150,7 +124,6 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [Fenwick Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Red-Black Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Segment Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
-
 
 
 - #### Data Structure: [**Graph**](src/main/java/com/meugenom/dataStructures/graph)
@@ -176,61 +149,130 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [MergeSort](src/main/java/com/meugenom/sorting/MergeSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N log(N))` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/MergeSortTest.java#L9)
 [Insertion Sort](src/main/java/com/meugenom/sorting/InsertionSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/InsertionSortTest.java#L9)
 
-- [_Generic Array_](src/main/java/com/meugenom/generics)
-    - [ [`✔️`] `🟢` GenericArray](src/main/java/com/meugenom/generics/GenericArray.java)
 
-### Leetcode tasks:
+### Leetcode's Problems by Skills:
 
-_easy:_
-- [ [`✔️ Java`] `🟢` 1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
-- [ [`✔️ Java`] `🟢` 7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger/ReverseInteger.java)
-- [ [`✔️ Java`] `🟢` 9. Palindrome Number](src/main/java/com/meugenom/leetcode/PalindromeNumber/PalindromeNumber.java)
-- [ [`✔️ Java`] `🟢` 13. Roman to Integer](src/main/java/com/meugenom/leetcode/RomanToInteger/RomanToInteger.java)
-- [ [`✔️ Java`] `🟢` 20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses/ValidParentheses.java)
-- [ [`✔️ Java`] `🟢` 21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
-- [ [`✔️ Java`] `🟢` 35. Search Insert Position](src/main/java/com/meugenom/leetcode/SearchInsertPosition/SearchInsertPosition.java)
-- [ [`✔️ Java`] `🟢` 53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
-- [ [`✔️ Java`] `🟢` 88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
-- [ [`✔️ Java`] `🟢` 121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
-- [ [`✔️ Java`] `🟢` 136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
-- [ [`✔️ Java`] `🟢` 155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
-- [ [`✔️ Java`] `🟢` 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
-- [ [`✔️ Java`] `🟢` 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+ Skills by abc         | Complexity | Language | Solved Problems
+-----------------------|------------|----------|------------------------------------
+**_Array_** | 🟢 easy | Java |[1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
+**_Array_** | 🟢 easy | Java |[35. Search Insert Position](src/main/java/com/meugenom/leetcode/SearchInsertPosition/SearchInsertPosition.java)
+**_Array_** | 🟢 easy | Java |[88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
+**_Array_** | 🟢 easy | Java | [121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
+**_Array_** | 🟢 easy | Java |[ 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
+**_Array_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
+**_Array_** | 🟡 medium | Java |[11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
+**_Array_** | 🟡 medium | Java |[46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
+**_Array_** | 🟡 medium | Java |[48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage.java)
+**_Array_** | 🟡 medium | Java |[53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
+**_Array_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
+**_Array_** | 🟡 medium | Java | [189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray/RotateArray.java)
+**_Array_** | 🟡 medium | Java | [198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
+**_Array_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+➿ |➿ |➿ |➿
+**_Backtracking_** | 🟡 medium | Java | [46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
+**_Backtracking_** | 🟡 medium | Java | [77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
+**_Backtracking_** | 🟡 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
+➿ |➿ |➿ |➿
+**_Binary Search_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
+**_Binary Search_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+➿ |➿ |➿ |➿
+**_Binary Tree_** | 🟢 easy | Java |[ [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Binary Tree_** | 🟡 medium | Java |[102. Binary Tree Level Order Traversal](src/main/java/com/meugenom/leetcode/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
+**_Binary Tree_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Binary Tree_** | 🟡 medium | Java |[199. Binary Tree Right Side View](src/main/java/com/meugenom/leetcode/BinaryTreeRightSideView/BinaryTreeRightSideView.java)
+➿ |➿ |➿ |➿
+**_Bit Manipulation_** | 🟢 easy | Java |[136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
+**_Bit Manipulation_** | 🟢 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
+➿ |➿ |➿ |➿
+**_Breadth-First Search_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Breadth-First Search_** | 🟡 medium | Java | [994. Rotting Oranges](src/main/java/com/meugenom/leetcode/RottingOranges/RottingOranges.java)
+➿ |➿ |➿ |➿
+**_Design_** | 🟢 easy | Java | [155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
+➿ |➿ |➿ |➿
+**_Depth-First Search_** | 🟢 easy | Java |[733. Flood Fill](src/main/java/com/meugenom/leetcode/FloodFill/FloodFill.java)
+**_Depth-First Search_** | 🟡 medium | Java |[695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
+➿ |➿ |➿ |➿
+**_Divide and Conquer_** | 🟢 easy | Java |[190. Reverse Bits](src/main/java/com/meugenom/leetcode/ReverseBits/ReverseBits.java)
+**_Divide and Conquer_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+➿ |➿ |➿ |➿
+**_Dynamic Programming_** | 🟢 easy | Java |[70. Climbing Stairs](src/main/java/com/meugenom/leetcode/ClimbingStairs/ClimbingStairs.java)
+**_Dynamic Programming_** | 🟢 easy | Java | [121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
+**_Dynamic Programming_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
+**_Dynamic Programming_** | 🟡 medium | Java | [5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
+**_Dynamic Programming_** | 🟡 medium | Java |[53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
+**_Dynamic Programming_** | 🟡 medium | Java | [198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
+**_Dynamic Programming_** | 🟡 medium | Java |[542. 01 Matrix](src/main/java/com/meugenom/leetcode/NullOneMatrix/NullOneMatrix.java)
+➿ |➿ |➿ |➿
+**_Hash Table_** | 🟢 easy | Java |[1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
+**_Hash Table_** | 🟢 easy | Java |[13. Roman to Integer](src/main/java/com/meugenom/leetcode/RomanToInteger/RomanToInteger.java)
+**_Hash Table_** | 🟢 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
+**_Hash Table_** | 🟡 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+➿ |➿ |➿ |➿
+**_Linked List_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
+**_Linked List_** | 🟢 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+**_Linked List_** | 🟢 easy | Java | [ 876. Middle of the Linked List](src/main/java/com/meugenom/leetcode/MiddleOfTheLinkedList/MiddleOfTheLinkedList.java)
+**_Linked List_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
+**_Linked List_** | 🟡 medium | Java | [19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
+**_Linked List_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Linked List_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Linked List_** | 🔴 hard   | Java |[23. Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
+➿ |➿ |➿ |➿
+**_Math_** | 🟢 easy | Java | [7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger/ReverseInteger.java)
+**_Math_** | 🟢 easy | Java | [9. Palindrome Number](src/main/java/com/meugenom/leetcode/PalindromeNumber/PalindromeNumber.java)
+**_Math_** | 🟢 easy | Java | [231. Power of Two](src/main/java/com/meugenom/leetcode/PowerOfTwo/PowerOfTwo.java)
+**_Math_** | 🟡 medium |Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
+➿ |➿ |➿ |➿
+**_Matrix_** | 🟢 easy | Java |[733. Flood Fill](src/main/java/com/meugenom/leetcode/FloodFill/FloodFill.java)
+**_Matrix_** | 🟡 medium | Java |[48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage.java)
+**_Matrix_** | 🟡 medium | Java |[695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
+➿ |➿ |➿ |➿
+**_Memoization_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
+➿ |➿ |➿ |➿
+**_Merge Sort_** | 🔴 hard | Java | [Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
+➿ |➿ |➿ |➿
+**_Recursion_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
+**_Recursion_** | 🟢 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
+**_Recursion_** | 🟢 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+**_Recursion_** | 🟢 easy | Java | [231. Power of Two](src/main/java/com/meugenom/leetcode/PowerOfTwo/PowerOfTwo.java)
+**_Recursion_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
+**_Recursion_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
+➿ |➿ |➿ |➿
+**_Sliding Window_** | 🟡 medium | Java | [3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+**_Sliding Window_** | 🟡 medium | Java | [567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
+➿ |➿ |➿ |➿
+**_Stack_** | 🟢 easy | Java | [20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses/ValidParentheses.java)
+**_Stack_** | 🟢 easy | Java | [155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
+➿ |➿ |➿ |➿
+**_Sorting_** | 🟢 easy | Java |[88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
+**_Sorting_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
+➿ |➿ |➿ |➿
+**_String_** | 🟢 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
+**_String_** | 🟢 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
+**_String_** | 🟢 easy | Java |[ 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
+**_String_** | 🟡 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+**_String_** | 🟡 medium | Java | [5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
+**_String_** | 🟡 medium | Java | [567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
+**_String_** | 🟡 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
+➿ |➿ |➿ |➿
+**_Tree_** | 🟢 easy | Java |[ [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Tree_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+➿ |➿ |➿ |➿
+**_Two Pointers_** | 🟢 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
+**_Two Pointers_** | 🟢 easy | Java |[ 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
+**_Two Pointers_** | 🟢 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
+**_Two Pointers_** | 🟢 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
+**_Two Pointers_** | 🟡 medium | Java |[11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
+**_Two Pointers_** | 🟡 medium | Java | [19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
+**_Two Pointers_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
+**_Two Pointers_** | 🟡 medium | Java | [189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray/RotateArray.java)
+**_Two Pointers_** | 🟡 medium | Java | [567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
+
+
+**_need think_**
 - [ [`❓ Java`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java) [-] 69/85 test cases passed.
-- [ [`✔️ Java`] `🟢` 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
-- [ [`✔️ Java`] `🟢` 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
-- [ [`✔️ Java`] `🟢` 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
-- [ [`✔️ Java`] `🟢` 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
-- [ [`✔️ Java`] `🟢` 617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
-- [ [`✔️ Java`] `🟢` 733. Flood Fill](src/main/java/com/meugenom/leetcode/FloodFill/FloodFill.java)
-- [ [`✔️ Java`] `🟢` 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
-- [ [`✔️ Java`] `🟢` 876. Middle of the Linked List](src/main/java/com/meugenom/leetcode/MiddleOfTheLinkedList/MiddleOfTheLinkedList.java)
-- [ [`✔️ Java`] `🟢` 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
-
-_medium:_
-- [ [`✔️ Java`] `🟡` 2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
-- [ [`✔️ Java`] `🟡` 3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
-- [ [`✔️ Java`] `🟡` 5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
-- [ [`✔️ Java`] `🟡` 11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
-- [ [`✔️ Java`] `🟡` 19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
-- [ [`✔️ Java`] `🟡` 46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
-- [ [`✔️ Java`] `🟡` 48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage.java)
-- [ [`✔️ Java`] `🟡` 77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
-- [ [`✔️ Java`] `🟡` 116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 - [ [`❓ Java`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)  26/28 test cases passed
-- [ [`✔️ Java`] `🟡` 167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
-- [ [`✔️ Java`] `🟡` 189. Rotate Array](src/main/java/com/meugenom/leetcode/RotateArray/RotateArray.java)
-- [ [`✔️ Java`] `🟡` 198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
 - [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
-- [ [`✔️ Java`] `🟡` 567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
-- [ [`✔️ Java`] `🟡` 695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
-- [ [`✔️ Java`] `🟡` 784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
-- [ [`✔️ Java`] `🟡` 994. Rotting Oranges](src/main/java/com/meugenom/leetcode/RottingOranges/RottingOranges.java)
 
-
-_hard:_
-- [ [`✔️ Java`] `🔴` 4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
-- [ [`✔️ Java`] `🔴` 23. Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
 
 ### HackerRank
 
@@ -246,3 +288,29 @@ _hard:_
 - [ [`✔️ Java`] Simple Encryption](src/main/java/com/meugenom/codewars/SimpleEncryption.java)
 - [ [`✔️ JS`] Pete The Baker](src/main/js/codewars/peteTheBaker.js)
 - [ [`✔️ Java`] Playing With Digits](src/main/java/com/meugenom/codewars/PlayingWithDigits.java)
+
+
+### 🛠 Use Unit Tests:
+
+- run all tests
+```
+mvn clean test
+```
+- and result in the terminal:
+```
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.meugenom.dataStructures.search.binarySearch.BinarySearchTest
+Test - Binary Search : search() - passed ok
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.meugenom.dataStructures.arrays.ArraysTest
+Test - Arrays : findMin() - passed ok
+Test - Arrays : remove(index) - passed ok
+Test - Arrays : pop() - passed ok
+Test - Arrays : push(element) - passed ok
+Test - Arrays : reverse() - passed ok
+...
+Results :
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+```

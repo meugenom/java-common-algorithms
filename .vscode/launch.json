@@ -6,6 +6,62 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SingleNumber",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SingleNumber.SingleNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ReverseBits",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ReverseBits.ReverseBits",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BinaryTreeRightSideView",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.BinaryTreeRightSideView.BinaryTreeRightSideView",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch BinaryTreeLevelOrderTraversal",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.BinaryTreeLevelOrderTraversal.BinaryTreeLevelOrderTraversal",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch ClimbingStairs",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ClimbingStairs.ClimbingStairs",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch NumberOfOneBits",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.NumberOfOneBits.NumberOfOneBits",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PowerOfTwo",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.PowerOfTwo.PowerOfTwo",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Triangle",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.Triangle.Triangle",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch Permuatations",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.Permutations.Permuatations",
