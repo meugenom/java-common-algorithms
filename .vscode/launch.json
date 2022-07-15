@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ConstructBinaryTreeFromPreorderAndInorderTraversal",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ConstructBinaryTreeFromPreorderAndInorderTraversal.ConstructBinaryTreeFromPreorderAndInorderTraversal",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch SingleNumber",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.SingleNumber.SingleNumber",
