@@ -155,6 +155,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
  Skills by abc         | Complexity | Language | Solved Problems
 -----------------------|------------|----------|------------------------------------
 **_Array_** | 🟢 easy | Java |[1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
+**_Array_** | 🟢 easy | Java |[26. Remove Duplicates from Sorted Array](src/main/java/com/meugenom/leetcode/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.java)
 **_Array_** | 🟢 easy | Java |[35. Search Insert Position](src/main/java/com/meugenom/leetcode/SearchInsertPosition/SearchInsertPosition.java)
 **_Array_** | 🟢 easy | Java |[88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
 **_Array_** | 🟢 easy | Java | [121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
