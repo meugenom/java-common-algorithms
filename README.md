@@ -184,6 +184,7 @@ ConstructBinaryTreeFromPreorderAndInorderTraversal.java
 **_Binary Tree_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Binary Tree_** | 🟡 medium | Java |[199. Binary Tree Right Side View](src/main/java/com/meugenom/leetcode/BinaryTreeRightSideView/BinaryTreeRightSideView.java)
 ➿ |➿ |➿ |➿
+**_Bit Manipulation_** | 🟢 easy | Java |[67. Add Binary](src/main/java/com/meugenom/leetcode/AddBinary/AddBinary.java)
 **_Bit Manipulation_** | 🟢 easy | Java |[136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
 **_Bit Manipulation_** | 🟢 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
 ➿ |➿ |➿ |➿
