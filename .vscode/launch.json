@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SimmetricTree",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SimmetricTree.SimmetricTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch PalindromeLinkedList",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.PalindromeLinkedList.PalindromeLinkedList",
