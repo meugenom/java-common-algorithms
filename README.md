@@ -177,7 +177,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Binary Search_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
 **_Binary Search_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 ➿ |➿ |➿ |➿
-**_Binary Tree_** | 🟢 easy | Java |[ [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Binary Tree_** | 🟢 easy | Java | [100. Same Tree](src/main/java/com/meugenom/leetcode/SameTree/SameTree.java)
+**_Binary Tree_** | 🟢 easy | Java | [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
 **_Binary Tree_** | 🟡 medium | Java |[102. Binary Tree Level Order Traversal](src/main/java/com/meugenom/leetcode/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
 **_Binary Tree_** | 🟡 medium | Java |[105. Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/com/meugenom/leetcode/ConstructBinaryTreeFromPreorderAndInorderTraversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 ConstructBinaryTreeFromPreorderAndInorderTraversal.java

@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SameTree",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SameTree.SameTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch IsNumberPrime",
+			"request": "launch",
+			"mainClass": "com.meugenom.codewars.IsNumberPrime",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch AddBinary",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.AddBinary.AddBinary",
