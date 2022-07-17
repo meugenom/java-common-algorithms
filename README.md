@@ -215,6 +215,7 @@ ConstructBinaryTreeFromPreorderAndInorderTraversal.java
 ➿ |➿ |➿ |➿
 **_Linked List_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
 **_Linked List_** | 🟢 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+**_Linked List_** | 🟢 easy | Java | [ 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java)
 **_Linked List_** | 🟢 easy | Java | [ 876. Middle of the Linked List](src/main/java/com/meugenom/leetcode/MiddleOfTheLinkedList/MiddleOfTheLinkedList.java)
 **_Linked List_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 **_Linked List_** | 🟡 medium | Java | [19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
@@ -238,6 +239,7 @@ ConstructBinaryTreeFromPreorderAndInorderTraversal.java
 **_Recursion_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
 **_Recursion_** | 🟢 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
 **_Recursion_** | 🟢 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
+**_Recursion_** | 🟢 easy | Java | [ 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java)
 **_Recursion_** | 🟢 easy | Java | [231. Power of Two](src/main/java/com/meugenom/leetcode/PowerOfTwo/PowerOfTwo.java)
 **_Recursion_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
 **_Recursion_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
@@ -274,7 +276,6 @@ ConstructBinaryTreeFromPreorderAndInorderTraversal.java
 
 
 **_need think_**
-- [ [`❓ Java`] `🟢` 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java) [-] 69/85 test cases passed.
 - [ [`❓ Java`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)  26/28 test cases passed
 - [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
 
