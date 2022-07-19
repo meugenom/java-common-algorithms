@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SortList",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SortList.SortList",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch FlattenBinaryTreeToLinkedList",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.FlattenBinaryTreeToLinkedList.FlattenBinaryTreeToLinkedList",

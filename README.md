@@ -51,6 +51,9 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [deletePos(position)](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L114)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
 [length()](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L160)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
 [reverse()](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L53)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
+[getMid(LinkedList)](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L275)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L190)
+[merge(LinkedList, LinkedList)](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L243)|`🟡`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L211)
+[sort()](src/main/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedList.java#L227)|`🟡`|[`✔️`]|`⭕️(N Log(N))` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
 
 #### Data Structure: [**Doubly Linked List**](src/main/java/com/meugenom/dataStructures/doublyLinkedList)
 
@@ -109,17 +112,17 @@ deleteWord      | `🔴` | [`✍🏻`] |
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
-[**Binary Search Tree**](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree)| `🔴` | [`✍🏻`] |
-[BST Recursive: insert(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L13)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L15)
-[BST Recursive: preOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L39)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L59)
-[BST Recursive: inOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L55)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L83)
-[BST Recursive: postOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
-[BST Recursive: find(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
-[BST Recursive: delete()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L157)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L131)
-[BST Iterative: insert(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L13)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
-[BST Iterative: preOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L50)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
-[BST Iterative: inOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L80)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L40)
-[BST Iterative: postOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L107)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L64)
+[**Binary Tree**](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree)| `🔴` | [`✍🏻`] |
+[Binary Tree Recursive: insert(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L13)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L15)
+[Binary Tree Recursive: preOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L39)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L59)
+[Binary Tree Recursive: inOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L55)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L83)
+[Binary Tree Recursive: postOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
+[Binary Tree Recursive: find(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L74)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L107)
+[Binary Tree Recursive: delete()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeRecursive.java#L157)|`🔴`|[`✔️`]|`⭕️log(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeRecursive/BinarySearchTreeRecursiveTest.java#L131)
+[Binary Tree Iterative: insert(data)](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L13)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
+[Binary Tree Iterative: preOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L50)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L16)
+[Binary Tree Iterative: inOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L80)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L40)
+[Binary Tree Iterative: postOrderPrint()](src/main/java/com/meugenom/dataStructures/tree/binarySearchTree/BinarySearchTreeIterative.java#L107)|`🔴`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/tree/binarySearchTreeIterative/BinarySearchTreeIterativeTest.java#L64)
 [AVL Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Fenwick Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
 [Red-Black Tree](src/main/java/com/meugenom/dataStructures/tree)| `🔴` | [`✍🏻`] |
@@ -222,7 +225,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Linked List_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 **_Linked List_** | 🟡 medium | Java | [19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
 **_Linked List_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
-**_Linked List_** | 🟡 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Linked List_** | 🟡 medium | Java | [148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)
 **_Linked List_** | 🔴 hard   | Java |[23. Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
 ➿ |➿ |➿ |➿
 **_Math_** | 🟢 easy | Java | [7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger/ReverseInteger.java)
@@ -236,6 +239,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ➿ |➿ |➿ |➿
 **_Memoization_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
 ➿ |➿ |➿ |➿
+**_Merge Sort_** | 🟡 medium | Java | [148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)
 **_Merge Sort_** | 🔴 hard | Java | [Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
 ➿ |➿ |➿ |➿
 **_Recursion_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)

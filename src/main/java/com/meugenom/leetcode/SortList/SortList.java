@@ -1,105 +1,75 @@
 package com.meugenom.leetcode.SortList;
- 
-/** 26 / 28 test cases passed
- *  Status: Time Limit Exceeded
- */
+
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    @Override
+    public String toString() {
+        return next + "<-(" + val + ")";
+    } 
+}
+
 
 public class SortList {
 
-    public ListNode sortList(ListNode head) {
-
-        if(head == null)
-           return head;
-
-        ListNode a = head;
-        ListNode cash = new ListNode();
-        cash = null;
-
-        ListNode res = new ListNode();
-        res = null;
-        ListNode tmp;
+	public static ListNode sortList(ListNode head) {
+        //private case
+		if (head == null || head.next == null) return head;
         
-        int max = a.val;
-        int index = 0;
-        int count = 0; //for doubles in the list
+		ListNode mid = getMid(head);
+        ListNode left = sortList(head);
+        ListNode right = sortList(mid);
+        
+		return merge(left, right);
+    }
 
-        while(a != null){
+    public static ListNode merge(ListNode list1, ListNode list2) {
 
-            if(max < a.val){
+        ListNode toHead = new ListNode();
+        ListNode tail = toHead;
+        
+		while (list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                
+				tail.next = list1;
+                list1 = list1.next;
+                tail = tail.next;
 
-                tmp = new ListNode();
-                tmp.val = max;
-                tmp.next = cash;
-                cash = tmp;
+            } else {
+                
+				tail.next = list2;
+                list2 = list2.next;
+                tail = tail.next;
 
-                max = a.val;
-                count = 0;
-            }
-
-            if(max > a.val){
-
-                tmp = new ListNode();
-                tmp.val = a.val;
-                tmp.next = cash;
-                cash = tmp;
-
-                count = 0;
-            }
-
-            if(count > 0 && a.val == max ) {
-                // if in res list value < then we have => save it in the cach list
-                if(res != null){
-                    if(res.val <= max) {
-                        tmp = new ListNode();
-                        tmp.val = max;
-                        tmp.next = res;
-                        res = tmp;
-                    } else {
-                        tmp = new ListNode();
-                        tmp.val = a.val;
-                        tmp.next = cash;
-                        cash = tmp;
-                    }
-                } else {
-                    tmp = new ListNode();
-                    tmp.val = max;
-                    tmp.next = res;
-                    res = tmp;
-                }
-                count = 0;
-            }
-
-            a = a.next;
-            index++;
-            count ++;
-
-            if(a == null && cash!=null){
-
-                //add max value to res
-                tmp = new ListNode();
-                tmp.val = max;
-                tmp.next = res;
-                res = tmp;
-
-                //a equals c with other numbers
-                max = cash.val;
-                cash = cash.next;
-                a = cash;
-                cash = null;
-                index = 0;
-                count = 0;
             }
         }
 
-        tmp = new ListNode();
-        tmp.val = max;
-        tmp.next = res;
-        res = tmp;
-        tmp = null;              
+        tail.next = (list1 != null) ? list1 : list2;
 
-        return res;
+        return toHead.next;
     }
 
+    
+	public static ListNode getMid(ListNode head) {
+
+        ListNode midPrevious = null;
+        
+		while (head != null && head.next != null) {
+        
+			midPrevious = (midPrevious == null) ? head : midPrevious.next;
+            
+			head = head.next.next;
+        }
+        
+		ListNode mid = midPrevious.next;
+        midPrevious.next = null;
+        
+		return mid;
+    }
 
     public static void main(String[] args){
 
@@ -141,24 +111,10 @@ public class SortList {
         a9.next = a10;
         a10.next = a11;
         a11.next = null;
-        
-
-        SortList s1 = new SortList();                
-        System.out.println(s1.sortList(a1).toString());
+        System.out.println("actual : " + (a1).toString());
+        System.out.println("expected : " + sortList(a1).toString());
     }
 
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    @Override
-    public String toString() {
-        return next + "<-(" + val + ")";
-    }
- 
-}
 
