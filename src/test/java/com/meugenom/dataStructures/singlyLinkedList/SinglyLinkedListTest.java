@@ -186,4 +186,52 @@ public class SinglyLinkedListTest {
 		System.out.println("Test - Singly linked list : find(element) element position from the list - passed ok");
 	}
 
+	@Test
+	@DisplayName("get mid from linked list")
+	public void testGetMid(){
+		
+		
+		SinglyLinkedList expectedList = new SinglyLinkedList();
+		int[] expectedArr = new int []{9,8,3};
+		expectedList.autoFill(expectedArr);
+		
+
+		SinglyLinkedList actualList = new SinglyLinkedList();
+		int[] actualArr = new int []{9,8,3,6,5};
+		actualList.autoFill(actualArr);
+		SinglyLinkedListNode head = actualList.head;
+		SinglyLinkedListNode actualNode = actualList.getMid(head);
+
+		assertEquals( expectedList.head.toString(), actualNode.toString(),
+		"Get middle of Linked List should work");          
+
+		System.out.println("Test - Singly linked list : getMid() - passed ok");         
+	}
+
+	@Test
+	@DisplayName("merge linked lists")
+	public void testMerge(){
+		
+		SinglyLinkedList expectedList = new SinglyLinkedList();
+		int[] expectedArr = new int []{4,5,6,1,2,3};
+		expectedList.autoFill(expectedArr);
+		
+		SinglyLinkedList l1 = new SinglyLinkedList();
+		int[] l1Arr = new int []{1,2,3};
+		l1.autoFill(l1Arr);
+		SinglyLinkedListNode list1 = l1.head;
+
+		SinglyLinkedList l2 = new SinglyLinkedList();
+		int[] l2Arr = new int []{4,5,6};
+		l2.autoFill(l2Arr);
+		SinglyLinkedListNode list2 = l2.head;
+
+		SinglyLinkedList actualList = new SinglyLinkedList();
+		SinglyLinkedListNode actualNode = actualList.merge(list1, list2);
+
+		assertEquals( expectedList.head.toString(), actualNode.toString(),
+		"Merge Linked Lists should work");
+
+		System.out.println("Test - Singly linked list : merge() - passed ok");         
+	}
 }

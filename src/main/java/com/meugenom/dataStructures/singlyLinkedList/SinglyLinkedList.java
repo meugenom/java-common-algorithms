@@ -223,4 +223,74 @@ public class SinglyLinkedList {
 			head = node;
 		}
 	}
+
+	/**
+	 * @param current ListNode
+	 * @return sorted current ListNode
+	 */
+	public SinglyLinkedListNode sort(SinglyLinkedListNode head) {
+        
+		//private case
+		if (head == null || head.next == null) return head;
+        
+		SinglyLinkedListNode mid = getMid(head);
+        SinglyLinkedListNode left = sort(head);
+        SinglyLinkedListNode right = sort(mid);
+        
+		return merge(left, right);
+    }
+
+	/**
+	 * @param ListNode first, ListNode second
+	 * @return merged ListNode
+	 */
+    public SinglyLinkedListNode merge(SinglyLinkedListNode list1, SinglyLinkedListNode list2) {
+
+        SinglyLinkedListNode toHead = new SinglyLinkedListNode();
+
+        SinglyLinkedListNode tail = toHead;
+        
+		while (list1 != null && list2 != null) {
+            
+			if (list1.data < list2.data) {
+                
+				tail.next = list1;
+                list1 = list1.next;
+                tail = tail.next;
+
+            } else {
+                
+				tail.next = list2;
+                list2 = list2.next;
+                tail = tail.next;
+
+            }
+        }
+
+        tail.next = (list1 != null) ? list1 : list2;
+
+        return toHead.next;
+    }
+
+	/**
+	 * @param current ListNode 
+	 * @return mid Node
+	 */
+	public SinglyLinkedListNode getMid(SinglyLinkedListNode head) {
+
+        SinglyLinkedListNode midPrevious = null;
+        
+		while (head != null && head.next != null) {
+        
+			midPrevious = (midPrevious == null) ? head : midPrevious.next;
+            
+			head = head.next.next;
+        }
+        
+		SinglyLinkedListNode mid = midPrevious.next;
+        
+		midPrevious.next = null;
+        
+		return mid;
+    }
 }
