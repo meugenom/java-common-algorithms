@@ -165,6 +165,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Array_** | 🟢 easy | Java |[ 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
 **_Array_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
 **_Array_** | 🟡 medium | Java |[11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
+**_Array_** | 🟡 medium | Java |[56. Merge Intervals](src/main/java/com/meugenom/leetcode/MergeIntervals/MergeIntervals.java)
 **_Array_** | 🟡 medium | Java |[46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
 **_Array_** | 🟡 medium | Java |[48. Rotate Image](src/main/java/com/meugenom/leetcode/RotateImage/RotateImage.java)
 **_Array_** | 🟡 medium | Java |[53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
@@ -262,6 +263,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ➿ |➿ |➿ |➿
 **_Sorting_** | 🟢 easy | Java |[88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
 **_Sorting_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
+**_Sorting_** | 🟡 medium | Java |[56. Merge Intervals](src/main/java/com/meugenom/leetcode/MergeIntervals/MergeIntervals.java)
 ➿ |➿ |➿ |➿
 **_String_** | 🟢 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🟢 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
