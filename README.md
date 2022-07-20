@@ -183,6 +183,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Binary Tree_** | 🟢 easy | Java | [100. Same Tree](src/main/java/com/meugenom/leetcode/SameTree/SameTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [101. Symmetric Tree](src/main/java/com/meugenom/leetcode/SymmetricTree/SymmetricTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [104. Maximum Depth of Binary Tree](src/main/java/com/meugenom/leetcode/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.java)
+**_Binary Tree_** | 🟢 easy | Java | [226. Invert Binary Tree](src/main/java/com/meugenom/leetcode/InvertBinaryTree/InvertBinaryTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
 **_Binary Tree_** | 🟡 medium | Java |[102. Binary Tree Level Order Traversal](src/main/java/com/meugenom/leetcode/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
 **_Binary Tree_** | 🟡 medium | Java |[105. Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/com/meugenom/leetcode/ConstructBinaryTreeFromPreorderAndInorderTraversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
