@@ -185,6 +185,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Binary Tree_** | 🟢 easy | Java | [104. Maximum Depth of Binary Tree](src/main/java/com/meugenom/leetcode/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [226. Invert Binary Tree](src/main/java/com/meugenom/leetcode/InvertBinaryTree/InvertBinaryTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Binary Tree_** | 🟡 medium | Java |[98. Validate Binary Search Tree](src/main/java/com/meugenom/leetcode/ValidateBinarySearchTree/ValidateBinarySearchTree.java)
 **_Binary Tree_** | 🟡 medium | Java |[102. Binary Tree Level Order Traversal](src/main/java/com/meugenom/leetcode/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
 **_Binary Tree_** | 🟡 medium | Java |[105. Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/com/meugenom/leetcode/ConstructBinaryTreeFromPreorderAndInorderTraversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 **_Binary Tree_** | 🟡 medium | Java |[114. Flatten Binary Tree to Linked List](src/main/java/com/meugenom/leetcode/FlattenBinaryTreeToLinkedList/FlattenBinaryTreeToLinkedList.java)
@@ -201,6 +202,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Design_** | 🟢 easy | Java | [155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
 ➿ |➿ |➿ |➿
 **_Depth-First Search_** | 🟢 easy | Java |[733. Flood Fill](src/main/java/com/meugenom/leetcode/FloodFill/FloodFill.java)
+**_Depth-First Search_** | 🟡 medium | Java |[98. Validate Binary Search Tree](src/main/java/com/meugenom/leetcode/ValidateBinarySearchTree/ValidateBinarySearchTree.java)
 **_Depth-First Search_** | 🟡 medium | Java |[695. Max Area of Islands](src/main/java/com/meugenom/leetcode/MaxAreaOfIslands/MaxAreaOfIslands.java)
 ➿ |➿ |➿ |➿
 **_Divide and Conquer_** | 🟢 easy | Java |[190. Reverse Bits](src/main/java/com/meugenom/leetcode/ReverseBits/ReverseBits.java)
