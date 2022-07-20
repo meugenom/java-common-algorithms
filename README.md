@@ -180,6 +180,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Binary Search_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
 **_Binary Search_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 ➿ |➿ |➿ |➿
+**_Binary Tree_** | 🟢 easy | Java | [94. Binary Tree Inorder Traversal](src/main/java/com/meugenom/leetcode/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
 **_Binary Tree_** | 🟢 easy | Java | [100. Same Tree](src/main/java/com/meugenom/leetcode/SameTree/SameTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [101. Symmetric Tree](src/main/java/com/meugenom/leetcode/SymmetricTree/SymmetricTree.java)
 **_Binary Tree_** | 🟢 easy | Java | [104. Maximum Depth of Binary Tree](src/main/java/com/meugenom/leetcode/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.java)

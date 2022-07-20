@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BinaryTreeInorderTraversal",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.BinaryTreeInorderTraversal.BinaryTreeInorderTraversal",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ValidateBinarySearchTree",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.ValidateBinarySearchTree.ValidateBinarySearchTree",
