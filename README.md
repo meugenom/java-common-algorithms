@@ -260,6 +260,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ➿ |➿ |➿ |➿
 **_Stack_** | 🟢 easy | Java | [20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses/ValidParentheses.java)
 **_Stack_** | 🟢 easy | Java | [155. Min Stack](src/main/java/com/meugenom/leetcode/MinStack/MinStack.java)
+**_Stack_** | 🟡 medium | Java | [394. Decode String](src/main/java/com/meugenom/leetcode/DecodeString/DecodeString.java)
 ➿ |➿ |➿ |➿
 **_Sorting_** | 🟢 easy | Java |[88. Merge Sorted Array](src/main/java/com/meugenom/leetcode/MergeSortedArray/MergeSortedArray.java)
 **_Sorting_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
