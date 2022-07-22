@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ConvertSortedArrayToBinarySearchTree",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ConvertSortedArrayToBinarySearchTree.ConvertSortedArrayToBinarySearchTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch LongestCommonPrefix",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.LongestCommonPrefix.LongestCommonPrefix",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch DecodeString",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.DecodeString.DecodeString",
