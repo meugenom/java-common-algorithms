@@ -217,6 +217,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Dynamic Programming_** | 🟡 medium | Java | [5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
 **_Dynamic Programming_** | 🟡 medium | Java |[53. Maximum Subarray](src/main/java/com/meugenom/leetcode/MaxSubArray/MaxSubArray.java)
 **_Dynamic Programming_** | 🟡 medium | Java | [198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
+**_Dynamic Programming_** | 🟡 medium | Java | [322. Coin Change](src/main/java/com/meugenom/leetcode/CoinChange/CoinChange.java)
 **_Dynamic Programming_** | 🟡 medium | Java |[542. 01 Matrix](src/main/java/com/meugenom/leetcode/NullOneMatrix/NullOneMatrix.java)
 ➿ |➿ |➿ |➿
 **_Hash Table_** | 🟢 easy | Java |[1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
