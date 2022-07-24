@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch CountPrimes",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.CountPrimes.CountPrimes",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch CoinChange",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.CoinChange.CoinChange",

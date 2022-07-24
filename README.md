@@ -249,6 +249,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Merge Sort_** | 🟡 medium | Java | [148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)
 **_Merge Sort_** | 🔴 hard | Java | [Merge k Sorted Lists](src/main/java/com/meugenom/leetcode/MergeKSortedLists/MergeKSortedLists.java)
 ➿ |➿ |➿ |➿
+**_Number Theory_** | 🟡 medium | Java | [204. Count Primes](src/main/java/com/meugenom/leetcode/CountPrimes/CountPrimes.java)
+➿ |➿ |➿ |➿
 **_Recursion_** | 🟢 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
 **_Recursion_** | 🟢 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
 **_Recursion_** | 🟢 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
@@ -291,7 +293,6 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 
 
 **_need think_**
-- [ [`❓ Java`] `🟡` 148. Sort List](src/main/java/com/meugenom/leetcode/SortList/SortList.java)  26/28 test cases passed
 - [ [`✔️ Java`] `🟡` 287. Find the Duplicate Number](src/main/java/com/meugenom/leetcode/FindtheDuplicateNumber/FindtheDuplicateNumber.java)
 
 

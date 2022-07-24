@@ -1,46 +1,52 @@
 package com.meugenom.leetcode.CountPrimes;
 
-import java.util.ArrayList;
-
-//17 / 66 test cases passed.
-// easy
+import java.util.Arrays;
 
 public class CountPrimes {
 
-    ArrayList<Integer> arr = new ArrayList<Integer>();
-
-    public int countPrimes(int n) {
-
-        if(n <= 2)
-            return 0;
+	public int countPrimes(int n) {
         
-        //autofill all numbers
-        for(int i = 2; i < n; i ++) {
-
-            boolean res = true;
-
-            if((i % 2) == 0 && i != 2)
-                res = false;
-
-            if((i % 3) == 0  && i!= 3)
-                res = false;
-
-            if((i % 5) == 0 && i!= 5)
-                res = false;
-
-            if(res){
-                this.arr.add(i);
+		if(n==0 || n==1) return 0;
+        
+        int countPrime=0;
+        boolean[] isPrime = helper(n);
+        
+		for( int i = 2; i < n; i++){
+        
+			if(isPrime[i]==true){
+                countPrime++;
             }
+
         }
 
-        System.out.println(arr.toString());
-        return arr.size();
+        return countPrime;
+    }
+    
+    public boolean[] helper(int n){
+        
+		boolean isPrime[]= new boolean[n+1];
+        
+		Arrays.fill(isPrime,true);
+        
+		isPrime[0]= false;
+        isPrime[1]= false;
+        
+        for( int i=2; i*i < n; i++){
+
+            for(int j = 2*i; j <= n; j+=i){
+
+                isPrime[j]=false;
+				
+            }
+        }
+        
+        return isPrime;
     }
 
     public static void main(String[] args){
         CountPrimes c = new CountPrimes();
-        //int n = 499979;
-        int n = 5;
+        int n = 499979; //output 41537
+        //int n = 10; //output 4
         System.out.println(c.countPrimes(n));
     }
     
