@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BinarySearchArray",
+			"request": "launch",
+			"mainClass": "com.meugenom.dataStructures.arrays.BinarySearchArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch CountPrimes",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.CountPrimes.CountPrimes",
