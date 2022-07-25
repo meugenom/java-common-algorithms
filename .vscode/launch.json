@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch SearchInRotatedSortedArray",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.SearchInRotatedSortedArray.SearchInRotatedSortedArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BinarySearchArray",
 			"request": "launch",
 			"mainClass": "com.meugenom.dataStructures.arrays.BinarySearchArray",

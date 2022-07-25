@@ -28,7 +28,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 [size](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L95)
 [sort](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L109)
 [Binary Search Iterative](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L5)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L12)
-[Binary Search Recursive](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L32)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L25)
+[Binary Search Recursive](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L32)|`🟢`|[`✔️`]|`⭕️(log N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L25)
 [*GenericArray](src/main/java/com/meugenom/generics/GenericArray.java)|`🟢`|[`✔️`]|
 
 
@@ -179,6 +179,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Backtracking_** | 🟡 medium | Java | [77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
 **_Backtracking_** | 🟡 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
 ➿ |➿ |➿ |➿
+**_Binary Search_** | 🟡 medium | Java | [33. Search In Rotated Sorted Array](src/main/java/com/meugenom/leetcode/SearchInRotatedSortedArray/SearchInRotatedSortedArray.java)
 **_Binary Search_** | 🟡 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
 **_Binary Search_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 ➿ |➿ |➿ |➿
