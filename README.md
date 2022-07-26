@@ -27,9 +27,8 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 [reverse(start, end)](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L102)|`🟡`|[`✔️`]|`⭕️(N)`
 [size](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L95)
 [sort](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L109)
-[Binary Search Iterative](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L5)|`🟡`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L12)
-[Binary Search Recursive](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L32)|`🟡`|[`✔️`]|`⭕️(log N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L25)
-[*GenericArray](src/main/java/com/meugenom/generics/GenericArray.java)|`🟢`|[`✔️`]|
+[*GenericArray<T>](src/main/java/com/meugenom/generics/GenericArray.java)|`🟡`| |
+
 
 
  #### Data Structure: [**Matrix**](src/main/java/com/meugenom/dataStructures/matrix)
@@ -141,7 +140,8 @@ undirected           | `🔴`  | [`✍🏻`]  |
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
-[Binary Search](src/main/java/com/meugenom/dataStructures/search/binarySearch/BinarySearch.java#L5)|`🟢`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/search/binarySearch/BinarySearchTest.java#L10)
+[Binary Search Iterative](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L5)|`🟡`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L12)
+[Binary Search Recursive](src/main/java/com/meugenom/dataStructures/arrays/BinarySearchArray.java#L32)|`🟡`|[`✔️`]|`⭕️(log N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/BinarySearchArrayTest.java#L25)
 
 
 - #### Data Structure: [**Sorting**](src/main/java/com/meugenom/sorting)
