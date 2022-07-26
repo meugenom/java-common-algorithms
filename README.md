@@ -27,7 +27,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
 [reverse(start, end)](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L102)|`🟡`|[`✔️`]|`⭕️(N)`
 [size](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L31)|`🟢`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L95)
 [sort](src/main/java/com/meugenom/dataStructures/arrays/Arrays.java#L117)|`🟡`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/com/meugenom/dataStructures/arrays/ArraysTest.java#L109)
-[*GenericArray<T>](src/main/java/com/meugenom/generics/GenericArray.java)|`🟡`| |
+[GenericArray \<T\>](src/main/java/com/meugenom/generics/GenericArray.java)|`🟡`| |
 
 
 
