@@ -273,6 +273,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Sorting_** | 🟢 easy | Java |[ 977. Squares of a sorted Array](src/main/java/com/meugenom/leetcode/SquaresOfSortedArray/SquaresOfSortedArray.java)
 **_Sorting_** | 🟡 medium | Java |[56. Merge Intervals](src/main/java/com/meugenom/leetcode/MergeIntervals/MergeIntervals.java)
 ➿ |➿ |➿ |➿
+**_String_** | 🟢 easy | Java |[ 14. Longest Common Prefix](src/main/java/com/meugenom/leetcode/LongestCommonPrefix/LongestCommonPrefix.java)
 **_String_** | 🟢 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🟢 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_String_** | 🟢 easy | Java |[ 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
