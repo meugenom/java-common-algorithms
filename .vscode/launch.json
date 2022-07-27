@@ -6,6 +6,27 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch PascalTriangle",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.PascalTriangle.PascalTriangle",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Example",
+			"request": "launch",
+			"mainClass": "com.meugenom.Grokaem_Algo.Example",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch Example",
+			"request": "launch",
+			"mainClass": "Example",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main",
 			"request": "launch",
 			"mainClass": "com.meugenom.generics.Main",
