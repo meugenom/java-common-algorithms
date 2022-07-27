@@ -149,7 +149,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
 [Buble Sort \<T\>](src/main/java/com/meugenom/sorting/BubleSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/BubleSortTest.java#L11)
-[Quick Sort](src/main/java/com/meugenom/sorting/QuickSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/QuickSortTest.java#L9)
+[Quick Sort](src/main/java/com/meugenom/sorting/QuickSort.java#L5)|`🟡`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/QuickSortTest.java#L9)
 [MergeSort](src/main/java/com/meugenom/sorting/MergeSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N log(N))` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/MergeSortTest.java#L9)
 [Insertion Sort](src/main/java/com/meugenom/sorting/InsertionSort.java#L5)|`🟢`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/com/meugenom/sorting/InsertionSortTest.java#L9)
 
@@ -215,6 +215,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Divide and Conquer_** | 🔴 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 ➿ |➿ |➿ |➿
 **_Dynamic Programming_** | 🟢 easy | Java |[70. Climbing Stairs](src/main/java/com/meugenom/leetcode/ClimbingStairs/ClimbingStairs.java)
+**_Dynamic Programming_** | 🟢 easy | Java |[118. Pascal's Triangle](src/main/java/com/meugenom/leetcode/PascalTriangle/PascalTriangle.java)
 **_Dynamic Programming_** | 🟢 easy | Java | [121. Best Time to Buy and Sell Stock](src/main/java/com/meugenom/leetcode/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
 **_Dynamic Programming_** | 🟢 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
 **_Dynamic Programming_** | 🟡 medium | Java | [5. Longest Palindromic Substring](src/main/java/com/meugenom/leetcode/LongestPalindromicSubstring/LongestPalindromicSubstring.java)
