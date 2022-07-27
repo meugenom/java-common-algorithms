@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch UniquePathsII",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.UniquePathsII.UniquePathsII",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch UniquePaths",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.UniquePaths.UniquePaths",
