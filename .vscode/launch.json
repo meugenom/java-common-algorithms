@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindAllNumbersDisappearedInAnArray",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.FindAllNumbersDisappearedInAnArray.FindAllNumbersDisappearedInAnArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AddindArrayElements",
+			"request": "launch",
+			"mainClass": "com.meugenom.Grokaem_Algo.AddindArrayElements",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch UniquePathsII",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.UniquePathsII.UniquePathsII",
