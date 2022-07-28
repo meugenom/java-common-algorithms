@@ -268,6 +268,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Recursion_** | 🟡 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 ➿ |➿ |➿ |➿
 **_Sliding Window_** | 🟡 medium | Java | [3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+**_Sliding Window_** | 🟡 medium | Java | [438. Find All Anagrams in a String](src/main/java/com/meugenom/leetcode/FindAllAnagramsInAString/FindAllAnagramsInAString.java)
 **_Sliding Window_** | 🟡 medium | Java | [567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
 ➿ |➿ |➿ |➿
 **_Stack_** | 🟢 easy | Java | [20. Valid Parentheses](src/main/java/com/meugenom/leetcode/ValidParentheses/ValidParentheses.java)
@@ -279,6 +280,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Sorting_** | 🟡 medium | Java |[56. Merge Intervals](src/main/java/com/meugenom/leetcode/MergeIntervals/MergeIntervals.java)
 ➿ |➿ |➿ |➿
 **_String_** | 🟢 easy | Java |[ 14. Longest Common Prefix](src/main/java/com/meugenom/leetcode/LongestCommonPrefix/LongestCommonPrefix.java)
+**_String_** | 🟢 easy | Java |[ 242. Is Anagram](src/main/java/com/meugenom/leetcode/IsAnagram/IsAnagram.java)
 **_String_** | 🟢 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🟢 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_String_** | 🟢 easy | Java |[ 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)

@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindAllAnagramsInAString",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.FindAllAnagramsInAString.FindAllAnagramsInAString",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch IsAnagram",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.IsAnagram.IsAnagram",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch FindAllNumbersDisappearedInAnArray",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.FindAllNumbersDisappearedInAnArray.FindAllNumbersDisappearedInAnArray",
