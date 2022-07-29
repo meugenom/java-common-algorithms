@@ -175,6 +175,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Array_** | 🍊 medium | Java | [198. House Robber](src/main/java/com/meugenom/leetcode/HouseRobber/HouseRobber.java)
 **_Array_** | 🍎 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 ➿ |➿ |➿ |➿
+**_Backtracking_** | 🍊 medium | Java | [39. Combination Sum](src/main/java/com/meugenom/leetcode/CombinationSum/CombinationSum.java)
 **_Backtracking_** | 🍊 medium | Java | [46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
 **_Backtracking_** | 🍊 medium | Java | [77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
 **_Backtracking_** | 🍊 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
