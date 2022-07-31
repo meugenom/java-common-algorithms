@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch GenerateParentheses",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.GenerateParentheses.GenerateParentheses",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch CombinationSum",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.CombinationSum.CombinationSum",
