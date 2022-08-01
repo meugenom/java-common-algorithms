@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch CheckIfWordIsValidAfterSubstitutions",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.CheckIfWordIsValidAfterSubstitutions.CheckIfWordIsValidAfterSubstitutions",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch CheckIfAParenthesesStringCanBeValid",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.CheckIfAParenthesesStringCanBeValid.CheckIfAParenthesesStringCanBeValid",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch GenerateParentheses",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.GenerateParentheses.GenerateParentheses",
