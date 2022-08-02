@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch LongestUnivaluePath",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.LongestUnivaluePath.LongestUnivaluePath",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch CheckIfWordIsValidAfterSubstitutions",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.CheckIfWordIsValidAfterSubstitutions.CheckIfWordIsValidAfterSubstitutions",

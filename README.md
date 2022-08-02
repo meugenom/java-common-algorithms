@@ -296,6 +296,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ➿ |➿ |➿ |➿
 **_Tree_** | 🍏 easy | Java |[ [617. Merge Two Binary Trees](src/main/java/com/meugenom/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
 **_Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
+**_Tree_** | 🍊 medium | Java | [687. Longest Unvalued Path](src/main/java/com/meugenom/leetcode/LongestUnivaluePath/LongestUnivaluePath.java)
 ➿ |➿ |➿ |➿
 **_Two Pointers_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
