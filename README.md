@@ -201,6 +201,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Binary Tree_** | 🍊 medium | Java |[114. Flatten Binary Tree to Linked List](src/main/java/com/meugenom/leetcode/FlattenBinaryTreeToLinkedList/FlattenBinaryTreeToLinkedList.java)
 **_Binary Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Binary Tree_** | 🍊 medium | Java |[199. Binary Tree Right Side View](src/main/java/com/meugenom/leetcode/BinaryTreeRightSideView/BinaryTreeRightSideView.java)
+**_Binary Tree_** | 🍊 medium | Java |[669. Trim a Binary Search Tree](src/main/java/com/meugenom/leetcode/TrimBinarySearchTree/TrimBinarySearchTree.java)
 ➿ |➿ |➿ |➿
 **_Bit Manipulation_** | 🍏 easy | Java |[67. Add Binary](src/main/java/com/meugenom/leetcode/AddBinary/AddBinary.java)
 **_Bit Manipulation_** | 🍏 easy | Java |[136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
