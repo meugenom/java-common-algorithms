@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch WordSearch",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.WordSearch.WordSearch",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch WordSearc",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.WordSearch.WordSearc",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch LongestUnivaluePath",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.LongestUnivaluePath.LongestUnivaluePath",

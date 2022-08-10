@@ -180,6 +180,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Backtracking_** | 🍊 medium | Java | [39. Combination Sum](src/main/java/com/meugenom/leetcode/CombinationSum/CombinationSum.java)
 **_Backtracking_** | 🍊 medium | Java | [46. Permutations](src/main/java/com/meugenom/leetcode/Permutations/Permutations.java)
 **_Backtracking_** | 🍊 medium | Java | [77. Combinations](src/main/java/com/meugenom/leetcode/Combinations/Combinations.java)
+**_Backtracking_** | 🍊 medium | Java | [79. Word Search](src/main/java/com/meugenom/leetcode/WordSearch/WordSearch.java)
 **_Backtracking_** | 🍊 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
 ➿ |➿ |➿ |➿
 **_Binary Search_** | 🍊 medium | Java | [33. Search In Rotated Sorted Array](src/main/java/com/meugenom/leetcode/SearchInRotatedSortedArray/SearchInRotatedSortedArray.java)
