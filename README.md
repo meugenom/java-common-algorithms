@@ -184,6 +184,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Backtracking_** | 🍊 medium | Java | [784. Letter Case Permutation](src/main/java/com/meugenom/leetcode/LetterCasePermutation/LetterCasePermutation.java)
 ➿ |➿ |➿ |➿
 **_Binary Search_** | 🍊 medium | Java | [33. Search In Rotated Sorted Array](src/main/java/com/meugenom/leetcode/SearchInRotatedSortedArray/SearchInRotatedSortedArray.java)
+**_Binary Search_** | 🍊 medium | Java | [34. Find First and Last Position of Element in Sorted Array](src/main/java/com/meugenom/leetcode/FindFirstAndLastPositionOfElementInSortedArray/FindFirstAndLastPositionOfElementInSortedArray.java)
 **_Binary Search_** | 🍊 medium | Java | [153. Find Minimum in Rotated Sorted Array](src/main/java/com/meugenom/leetcode/FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.java)
 **_Binary Search_** | 🍊 medium | Java | [167. Two Sum II](src/main/java/com/meugenom/leetcode/TwoSumII/TwoSumII.java)
 **_Binary Search_** | 🍎 hard | Java |[4. Median of Two Sorted Arrays](src/main/java/com/meugenom/leetcode/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
