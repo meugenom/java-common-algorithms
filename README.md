@@ -292,6 +292,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_String_** | 🍏 easy | Java |[ 14. Longest Common Prefix](src/main/java/com/meugenom/leetcode/LongestCommonPrefix/LongestCommonPrefix.java)
 **_String_** | 🍏 easy | Java |[ 242. Is Anagram](src/main/java/com/meugenom/leetcode/IsAnagram/IsAnagram.java)
 **_String_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
+**_String_** | 🍏 easy | Java |[ 387. First Unique Character in a String](src/main/java/com/meugenom/leetcode/FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.java)
 **_String_** | 🍏 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_String_** | 🍏 easy | Java |[ 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
 **_String_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
