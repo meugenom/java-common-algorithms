@@ -6,6 +6,27 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MaximumAverageSubarrayI",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.MaximumAverageSubarrayI.MaximumAverageSubarrayI",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch UniqueEmailAddresses",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.UniqueEmailAddresses.UniqueEmailAddresses",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch CountingBits",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.CountingBits.CountingBits",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch RemoveLinkedListElements",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.RemoveLinkedListElements.RemoveLinkedListElements",

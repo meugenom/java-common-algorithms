@@ -208,6 +208,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Bit Manipulation_** | 🍏 easy | Java |[67. Add Binary](src/main/java/com/meugenom/leetcode/AddBinary/AddBinary.java)
 **_Bit Manipulation_** | 🍏 easy | Java |[136. Single Number](src/main/java/com/meugenom/leetcode/SingleNumber/SingleNumber.java)
 **_Bit Manipulation_** | 🍏 easy | Java |[191. Number of 1 Bits](src/main/java/com/meugenom/leetcode/NumberOfOneBits/NumberOfOneBits.java)
+**_Bit Manipulation_** | 🍏 easy | Java |[338. Counting Bits](src/main/java/com/meugenom/leetcode/CountingBits/CountingBits.java)
 ➿ |➿ |➿ |➿
 **_Breadth-First Search_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/com/meugenom/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Breadth-First Search_** | 🍊 medium | Java | [994. Rotting Oranges](src/main/java/com/meugenom/leetcode/RottingOranges/RottingOranges.java)
@@ -240,6 +241,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Hash Table_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
 **_Hash Table_** | 🍏 easy | Java |[ 217. Contains Duplicate](src/main/java/com/meugenom/leetcode/ContainsDuplicate/ContainsDuplicate.java)
 **_Hash Table_** | 🍏 easy | Java |[ 448. Find All Numbers Disappeared in an Array](src/main/java/com/meugenom/leetcode/FindAllNumbersDisappearedInAnArray/FindAllNumbersDisappearedInAnArray.java)
+**_Hash Table_** | 🍏 easy | Java |[ 929. Unique Email Addresses](src/main/java/com/meugenom/leetcode/UniqueEmailAddresses/UniqueEmailAddresses.java)
 **_Hash Table_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
 ➿ |➿ |➿ |➿
 **_Linked List_** | 🍏 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
@@ -278,6 +280,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Recursion_** | 🍏 easy | Java | [ 509. Fibonacci Number](src/main/java/com/meugenom/leetcode/FibonacciNumber/FibonacciNumber.java)
 **_Recursion_** | 🍊 medium | Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 ➿ |➿ |➿ |➿
+**_Sliding Window_** | 🍏 easy | Java | [643. Maximum Average Subarray I](src/main/java/com/meugenom/leetcode/MaximumAverageSubarrayI/MaximumAverageSubarrayI.java)
 **_Sliding Window_** | 🍊 medium | Java | [3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
 **_Sliding Window_** | 🍊 medium | Java | [438. Find All Anagrams in a String](src/main/java/com/meugenom/leetcode/FindAllAnagramsInAString/FindAllAnagramsInAString.java)
 **_Sliding Window_** | 🍊 medium | Java | [567. Permutation in String](src/main/java/com/meugenom/leetcode/PermutationInString/PermutationInString.java)
