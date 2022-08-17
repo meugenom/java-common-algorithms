@@ -244,6 +244,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ➿ |➿ |➿ |➿
 **_Linked List_** | 🍏 easy | Java | [21. Merge Two Sorted Lists](src/main/java/com/meugenom/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
 **_Linked List_** | 🍏 easy | Java | [160.  Intersection of Two Linked Lists](src/main/java/com/meugenom/leetcode/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java)
+**_Linked List_** | 🍏 easy | Java | [ 203. Remove Linked List Elements](src/main/java/com/meugenom/leetcode/RemoveLinkedListElements/RemoveLinkedListElements.java)
 **_Linked List_** | 🍏 easy | Java | [ 206. Reverse Linked List](src/main/java/com/meugenom/leetcode/ReverseLinkedList/ReverseLinkedList.java)
 **_Linked List_** | 🍏 easy | Java | [ 234. Palindrome Linked List](src/main/java/com/meugenom/leetcode/PalindromeLinkedList/PalindromeLinkedList.java)
 **_Linked List_** | 🍏 easy | Java | [ 876. Middle of the Linked List](src/main/java/com/meugenom/leetcode/MiddleOfTheLinkedList/MiddleOfTheLinkedList.java)

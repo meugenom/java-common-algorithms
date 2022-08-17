@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch RemoveLinkedListElements",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.RemoveLinkedListElements.RemoveLinkedListElements",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ContainsDuplicates",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.ContainsDuplicates.ContainsDuplicates",
