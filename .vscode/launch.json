@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch StudentAttendanceRecordI",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.StudentAttendanceRecordI.StudentAttendanceRecordI",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AddDigits",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.AddDigits.AddDigits",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ValidPerfectSquare",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.ValidPerfectSquare.ValidPerfectSquare",

@@ -260,6 +260,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Math_** | 🍏 easy | Java | [7. Reverse Integer](src/main/java/com/meugenom/leetcode/ReverseInteger/ReverseInteger.java)
 **_Math_** | 🍏 easy | Java | [9. Palindrome Number](src/main/java/com/meugenom/leetcode/PalindromeNumber/PalindromeNumber.java)
 **_Math_** | 🍏 easy | Java | [231. Power of Two](src/main/java/com/meugenom/leetcode/PowerOfTwo/PowerOfTwo.java)
+**_Math_** | 🍏 easy | Java | [258. Add Digits](src/main/java/com/meugenom/leetcode/AddDigits/AddDigits.java)
 **_Math_** | 🍊 medium |Java | [2. Add Two Numbers](src/main/java/com/meugenom/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 ➿ |➿ |➿ |➿
 **_Matrix_** | 🍏 easy | Java |[733. Flood Fill](src/main/java/com/meugenom/leetcode/FloodFill/FloodFill.java)
@@ -299,6 +300,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_String_** | 🍏 easy | Java |[ 242. Is Anagram](src/main/java/com/meugenom/leetcode/IsAnagram/IsAnagram.java)
 **_String_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🍏 easy | Java |[ 387. First Unique Character in a String](src/main/java/com/meugenom/leetcode/FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.java)
+**_String_** | 🍏 easy | Java |[ 551. Student Attendance Record I](src/main/java/com/meugenom/leetcode/StudentAttendanceRecordI/StudentAttendanceRecordI.java)
 **_String_** | 🍏 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_String_** | 🍏 easy | Java |[ 771. Jewels and Stones](src/main/java/com/meugenom/leetcode/JewelsAndStones/JewelsAndStones.java)
 **_String_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
