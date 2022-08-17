@@ -238,6 +238,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Hash Table_** | 🍏 easy | Java |[1. Two Sum](src/main/java/com/meugenom/leetcode/TwoSum/TwoSum.java)
 **_Hash Table_** | 🍏 easy | Java |[13. Roman to Integer](src/main/java/com/meugenom/leetcode/RomanToInteger/RomanToInteger.java)
 **_Hash Table_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
+**_Hash Table_** | 🍏 easy | Java |[ 217. Contains Duplicate](src/main/java/com/meugenom/leetcode/ContainsDuplicate/ContainsDuplicate.java)
 **_Hash Table_** | 🍏 easy | Java |[ 448. Find All Numbers Disappeared in an Array](src/main/java/com/meugenom/leetcode/FindAllNumbersDisappearedInAnArray/FindAllNumbersDisappearedInAnArray.java)
 **_Hash Table_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/com/meugenom/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
 ➿ |➿ |➿ |➿

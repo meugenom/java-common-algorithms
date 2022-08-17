@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ContainsDuplicates",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ContainsDuplicates.ContainsDuplicates",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch PalindromeNumber",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.PalindromeNumber.PalindromeNumber",
