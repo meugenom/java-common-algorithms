@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ValidPerfectSquare",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.ValidPerfectSquare.ValidPerfectSquare",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaximumAverageSubarrayI",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.MaximumAverageSubarrayI.MaximumAverageSubarrayI",
