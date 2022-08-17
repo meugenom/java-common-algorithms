@@ -1,77 +1,37 @@
 package com.meugenom.leetcode.PalindromeNumber;
 
+/*
+ * 	Given an integer x, return true if x is palindrome integer.
+ *	An integer is a palindrome when it reads the same backward as forward.
+ *	For example, 121 is a palindrome while 123 is not.
+ */
+
 public class PalindromeNumber {
 
-    int [] arr;
+	// new version
 
-    public boolean isPalindrome(int x) {
+	public boolean isPalindrome(int x) {
 
-        if (x < -2147483647 || x > 2147483647) {
-            return false;
-        }else{
+		if (x < 0)
+			return false;
 
-            if(x == 0)
-                return true;
-            if(x < 0){
-                return false;
-            }
-            if(String.valueOf(x).length()==1){
-                return true;
-            }
+		int newNumber = 0;
+		int origin = x;
 
-                int [] arr = new int [String.valueOf(x).length()];
-                int i = 0;
+		while (x != 0) {
+			int lastDigit = x % 10;
+			newNumber = newNumber * 10 + lastDigit;
+			x = x / 10;
+		}
 
-                while( x > 0){
-                    int symbol = x % 10;
-                    arr[i] = symbol;
-                    //next digit
-                    x = x / 10;
-                    i++;
-                }
+		return newNumber == origin;
+	}
 
-                this.arr = arr;
-                this.helper();
+	public static void main(String[] args) {
 
-                if(this.arr.length == 0){
-                    return true;
-                }else if(this.arr.length == 1){
-                    return true;
-                }
-        }
+		PalindromeNumber r = new PalindromeNumber();
+		int x = 121;
 
-        return false;
-    }
-
-
-    public void helper() {
-            int[] a  = this.arr;
-        
-            if(a[0] == a[a.length - 1]) {
-                int [] tmp = new int [a.length - 2];
-                int j=0;
-                for(int i = 0; i < a.length; i++) {
-                    if(i!=0 && i!=a.length - 1) {
-                        tmp[j] = a[i];
-                        j++;
-                    }
-                }
-                //System.out.println("a[0] == a[a.length]  " + a[0] +" == " + a[a.length-1]);
-
-                if(tmp.length > 1) {
-                    this.arr = tmp;
-                    this.helper();
-                } else {
-                    this.arr = tmp;
-                }
-            }
-    }
-
-    public static void main(String[] args) {
-
-        PalindromeNumber r = new PalindromeNumber();
-        int calculated = -101;
-
-        System.out.println(r.isPalindrome(calculated));
-    }
+		System.out.println(r.isPalindrome(x));
+	}
 }
