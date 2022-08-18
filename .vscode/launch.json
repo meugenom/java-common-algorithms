@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BestTimeToBuyAndSellStock",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch StudentAttendanceRecordI",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.StudentAttendanceRecordI.StudentAttendanceRecordI",
