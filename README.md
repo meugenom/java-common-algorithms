@@ -248,6 +248,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Hash Table_** | 🍏 easy | Java |[ 448. Find All Numbers Disappeared in an Array](src/main/java/leetcode/FindAllNumbersDisappearedInAnArray/FindAllNumbersDisappearedInAnArray.java)
 **_Hash Table_** | 🍏 easy | Java |[ 929. Unique Email Addresses](src/main/java/leetcode/UniqueEmailAddresses/UniqueEmailAddresses.java)
 **_Hash Table_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
+**_Hash Table_** | 🍊 medium | Java |[49. Group Anagram](src/main/java/leetcode/GroupAnagram/GroupAnagram.java)
 ➿ |➿ |➿ |➿
 **_Linked List_** | 🍏 easy | Java | [21. Merge Two Sorted Lists](src/main/java/leetcode/MergeTwoSortedLists/MergeTwoSortedLists.java)
 **_Linked List_** | 🍏 easy | Java | [160.  Intersection of Two Linked Lists](src/main/java/leetcode/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java)

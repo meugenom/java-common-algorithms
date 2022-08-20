@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch GroupAnagram",
+			"request": "launch",
+			"mainClass": "leetcode.GroupAnagram.GroupAnagram",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ValidAnagram",
 			"request": "launch",
 			"mainClass": "leetcode.ValidAnagram.ValidAnagram",
