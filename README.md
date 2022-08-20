@@ -3,7 +3,7 @@
 - Implementation of Data Structures and Algorithms.
 - Solved Solutions from leetcode ant etc.
 
-**Helping wellcome! Thanks!**
+**Helping welcome! Thanks!**
 
  📌 *notation keys:*:
  - `🍏` - easy;
