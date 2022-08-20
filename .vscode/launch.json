@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch IsSubsequence",
+			"request": "launch",
+			"mainClass": "com.meugenom.leetcode.IsSubsequence.IsSubsequence",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BinaryTreePostOrderTraversal",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.BinaryTreePostOrderTraversal.BinaryTreePostOrderTraversal",

@@ -316,6 +316,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Two Pointers_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/com/meugenom/leetcode/HappyNumber/HappyNumber.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 283. Move Zeroes](src/main/java/com/meugenom/leetcode/MoveZeroes/MoveZeroes.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/com/meugenom/leetcode/ReverseString/ReverseString.java)
+**_Two Pointers_** | 🍏 easy | Java |[ 392. Is Subsequence](src/main/java/com/meugenom/leetcode/IsSubsequence/IsSubsequence.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 557. Reverse Words in a String III](src/main/java/com/meugenom/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_Two Pointers_** | 🍊 medium | Java |[11. Container with Most Water](src/main/java/com/meugenom/leetcode/ContainerWithMostWater/ContainerWithMostWater.java)
 **_Two Pointers_** | 🍊 medium | Java | [19. Remove Nth Node From End of List](src/main/java/com/meugenom/leetcode/RemoveNthNodeFromEndList/RemoveNthNodeFromEndList.java)
