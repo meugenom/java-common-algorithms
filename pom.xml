@@ -7,7 +7,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<groupId>java-algorithms</groupId>
 	<artifactId>main.java</artifactId>
 	<version>1.0.1</version>
-	<name>com.meugenom</name>
+	<name></name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
