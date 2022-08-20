@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ValidAnagram",
+			"request": "launch",
+			"mainClass": "leetcode.ValidAnagram.ValidAnagram",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch IsSubsequence",
 			"request": "launch",
 			"mainClass": "com.meugenom.leetcode.IsSubsequence.IsSubsequence",

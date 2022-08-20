@@ -301,7 +301,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Sorting_** | 🍊 medium | Java |[56. Merge Intervals](src/main/java/leetcode/MergeIntervals/MergeIntervals.java)
 ➿ |➿ |➿ |➿
 **_String_** | 🍏 easy | Java |[ 14. Longest Common Prefix](src/main/java/leetcode/LongestCommonPrefix/LongestCommonPrefix.java)
-**_String_** | 🍏 easy | Java |[ 242. Is Anagram](src/main/java/leetcode/IsAnagram/IsAnagram.java)
+**_String_** | 🍏 easy | Java |[ 242. Valid Anagram](src/main/java/leetcode/ValidAnagram/ValidAnagram.java)
 **_String_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🍏 easy | Java |[ 387. First Unique Character in a String](src/main/java/leetcode/FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.java)
 **_String_** | 🍏 easy | Java |[ 551. Student Attendance Record I](src/main/java/leetcode/StudentAttendanceRecordI/StudentAttendanceRecordI.java)
