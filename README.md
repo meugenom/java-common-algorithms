@@ -318,6 +318,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Tree_** | 🍊 medium | Java | [687. Longest Unvalued Path](src/main/java/leetcode/LongestUnivaluePath/LongestUnivaluePath.java)
 ➿ |➿ |➿ |➿
+**_Two Pointers_** | 🍏 easy | Java |[ 125. Valide Palindrome](src/main/java/leetcode/ValidePalindrome/ValidePalindrome.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/leetcode/HappyNumber/HappyNumber.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 283. Move Zeroes](src/main/java/leetcode/MoveZeroes/MoveZeroes.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/leetcode/ReverseString/ReverseString.java)

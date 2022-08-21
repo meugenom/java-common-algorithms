@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch ValidePalindrome",
+			"request": "launch",
+			"mainClass": "leetcode.ValidePalindrome.ValidePalindrome",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch LongestConsecutiveSequence",
 			"request": "launch",
 			"mainClass": "leetcode.LongestConsecutiveSequence.LongestConsecutiveSequence",
