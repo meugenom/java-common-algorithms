@@ -1,6 +1,8 @@
 package leetcode.Array.MoveZeroes;
 
 /**
+ * easy 283
+ * 
  * Given an integer array nums, 
  * move all 0's to the end of it while maintaining the relative order of the non-zero elements.
  * Note that you must do this in-place without making a copy of the array.
@@ -15,11 +17,13 @@ package leetcode.Array.MoveZeroes;
  * Input: nums = [0]
  *  Output: [0]
  * 
+ * T.C.: O(n);
+ * S.C.: O(1);
  */
 
 public class MoveZeroes {
 	//new solution
-	public static void _moveZeroes(int[] nums) {
+	public static void moveZeroes(int[] nums) {
 		
 		int j = 0;
 
@@ -34,10 +38,8 @@ public class MoveZeroes {
 		}
 	}	
 
-
-
 	//old solution
-	public static void moveZeroes(int[] nums) {
+	public static void _moveZeroes(int[] nums) {
 		int step = 0;
 		int length = nums.length;
 		while (step < length) {
@@ -59,7 +61,7 @@ public class MoveZeroes {
 	public static void main(String[] args) {
 
 		int[] nums = { 0, 1, 0, 0, 12, 3, 8, 0 };
-		_moveZeroes(nums);
+		moveZeroes(nums);
 
 		for (int i = 0; i < nums.length; i++) {
 			System.out.println("num[" + i + "] = " + nums[i]);

@@ -3,6 +3,7 @@ package leetcode.Array.BestTimeToBuyAndSellStock;
 import java.util.Stack;
 
 /***
+ * easy 121
  * You are given an array prices where prices[i] is the price of a given stock
  * on the ith day.
  * You want to maximize your profit by choosing a single day to buy one stock
@@ -23,12 +24,14 @@ import java.util.Stack;
  * Input: prices = [7,6,4,3,1]
  * Output: 0
  * Explanation: In this case, no transactions are done and the max profit = 0.
+ * 
+ * T.C.: O(n);
+ * S.C.: O(1);
  */
 
 public class BestTimeToBuyAndSellStock {
 
-	// new solution
-	public int _maxProfit(int[] prices) {
+	public int maxProfit(int[] prices) {
 		
 		int minPrice = 99999; // constraint 10^5
 		int maxProfit = 0;
@@ -40,9 +43,11 @@ public class BestTimeToBuyAndSellStock {
 		return maxProfit;
 	}
 
+	// solving with stack
+	// Time Complexity: O(n^2)
+	/* 
 	Stack<Integer> stack = new Stack<Integer>();
-
-	public int maxProfit(int[] prices) {
+	public int _maxProfit(int[] prices) {
 
 		int minPrice = prices[0];
 		int multipleProfit = 0;
@@ -69,6 +74,7 @@ public class BestTimeToBuyAndSellStock {
 		}
 		return multipleProfit;
 	}
+	*/
 
 	public static void main(String[] args) {
 
@@ -77,6 +83,6 @@ public class BestTimeToBuyAndSellStock {
 		int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
 		// prices = new int[] { 3, 3, 5, 0, 0, 3, 1, 4 };
 		System.out.println(s.maxProfit(prices));
-		System.out.println(s._maxProfit(prices));
+		System.out.println(s.maxProfit(prices));
 	}
 }
