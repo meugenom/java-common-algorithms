@@ -34,6 +34,9 @@ package leetcode.Array.NextPermutation;
  * Example 3:
  * Input: nums = [1,1,5]
  * Output: [1,5,1]
+ * 
+ * T.C.: O(n^2);
+ * S.C.: O(1).
  */
 
 import java.util.Arrays;

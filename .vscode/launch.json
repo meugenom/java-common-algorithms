@@ -6,6 +6,20 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MedianOfTwoSortedArrays",
+			"request": "launch",
+			"mainClass": "leetcode.Array.MedianOfTwoSortedArrays.MedianOfTwoSortedArrays",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch RemoveDuplicatesFromSortedArray",
+			"request": "launch",
+			"mainClass": "leetcode.Array.RemoveDuplicatesFromSortedArray.RemoveDuplicatesFromSortedArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch NextPermutation",
 			"request": "launch",
 			"mainClass": "leetcode.Array.NextPermutation.NextPermutation",
