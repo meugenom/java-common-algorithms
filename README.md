@@ -159,25 +159,27 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 
 ### Leetcode's Problems by Skills:
 
- Skills by abc | SubSkills |  Diff   | Complexity: Time , Space | Solved Problems
----------------|-----------|---------|-------------------------|--------------------
-**_Array_** | Elements Sum | 🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)`|[1. Two Sum](src/main/java/leetcode/Array/TwoSum/TwoSum.java)
-**_Array_** | Duplicates Remove | 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[26. Remove Duplicates from Sorted Array](src/main/java/leetcode/Array/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.java)
-**_Array_** | Element Search |🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[35. Search Insert Position](src/main/java/leetcode/Array/SearchInsertPosition/SearchInsertPosition.java)
-**_Array_** | Elements Sort |🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[88. Merge Sorted Array](src/main/java/leetcode/Array/MergeSortedArray/MergeSortedArray.java)
-**_Array_** | Elements Memoization| 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [121. Best Time to Buy and Sell Stock](src/main/java/leetcode/Array/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
-**_Array_** | Elements Move | 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[ 283. Move Zeroes](src/main/java/leetcode/Array/MoveZeroes/MoveZeroes.java)
-**_Array_** | Elements Sort , Math| 🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[ 977. Squares of a sorted Array](src/main/java/leetcode/Array/SquaresOfSortedArray/SquaresOfSortedArray.java)
-**_Array_** | Element Two Pointers |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[11. Container with Most Water](src/main/java/leetcode/Array/ContainerWithMostWater/ContainerWithMostWater.java)
-**_Array_** | Permutations | 🍊 medium |  ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[31. Next Permutation](src/main/java/leetcode/Array/NextPermutation/NextPermutation.java)
-**_Array_** | Backtracking | 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` |[46. Permutations](src/main/java/leetcode/Array/Permutations/Permutations.java)
-**_Array_** | Matrix Operations| 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[48. Rotate Image](src/main/java/leetcode/Array/RotateImage/RotateImage.java)
-**_Array_** | Elements Math |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[53. Maximum Subarray](src/main/java/leetcode/Array/MaxSubArray/MaxSubArray.java)
-**_Array_** | Elements Sort| 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` |[56. Merge Intervals](src/main/java/leetcode/Array/MergeIntervals/MergeIntervals.java)
-**_Array_** |  Two Pointers |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [167. Two Sum II](src/main/java/leetcode/Array/TwoSumII/TwoSumII.java)
-**_Array_** | Two Pointers | 🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [189. Rotate Array](src/main/java/leetcode/Array/RotateArray/RotateArray.java)
-**_Array_** | DP | 🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [198. House Robber](src/main/java/leetcode/Array/HouseRobber/HouseRobber.java)
-**_Array_** | Elements Sort | 🍎 hard | ⏱ `⭕️(log(N))`, 💾 `⭕️(1)` |[4. Median of Two Sorted Arrays](src/main/java/leetcode/Array/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+### **_Skill: Arrays_**
+
+Arrays SubSkills |  Diff   | Complexity: Time , Space | Solved Problems
+------------|---------|-------------------------|--------------------
+ Elements Sum | 🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)`|[1. Two Sum](src/main/java/leetcode/Array/TwoSum/TwoSum.java)
+ Duplicates Remove | 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[26. Remove Duplicates from Sorted Array](src/main/java/leetcode/Array/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.java)
+ Element Search |🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[35. Search Insert Position](src/main/java/leetcode/Array/SearchInsertPosition/SearchInsertPosition.java)
+ Elements Sort |🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[88. Merge Sorted Array](src/main/java/leetcode/Array/MergeSortedArray/MergeSortedArray.java)
+ Elements Memoization| 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [121. Best Time to Buy and Sell Stock](src/main/java/leetcode/Array/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
+ Elements Move | 🍏 easy | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[ 283. Move Zeroes](src/main/java/leetcode/Array/MoveZeroes/MoveZeroes.java)
+ Elements Sort , Math| 🍏 easy | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[ 977. Squares of a sorted Array](src/main/java/leetcode/Array/SquaresOfSortedArray/SquaresOfSortedArray.java)
+ Element Two Pointers |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[11. Container with Most Water](src/main/java/leetcode/Array/ContainerWithMostWater/ContainerWithMostWater.java)
+ Permutations | 🍊 medium |  ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[31. Next Permutation](src/main/java/leetcode/Array/NextPermutation/NextPermutation.java)
+ Backtracking | 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` |[46. Permutations](src/main/java/leetcode/Array/Permutations/Permutations.java)
+ Matrix Operations| 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[48. Rotate Image](src/main/java/leetcode/Array/RotateImage/RotateImage.java)
+ Elements Math |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[53. Maximum Subarray](src/main/java/leetcode/Array/MaxSubArray/MaxSubArray.java)
+ Elements Sort| 🍊 medium | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` |[56. Merge Intervals](src/main/java/leetcode/Array/MergeIntervals/MergeIntervals.java)
+ Two Pointers |🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [167. Two Sum II](src/main/java/leetcode/Array/TwoSumII/TwoSumII.java)
+ Two Pointers | 🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [189. Rotate Array](src/main/java/leetcode/Array/RotateArray/RotateArray.java)
+ DP | 🍊 medium | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [198. House Robber](src/main/java/leetcode/Array/HouseRobber/HouseRobber.java)
+ Elements Sort | 🍎 hard | ⏱ `⭕️(log(N))`, 💾 `⭕️(1)` |[4. Median of Two Sorted Arrays](src/main/java/leetcode/Array/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 
 
 Skills by abc | Diff      | Language | Solved Problems
