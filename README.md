@@ -169,6 +169,7 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 **_Array_** | 🍏 easy | Java |[ 283. Move Zeroes](src/main/java/leetcode/Array/MoveZeroes/MoveZeroes.java)
 **_Array_** | 🍏 easy | Java |[ 977. Squares of a sorted Array](src/main/java/leetcode/Array/SquaresOfSortedArray/SquaresOfSortedArray.java)
 **_Array_** | 🍊 medium | Java |[11. Container with Most Water](src/main/java/leetcode/Array/ContainerWithMostWater/ContainerWithMostWater.java)
+**_Array_** | 🍊 medium | Java |[31. Next Permutation](src/main/java/leetcode/Array/NextPermutation/NextPermutation.java)
 **_Array_** | 🍊 medium | Java |[56. Merge Intervals](src/main/java/leetcode/Array/MergeIntervals/MergeIntervals.java)
 **_Array_** | 🍊 medium | Java |[46. Permutations](src/main/java/leetcode/Array/Permutations/Permutations.java)
 **_Array_** | 🍊 medium | Java |[48. Rotate Image](src/main/java/leetcode/Array/RotateImage/RotateImage.java)

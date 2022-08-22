@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch NextPermutation",
+			"request": "launch",
+			"mainClass": "leetcode.Array.NextPermutation.NextPermutation",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch ValidePalindrome",
 			"request": "launch",
 			"mainClass": "leetcode.ValidePalindrome.ValidePalindrome",
