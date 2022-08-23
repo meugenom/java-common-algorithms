@@ -1,5 +1,25 @@
 package leetcode.SymmetricTree;
 
+/***
+ * easy 101
+ * 
+ * Given the root of a binary tree, check whether it is a mirror of itself
+ * (i.e., symmetric around its center).
+ * 
+ * Example 1:
+ * Input: root = [1,2,2,3,4,4,3]
+ * Output: true
+ * 
+ * Example 2:
+ * Input: root = [1,2,2,null,3,null,3]
+ * Output: false
+ * 
+ * 
+ * T.C.: O(n^2);
+ * S.C.: O(1).
+ * //Tree Recursion
+ */
+
 class TreeNode {
 	public int val;
 	public TreeNode left;
@@ -24,23 +44,24 @@ class TreeNode {
 
 public class SymmetricTree {
 
-	
 	public static boolean isSymmetric(TreeNode root) {
-		
-		if (root == null) return false;
-		
+
+		if (root == null)
+			return false;
+
 		return tree(root.left, root.right);
-    }
+	}
 
-	public static boolean tree(TreeNode p, TreeNode q){
+	public static boolean tree(TreeNode left, TreeNode right) {
 
-		if(p == null || q == null) return p == q;
+		if (left == null || right == null)
+			return left == right;
 
-		return p.val == q.val && tree(p.left, q.right) && tree(p.right, q.left);
+		return left.val == left.val && tree(left.left, right.right) && tree(left.right, right.left);
 	}
 
 	public static void main(String[] args) {
-		//root = [1,2,2,3,4,4,3]
+		// root = [1,2,2,3,4,4,3]
 		TreeNode a = new TreeNode(1);
 		TreeNode b = new TreeNode(2);
 		TreeNode c = new TreeNode(2);
@@ -48,13 +69,13 @@ public class SymmetricTree {
 		TreeNode e = new TreeNode(4);
 		TreeNode f = new TreeNode(4);
 		TreeNode g = new TreeNode(3);
-		
+
 		c.right = g;
 		c.left = f;
-		
+
 		b.right = e;
 		b.left = d;
-		
+
 		a.right = c;
 		a.left = b;
 

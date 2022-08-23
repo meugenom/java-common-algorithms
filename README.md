@@ -167,6 +167,7 @@ Arrays SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
  Elements Sum | 🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)`|[1. Two Sum](src/main/java/leetcode/Array/TwoSum/TwoSum.java)
  Duplicates Remove | 🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[26. Remove Duplicates from Sorted Array](src/main/java/leetcode/Array/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.java)
  Element Search |🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[35. Search Insert Position](src/main/java/leetcode/Array/SearchInsertPosition/SearchInsertPosition.java)
+ Recursion, Math |🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` |[66. Plus One](src/main/java/leetcode/Array/PlusOne/PlusOne.java)
  Elements Sort |🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[88. Merge Sorted Array](src/main/java/leetcode/Array/MergeSortedArray/MergeSortedArray.java)
  Elements Memoization| 🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [121. Best Time to Buy and Sell Stock](src/main/java/leetcode/Array/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
  Elements Move | 🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[ 283. Move Zeroes](src/main/java/leetcode/Array/MoveZeroes/MoveZeroes.java)
@@ -186,12 +187,12 @@ Arrays SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
 
 Backtracking SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
 ------------|---------|-------------------------|--------------------
-Hash Table | 🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [17. Letter Combinations of a Phone Number](src/main/java/leetcode/Backtracking/LetterCombinationsOfPhoneNumber/LetterCombinationsOfPhoneNumber.java)| Java
-Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [22.  Generate Parentheses](src/main/java/leetcode/Backtracking/GenerateParentheses/GenerateParentheses.java)|Java
-String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [39. Combination Sum](src/main/java/leetcode/Backtracking/CombinationSum/CombinationSum.java) | Java
-Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(2N)` | [77. Combinations](src/main/java/leetcode/Backtracking/Combinations/Combinations.java)| Java
-Matrix, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` | [79. Word Search](src/main/java/leetcode/Backtracking/WordSearch/WordSearch.java)| Java
-String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [784. Letter Case Permutation](src/main/java/leetcode/Backtracking/LetterCasePermutation/LetterCasePermutation.java) | Java
+Hash Table | 🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [17. Letter Combinations of a Phone Number](src/main/java/leetcode/Backtracking/LetterCombinationsOfPhoneNumber/LetterCombinationsOfPhoneNumber.java)
+Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [22.  Generate Parentheses](src/main/java/leetcode/Backtracking/GenerateParentheses/GenerateParentheses.java)
+String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [39. Combination Sum](src/main/java/leetcode/Backtracking/CombinationSum/CombinationSum.java)
+Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(2N)` | [77. Combinations](src/main/java/leetcode/Backtracking/Combinations/Combinations.java)
+Matrix, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` | [79. Word Search](src/main/java/leetcode/Backtracking/WordSearch/WordSearch.java)
+String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [784. Letter Case Permutation](src/main/java/leetcode/Backtracking/LetterCasePermutation/LetterCasePermutation.java)
 
 ### **Binary Search**
 
