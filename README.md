@@ -184,15 +184,14 @@ Arrays SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
 
 ### **Backtracking**
 
-Skills by abc | Diff      | Language | Solved Problems
---------------|-----------|----------|------------------------------------
-**_Backtracking_** | 🍊 medium | Java | [17. Letter Combinations of a Phone Number](src/main/java/leetcode/LetterCombinationsOfPhoneNumber/LetterCombinationsOfPhoneNumber.java)
-**_Backtracking_** | 🍊 medium | Java | [22.  Generate Parentheses](src/main/java/leetcode/GenerateParentheses/GenerateParentheses.java)
-**_Backtracking_** | 🍊 medium | Java | [39. Combination Sum](src/main/java/leetcode/CombinationSum/CombinationSum.java)
-**_Backtracking_** | 🍊 medium | Java | [46. Permutations](src/main/java/leetcode/Permutations/Permutations.java)
-**_Backtracking_** | 🍊 medium | Java | [77. Combinations](src/main/java/leetcode/Combinations/Combinations.java)
-**_Backtracking_** | 🍊 medium | Java | [79. Word Search](src/main/java/leetcode/WordSearch/WordSearch.java)
-**_Backtracking_** | 🍊 medium | Java | [784. Letter Case Permutation](src/main/java/leetcode/LetterCasePermutation/LetterCasePermutation.java)
+Backtracking SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
+------------|---------|-------------------------|--------------------
+Hash Table | 🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [17. Letter Combinations of a Phone Number](src/main/java/leetcode/Backtracking/LetterCombinationsOfPhoneNumber/LetterCombinationsOfPhoneNumber.java)| Java
+Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [22.  Generate Parentheses](src/main/java/leetcode/Backtracking/GenerateParentheses/GenerateParentheses.java)|Java
+String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [39. Combination Sum](src/main/java/leetcode/Backtracking/CombinationSum/CombinationSum.java) | Java
+Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(2N)` | [77. Combinations](src/main/java/leetcode/Backtracking/Combinations/Combinations.java)| Java
+Matrix, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` | [79. Word Search](src/main/java/leetcode/Backtracking/WordSearch/WordSearch.java)| Java
+String, Recursion | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` | [784. Letter Case Permutation](src/main/java/leetcode/Backtracking/LetterCasePermutation/LetterCasePermutation.java) | Java
 
 ### **Binary Search**
 

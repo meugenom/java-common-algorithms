@@ -1,16 +1,29 @@
-package leetcode.LetterCasePermutation;
+package leetcode.Backtracking.LetterCasePermutation;
+
+/***
+ * medium 784
+ * 
+ * Given a string s, you can transform every letter individually to be lowercase or uppercase to create another string.
+ * Return a list of all possible strings we could create. Return the output in any order.
+ * 
+ * 
+ * Example 1:
+ * Input: s = "a1b2"
+ * Output: ["a1b2","a1B2","A1b2","A1B2"]
+ * 
+ * 
+ * Example 2:
+ * Input: s = "3z4"
+ * Output: ["3z4","3Z4"]
+ * 
+ * T.C.: O(n^2);
+ * S.C.: O(n).
+ */
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-/*
- * related topics
- * - string
- * - backtracking
- * - bit manipulation
- */
 
 public class LetterCasePermutation {
 

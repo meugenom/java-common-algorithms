@@ -1,4 +1,23 @@
-package leetcode.GenerateParentheses;
+package leetcode.Backtracking.GenerateParentheses;
+
+/***
+ * medium 22
+ * 
+ * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+ * 
+ * Example 1:
+ * Input: n = 3
+ * Output: ["((()))","(()())","(())()","()(())","()()()"]
+ * 
+ * 
+ * Example 2:
+ * Input: n = 1
+ * Output: ["()"]
+ * 
+ * 
+ * T.C.: O(n^2);
+ * S.C.: O(n).
+ */
 
 import java.util.ArrayList;
 import java.util.List;
