@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch CheckIfNumberOfSumOfPowersOfThree",
+			"request": "launch",
+			"mainClass": "leetcode.Math.CheckIfNumberOfSumOfPowersOfThree.CheckIfNumberOfSumOfPowersOfThree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch PlusOne",
 			"request": "launch",
 			"mainClass": "leetcode.Array.PlusOne.PlusOne",
