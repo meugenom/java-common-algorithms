@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch NumberOfIslands",
+			"request": "launch",
+			"mainClass": "leetcode.NumberOfIslands.NumberOfIslands",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch MiddleOfTheLinkedList",
 			"request": "launch",
 			"mainClass": "leetcode.MiddleOfTheLinkedList.MiddleOfTheLinkedList",
