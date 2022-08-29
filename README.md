@@ -181,6 +181,7 @@ Arrays SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
  Two Pointers |🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [167. Two Sum II](src/main/java/leetcode/Array/TwoSumII/TwoSumII.java)
  Two Pointers | 🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(N)` | [189. Rotate Array](src/main/java/leetcode/Array/RotateArray/RotateArray.java)
  DP | 🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [198. House Robber](src/main/java/leetcode/Array/HouseRobber/HouseRobber.java)
+ Matrix | 🍊 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N^2)` | [200. Number of Islands](src/main/java/leetcode/Array/NumberOfIslands/NumberOfIslands.java)
  Elements Sort | 🍎 | ⏱ `⭕️(log(N))`, 💾 `⭕️(1)` |[4. Median of Two Sorted Arrays](src/main/java/leetcode/Array/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 
 ### **Backtracking**
