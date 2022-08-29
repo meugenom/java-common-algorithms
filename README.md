@@ -329,7 +329,8 @@ Skills by abc | Diff      | Language | Solved Problems
 **_String_** | 🍊 medium | Java | [567. Permutation in String](src/main/java/leetcode/PermutationInString/PermutationInString.java)
 **_String_** | 🍊 medium | Java | [784. Letter Case Permutation](src/main/java/leetcode/LetterCasePermutation/LetterCasePermutation.java)
 ➿ |➿ |➿ |➿
-**_Tree_** | 🍏 easy | Java |[ [617. Merge Two Binary Trees](src/main/java/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Tree_** | 🍏 easy | Java | [100. Balanced Binary Tree](src/main/java/leetcode/BalancedBinaryTree/BalancedBinaryTree.java)
+**_Tree_** | 🍏 easy | Java | [617. Merge Two Binary Trees](src/main/java/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
 **_Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Tree_** | 🍊 medium | Java | [687. Longest Unvalued Path](src/main/java/leetcode/LongestUnivaluePath/LongestUnivaluePath.java)
 ➿ |➿ |➿ |➿
