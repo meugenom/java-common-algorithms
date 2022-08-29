@@ -6,6 +6,27 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BalancedBinaryTree",
+			"request": "launch",
+			"mainClass": "leetcode.BalancedBinaryTree.BalancedBinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MaxDepthOfBinaryTree",
+			"request": "launch",
+			"mainClass": "leetcode.MaxDepthOfBinaryTree.MaxDepthOfBinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch MultiplyStrings",
+			"request": "launch",
+			"mainClass": "leetcode.MultiplyStrings.MultiplyStrings",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch NumberOfIslands",
 			"request": "launch",
 			"mainClass": "leetcode.NumberOfIslands.NumberOfIslands",
