@@ -222,6 +222,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_Binary Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Binary Tree_** | 🍊 medium | Java |[199. Binary Tree Right Side View](src/main/java/leetcode/BinaryTreeRightSideView/BinaryTreeRightSideView.java)
 **_Binary Tree_** | 🍊 medium | Java |[669. Trim a Binary Search Tree](src/main/java/leetcode/TrimBinarySearchTree/TrimBinarySearchTree.java)
+**_Binary Tree_** | 🍊 medium | Java |[1448. Count Good Nodes in Binary Tree](src/main/java/leetcode/CountGoodNodesInBinaryTree/CountGoodNodesInBinaryTree.java)
 ➿ |➿ |➿ |➿
 **_Bit Manipulation_** | 🍏 easy | Java |[67. Add Binary](src/main/java/leetcode/AddBinary/AddBinary.java)
 **_Bit Manipulation_** | 🍏 easy | Java |[136. Single Number](src/main/java/leetcode/SingleNumber/SingleNumber.java)
