@@ -215,6 +215,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_Binary Tree_** | 🍏 easy | Java | [226. Invert Binary Tree](src/main/java/leetcode/InvertBinaryTree/InvertBinaryTree.java)
 **_Binary Tree_** | 🍏 easy | Java | [543. Diameter of Binary Tree](src/main/java/leetcode/DiameterOfBinaryTree/DiameterOfBinaryTree.java)
 **_Binary Tree_** | 🍏 easy | Java | [617. Merge Two Binary Trees](src/main/java/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
+**_Binary Tree_** | 🍏 easy | Java | [637. Average of Levels in Binary Tree](src/main/java/leetcode/AverageLevelsInBinaryTree/AverageLevelsInBinaryTree.java)
 **_Binary Tree_** | 🍊 medium | Java |[98. Validate Binary Search Tree](src/main/java/leetcode/ValidateBinarySearchTree/ValidateBinarySearchTree.java)
 **_Binary Tree_** | 🍊 medium | Java |[102. Binary Tree Level Order Traversal](src/main/java/leetcode/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
 **_Binary Tree_** | 🍊 medium | Java |[105. Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/leetcode/ConstructBinaryTreeFromPreorderAndInorderTraversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
