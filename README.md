@@ -282,6 +282,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_Math_** | 🍏 easy | Java | [9. Palindrome Number](src/main/java/leetcode/PalindromeNumber/PalindromeNumber.java)
 **_Math_** | 🍏 easy | Java | [231. Power of Two](src/main/java/leetcode/PowerOfTwo/PowerOfTwo.java)
 **_Math_** | 🍏 easy | Java | [258. Add Digits](src/main/java/leetcode/AddDigits/AddDigits.java)
+**_Math_** | 🍏 easy | Java | [263. Ugly Number](src/main/java/leetcode/Math/UglyNUmber/UglyNumber.java)
 **_Math_** | 🍏 easy | Java | [326. Power of Three](src/main/java/leetcode/Math/PowerOfThree/PowerOfThree.java)
 **_Math_** | 🍊 medium |Java | [2. Add Two Numbers](src/main/java/leetcode/AddTwoNumbers/AddTwoNumbers.java)
 **_Math_** | 🍊 medium |Java | [1780. Check if Number is a Sum of Powers of Three](src/main/java/leetcode/Math/CheckIfNumberOfSumOfPowersOfThree/CheckIfNumberOfSumOfPowersOfThree.java)
