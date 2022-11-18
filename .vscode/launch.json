@@ -6,6 +6,41 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch UglyNumber",
+			"request": "launch",
+			"mainClass": "leetcode.Math.UglyNumber.UglyNumber",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AverageLevelsInBinaryTree",
+			"request": "launch",
+			"mainClass": "leetcode.AverageLevelsInBinaryTree.AverageLevelsInBinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch AverageOfLevelsInBinaryTree",
+			"request": "launch",
+			"mainClass": "AverageOfLevelsInBinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch CountGoodNodesInBinaryTree",
+			"request": "launch",
+			"mainClass": "leetcode.CountGoodNodesInBinaryTree.CountGoodNodesInBinaryTree",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
+			"name": "Launch PeakIndexInAMountainArray",
+			"request": "launch",
+			"mainClass": "leetcode.PeakIndexInAMountainArray.PeakIndexInAMountainArray",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BalancedBinaryTree",
 			"request": "launch",
 			"mainClass": "leetcode.BalancedBinaryTree.BalancedBinaryTree",
