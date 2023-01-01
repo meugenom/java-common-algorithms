@@ -260,6 +260,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_Hash Table_** | 🍏 easy | Java |[13. Roman to Integer](src/main/java/leetcode/RomanToInteger/RomanToInteger.java)
 **_Hash Table_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/leetcode/HappyNumber/HappyNumber.java)
 **_Hash Table_** | 🍏 easy | Java |[ 217. Contains Duplicate](src/main/java/leetcode/ContainsDuplicate/ContainsDuplicate.java)
+**_Hash Table_** | 🍏 easy | Java |[ 290. Word Pattern](src/main/java/leetcode/WordPattern/WordPattern.java)
 **_Hash Table_** | 🍏 easy | Java |[ 448. Find All Numbers Disappeared in an Array](src/main/java/leetcode/FindAllNumbersDisappearedInAnArray/FindAllNumbersDisappearedInAnArray.java)
 **_Hash Table_** | 🍏 easy | Java |[ 929. Unique Email Addresses](src/main/java/leetcode/UniqueEmailAddresses/UniqueEmailAddresses.java)
 **_Hash Table_** | 🍊 medium | Java |[3. Longest Substring Without Repeating Characters](src/main/java/leetcode/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
