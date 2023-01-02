@@ -325,6 +325,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_String_** | 🍏 easy | Java |[ 242. Valid Anagram](src/main/java/leetcode/ValidAnagram/ValidAnagram.java)
 **_String_** | 🍏 easy | Java |[ 344. Reverse String](src/main/java/leetcode/ReverseString/ReverseString.java)
 **_String_** | 🍏 easy | Java |[ 387. First Unique Character in a String](src/main/java/leetcode/FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.java)
+**_String_** | 🍏 easy | Java |[ 520. Detect Capital](src/main/java/leetcode/DetectCapital/DetectCapital.java)
 **_String_** | 🍏 easy | Java |[ 551. Student Attendance Record I](src/main/java/leetcode/StudentAttendanceRecordI/StudentAttendanceRecordI.java)
 **_String_** | 🍏 easy | Java |[ 557. Reverse Words in a String III](src/main/java/leetcode/ReverseWordsInStringIII/ReverseWordsInStringIII.java)
 **_String_** | 🍏 easy | Java |[ 771. Jewels and Stones](src/main/java/leetcode/JewelsAndStones/JewelsAndStones.java)
