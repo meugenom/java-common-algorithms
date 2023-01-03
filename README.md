@@ -171,6 +171,7 @@ Arrays SubSkills |  Lvl   | Complexity: Time , Space | Solved Problems
  Elements Sort |🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[88. Merge Sorted Array](src/main/java/leetcode/Array/MergeSortedArray/MergeSortedArray.java)
  Elements Memoization| 🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` | [121. Best Time to Buy and Sell Stock](src/main/java/leetcode/Array/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
  Elements Move | 🍏 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[ 283. Move Zeroes](src/main/java/leetcode/Array/MoveZeroes/MoveZeroes.java)
+ String | 🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(N)` |[ 944. Delete Columns To Make Sorted](src/main/java/leetcode/Array/DeleteColumnsToMakeSorted/DeleteColumnsToMakeSorted.java)
  Elements Sort , Math| 🍏 | ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[ 977. Squares of a sorted Array](src/main/java/leetcode/Array/SquaresOfSortedArray/SquaresOfSortedArray.java)
  Element Two Pointers |🍊 | ⏱ `⭕️(N)`, 💾 `⭕️(1)` |[11. Container with Most Water](src/main/java/leetcode/Array/ContainerWithMostWater/ContainerWithMostWater.java)
  Permutations | 🍊 |  ⏱ `⭕️(N^2)`, 💾 `⭕️(1)` |[31. Next Permutation](src/main/java/leetcode/Array/NextPermutation/NextPermutation.java)

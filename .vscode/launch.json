@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch BestTimeToBuyAndSellStock",
+			"request": "launch",
+			"mainClass": "leetcode.Array.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch UglyNumber",
 			"request": "launch",
 			"mainClass": "leetcode.Math.UglyNumber.UglyNumber",
