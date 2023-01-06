@@ -6,6 +6,13 @@
     "configurations": [
 		{
 			"type": "java",
+			"name": "Launch MaximumIceCreamBars",
+			"request": "launch",
+			"mainClass": "leetcode.Array.MaximumIceCreamBars.MaximumIceCreamBars",
+			"projectName": "main.java"
+		},
+		{
+			"type": "java",
 			"name": "Launch BestTimeToBuyAndSellStock",
 			"request": "launch",
 			"mainClass": "leetcode.Array.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock",
