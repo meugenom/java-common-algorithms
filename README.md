@@ -343,6 +343,7 @@ Skills by abc | Diff      | Language | Solved Problems
 **_Tree_** | 🍏 easy | Java | [617. Merge Two Binary Trees](src/main/java/leetcode/MergeTwoBinaryTrees/MergeTwoBinaryTrees.java)
 **_Tree_** | 🍊 medium | Java | [116. Populating Next Right Pointers in Each Node](src/main/java/leetcode/PopulatingNextRightPointersEachNode/PopulatingNextRightPointersEachNode.java)
 **_Tree_** | 🍊 medium | Java | [687. Longest Unvalued Path](src/main/java/leetcode/LongestUnivaluePath/LongestUnivaluePath.java)
+**_Tree_** | 🍊 medium | Java | [1443. Minimum Time to collect all Apples on a Tree](src/main/java/leetcode/MinimumTimeToCollectAllApplesInATree/MinimumTimeToCollectAllApplesInATree.java)
 ➿ |➿ |➿ |➿
 **_Two Pointers_** | 🍏 easy | Java |[ 125. Valide Palindrome](src/main/java/leetcode/ValidePalindrome/ValidePalindrome.java)
 **_Two Pointers_** | 🍏 easy | Java |[ 202. Happy Number](src/main/java/leetcode/HappyNumber/HappyNumber.java)
