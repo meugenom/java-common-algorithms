@@ -1,5 +1,9 @@
 # 🧠 📚 ⏱ Java Data Structures and Algorithms
 
+<center>
+	<img alt="" src="./assets/algo-common-panda.png"/>
+</center>
+
 - Implementation of Data Structures and Algorithms.
 
 **Helping welcome! Thanks!**
