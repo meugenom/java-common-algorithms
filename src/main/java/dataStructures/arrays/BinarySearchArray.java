@@ -1,11 +1,20 @@
 package dataStructures.arrays;
 
+
+/**
+ * Binary search algorithm
+ * @author meugenom
+ */
+
 public class BinarySearchArray {
 
-	// method iterative
-	// Time Complexity: O(log n)
-	// Space Complexity: O(1)
-
+	/** 
+	 * iterative method
+	 * @param nums - sorted array @param target - number to search @return index of
+	 * @return -1 if number is not present in the array or array is empty
+	 * @complexity time O(log n)
+	 * @complexity space O(1)
+	 */
 	public int searchIterative(int[] nums, int target) {
 
 		int low = 0;
@@ -31,9 +40,15 @@ public class BinarySearchArray {
 		return -1;
 	}
 
-	// method recursive
-	// Time Complexity: O(log n)
-	// Space Complexity: O(log n)
+	/**
+	 * recursive method
+	 * @param nums - sorted array @param target - number to search @param low - index
+	 * of the first element in the array @param high - index of the last element in
+	 * the array @return index of @return -1 if number is not present in the array or
+	 * array is empty
+	 * @complexity time O(log n)
+	 * @complexity space O(log n)
+	 */
 	public int searchRecursive(int[] nums, int target, int low, int high) {
 		
 		if (low == high || low > high) //if number is not present in the array or array is empty
@@ -56,6 +71,7 @@ public class BinarySearchArray {
 	}
 
 	public static void main(String[] args) {
+		
 		//first example
 		int[] nums = new int[] { 1, 4, 7, 15, 67, 89, 90, 234, 678, 876, 901, 1020 };
 		int target = 234;
