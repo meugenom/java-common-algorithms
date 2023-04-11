@@ -3,6 +3,9 @@ package dataStructures.arrays;
 public class BinarySearchArray {
 
 	// method iterative
+	// Time Complexity: O(log n)
+	// Space Complexity: O(1)
+
 	public int searchIterative(int[] nums, int target) {
 
 		int low = 0;
@@ -29,6 +32,8 @@ public class BinarySearchArray {
 	}
 
 	// method recursive
+	// Time Complexity: O(log n)
+	// Space Complexity: O(log n)
 	public int searchRecursive(int[] nums, int target, int low, int high) {
 		
 		if (low == high || low > high) //if number is not present in the array or array is empty

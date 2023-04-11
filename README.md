@@ -1,4 +1,4 @@
-# 🧠 📚 ⏱ Java Data Structures and Algorithms
+# 🧠 📚 ⏱ Java Common Data Structures and Algorithms
 
 <center>
 	<img alt="" src="./assets/algo-common-panda.png"/>
@@ -12,7 +12,7 @@
  - `🍏` - easy;
  - `🍊` - medium;
  - `🍎` - hard;
- - `⭕️(1)`, `⭕️log(N)`, `⭕️(N^2)`... - Big O notations;
+ - `⭕️(1)`, `⭕️log(N)`, `⭕️(N^2)`... - Time and Space Complexity;
  - [`✍🏻`] - in progress;
  - [`🙇🏻‍♂️`] - hard to solve;
  - [`❓`] - the solution is not optimal;
@@ -144,10 +144,10 @@ undirected           | `🍎`  | [`✍🏻`]  |
 
 - #### Data Structure: [**Search**](src/main/java/dataStructures/search/binarySearch)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L5)|`🍊`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
-[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L32)|`🍊`|[`✔️`]|`⭕️(log N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
+Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
+---------------------|-------|--------|------------------|--------------|------------
+[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L5)|`🍊`|[`✔️`]|`⭕️(logN)`| `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
+[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L32)|`🍊`|[`✔️`]|`⭕️(log N)`| `⭕️(log N)` |[`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
 
 
 - #### Data Structure: [**Sorting**](src/main/java/sorting)
@@ -158,7 +158,6 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [Quick Sort](src/main/java/sorting/QuickSort.java#L5)|`🍊`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/QuickSortTest.java#L9)
 [MergeSort](src/main/java/sorting/MergeSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N log(N))` | [`🆗`] [Open](src/test/java/sorting/MergeSortTest.java#L9)
 [Insertion Sort](src/main/java/sorting/InsertionSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/InsertionSortTest.java#L9)
-
 
 ### 🛠 Use Unit Tests:
 
