@@ -40,13 +40,15 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 
 
 
- #### Data Structure: [**Matrix**](src/main/java/dataStructures/matrix)
+ #### [**Matrix**](src/main/java/dataStructures/matrix)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[rotate](src/main/java/dataStructures/matrix/Matrix.java#L15)|`🍊`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L10)
-[transpose](src/main/java/dataStructures/matrix/Matrix.java#L24)|`🍊`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L29)
-[reflect](src/main/java/dataStructures/matrix/Matrix.java#L37)|`🍊`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L48)
+ The `Matrix` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
+---------------------|-------|--------|-------------------|---------------|------------
+[rotate](src/main/java/dataStructures/matrix/Matrix.java#L18)|`🍊`|[`✔️`]| `⭕️(N^2)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L13)
+[transpose](src/main/java/dataStructures/matrix/Matrix.java#L30)|`🍊`|[`✔️`]|`⭕️(N^2)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L32)
+[reflect](src/main/java/dataStructures/matrix/Matrix.java#L45)|`🍊`|[`✔️`]|`⭕️(N^2)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L51)
 
 #### Data Structure: [**Singly Linked List**](src/main/java/dataStructures/singlyLinkedList)
 
