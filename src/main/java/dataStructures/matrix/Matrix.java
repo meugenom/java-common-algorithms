@@ -17,6 +17,9 @@ public class Matrix {
 
 	/**
 	 * rotate matrix
+	 * @return rotated matrix
+	 * @time complexity O(n^2)
+	 * @space complexity O(1)
 	 */
 	public void rotate() {
 
@@ -26,6 +29,8 @@ public class Matrix {
 
 	/**
 	 * transpose matrix : 1 step -> rotated
+	 * @time complexity O(n^2)
+	 * @space complexity O(1)
 	 */
 	public void transpose() {
 		for (int i = 0; i < matrix.length; i++) {
@@ -39,6 +44,8 @@ public class Matrix {
 
 	/**
 	 * reflect early transposed matrix : 2 step -> rotated
+	 * @time complexity O(n^2)
+	 * @space complexity O(1)
 	 */
 	public void reflect() {
 		for (int i = 0; i < matrix.length; i++) {
