@@ -50,21 +50,23 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 [transpose](src/main/java/dataStructures/matrix/Matrix.java#L30)|`🍊`|[`✔️`]|`⭕️(N^2)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L32)
 [reflect](src/main/java/dataStructures/matrix/Matrix.java#L45)|`🍊`|[`✔️`]|`⭕️(N^2)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/matrix/MatrixTest.java#L51)
 
-#### Data Structure: [**Singly Linked List**](src/main/java/dataStructures/singlyLinkedList)
+#### [**Singly Linked List**](src/main/java/dataStructures/singlyLinkedList)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[append(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
-[preppend(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L28)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L97)
-[find(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L136)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L165)
-[deleteFirst()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L110)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L131)
-[deleteLast()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L148)
-[deletePos(position)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L114)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
-[length()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L160)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L49)
-[reverse()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L53)|`🍏`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
-[getMid(LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L275)|`🍏`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L190)
-[merge(LinkedList, LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L243)|`🍊`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L211)
-[sort()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L227)|`🍊`|[`✔️`]|`⭕️(N Log(N))` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L30)
+The `Singly Linked List` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
+---------------------|-------|--------|-------------------|---------------|------------
+[append(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L7)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L79)
+[preppend(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L28)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L98)
+[find(data)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L162)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L170)
+[deleteFirst()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L130)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L134)
+[deleteLast()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L150)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L152)
+[deletePos(position)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L94)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L116)
+[length()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L187)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L48)
+[reverse()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L56)|`🍏`|[`✔️`]|`⭕️(N^2)` | `⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L29)
+[getMid(LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L299)|`🍏`|[`✔️`]|`⭕️(N)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L186)
+[merge(LinkedList, LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L265)|`🍊`|[`✔️`]|`⭕️(N+M)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L208)
+[sort()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L247)|`🍊`|[`✔️`]|`⭕️(N Log(N))` | `⭕️(Log(N))` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L235)
 
 #### Data Structure: [**Doubly Linked List**](src/main/java/dataStructures/doublyLinkedList)
 

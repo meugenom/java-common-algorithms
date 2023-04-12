@@ -7,10 +7,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-//import dataStructures.singlyLinkedList.SinglyLinkedList;
-//import dataStructures.singlyLinkedList.SinglyLinkedListNode;
-
-
 public class SinglyLinkedListTest {
 
 	@Test
@@ -234,5 +230,25 @@ public class SinglyLinkedListTest {
 		"Merge Linked Lists should work");
 
 		System.out.println("Test - Singly linked list : merge() - passed ok");         
+	}
+
+	@Test
+	@DisplayName("sort linked list in the descending order")
+	public void testSort(){
+		
+		SinglyLinkedList expectedList = new SinglyLinkedList();
+		int[] expectedArr = new int []{6,5,4,3,2,1};
+		expectedList.autoFill(expectedArr);
+		
+		SinglyLinkedList actualList = new SinglyLinkedList();
+		int[] actualArr = new int []{4,5,6,1,2,3};
+		actualList.autoFill(actualArr);
+		SinglyLinkedListNode head = actualList.head;
+		SinglyLinkedListNode actualNode = (actualList.sort(head));
+
+		assertEquals( expectedList.head.toString(), actualNode.toString(),
+		"Sort Linked List should work");
+
+		System.out.println("Test - Singly linked list : sort() - passed ok");         
 	}
 }

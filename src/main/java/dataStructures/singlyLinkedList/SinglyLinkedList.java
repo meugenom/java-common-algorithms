@@ -6,8 +6,10 @@ public class SinglyLinkedList {
 
 	/**
 	 * attach new node to the end of the list
-	 * 
 	 * @param data
+	 * @return head
+	 * @time complexity O(1)
+	 * @space complexity O(1)
 	 */
 	public SinglyLinkedListNode append(int data) {
 
@@ -30,6 +32,8 @@ public class SinglyLinkedList {
 	 * 
 	 * @param data
 	 * @return head
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public SinglyLinkedListNode preppend(int data) {
 
@@ -54,6 +58,8 @@ public class SinglyLinkedList {
 	 * 
 	 * @param head
 	 * @return reversed linked list
+	 * @time complexity O(n^2)
+	 * @space complexity O(n)
 	 */
 	public void reverse() {
 
@@ -88,6 +94,8 @@ public class SinglyLinkedList {
 	 * delete some position from linked list start position in the list = 0;
 	 * 
 	 * @param position
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public void deletePos(int position) {
 
@@ -120,6 +128,9 @@ public class SinglyLinkedList {
 
 	/**
 	 * delete first position from the list
+	 * @return head
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public void deleteFirst() {
 
@@ -137,6 +148,9 @@ public class SinglyLinkedList {
 
 	/**
 	 * delete last position from the list
+	 * @return head
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public void deleteLast() {
 
@@ -148,6 +162,8 @@ public class SinglyLinkedList {
 	 * 
 	 * @param data
 	 * @return position of value
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public int find(int data) {
 
@@ -171,6 +187,8 @@ public class SinglyLinkedList {
 	/**
 	 * @param head
 	 * @return length of the linked list
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public int length() {
 
@@ -191,6 +209,8 @@ public class SinglyLinkedList {
 	/**
 	 * @param current ListNode
 	 * @return length of the linked list
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public int length(SinglyLinkedListNode curr) {
 
@@ -226,7 +246,9 @@ public class SinglyLinkedList {
 
 	/**
 	 * @param current ListNode
-	 * @return sorted current ListNode
+	 * @return sorted current ListNode in the descending order
+	 * @time complexity O(n*logn) where getMid() is O(logn) and merge() is O(n)
+	 * @space complexity O(logn) for the recursion stack and O(1) for the merge
 	 */
 	public SinglyLinkedListNode sort(SinglyLinkedListNode head) {
         
@@ -237,12 +259,14 @@ public class SinglyLinkedList {
         SinglyLinkedListNode left = sort(head);
         SinglyLinkedListNode right = sort(mid);
         
-		return merge(left, right);
+		return merge(right, left);
     }
 
 	/**
 	 * @param ListNode first, ListNode second
 	 * @return merged ListNode
+	 * @time complexity O(n + m) where n and m are the lengths of the two lists
+	 * @space complexity O(1)
 	 */
     public SinglyLinkedListNode merge(SinglyLinkedListNode list1, SinglyLinkedListNode list2) {
 
@@ -275,6 +299,8 @@ public class SinglyLinkedList {
 	/**
 	 * @param current ListNode 
 	 * @return mid Node
+	 * @time complexity O(n)
+	 * @space complexity O(1)
 	 */
 	public SinglyLinkedListNode getMid(SinglyLinkedListNode head) {
 
