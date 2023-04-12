@@ -1,26 +1,28 @@
 # 🧠 📚 ⏱ Java Common Data Structures and Algorithms
 
-<center>
-	<img alt="" src="./assets/algo-common-panda.png"/>
-</center>
+This repository contains an implementation of common data structures and algorithms in Java.
 
-- Implementation of Data Structures and Algorithms.
+### Notation keys
 
-**Helping welcome! Thanks!**
+ The following keys are used to indicate the level of difficulty and time/space complexity of each algorithm:
 
- 📌 *notation keys:*:
- - `🍏` - easy;
- - `🍊` - medium;
- - `🍎` - hard;
- - `⭕️(1)`, `⭕️log(N)`, `⭕️(N^2)`... - Time and Space Complexity;
- - [`✍🏻`] - in progress;
- - [`🙇🏻‍♂️`] - hard to solve;
- - [`❓`] - the solution is not optimal;
- - [`✔️`] - done;
- - [`🆗`] - Test passed Ok;
+ - `🍏`: easy;
+ - `🍊`: medium;
+ - `🍎`: hard;
+ - `⭕️(1)`, `⭕️log(N)`, `⭕️(N^2)`, etc: time and space complexity;
+ - [`✍🏻`]: in progress;
+ - [`🙇🏻‍♂️`]: hard to solve;
+ - [`❓`]: the solution is not optimal;
+ - [`✔️`]: done;
+ - [`🆗`]: Test passed Ok;
 
+### Data Structures:
 
-#### Data Structure: [**Arrays**](src/main/java/dataStructures/arrays) 
+The following data structures are implemented in this repository:
+
+#### [**Arrays**](src/main/java/dataStructures/arrays)
+
+The `Arrays` class provides the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
 ---------------------|-------|--------|-------------------|---------------|------------
@@ -160,44 +162,12 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [MergeSort](src/main/java/sorting/MergeSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N log(N))` | [`🆗`] [Open](src/test/java/sorting/MergeSortTest.java#L9)
 [Insertion Sort](src/main/java/sorting/InsertionSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/InsertionSortTest.java#L9)
 
-### 🛠 Use Unit Tests:
+#### 🛠 Use Tests:
 
-- run all tests
 ```
 mvn clean test
 ```
-- and result in the terminal:
-```
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running dataStructures.tree.binarySearchTreeRecursive.BinarySearchTreeRecursiveTest
-Test - Binary Search Tree Recursive : insert(data) - passed ok
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
-Running dataStructures.tree.binarySearchTreeIterative.BinarySearchTreeIterativeTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running dataStructures.doublyLinkedList.DoublyLinkedListTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running dataStructures.arrays.ArraysTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
-Running dataStructures.arrays.BinarySearchArrayTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running dataStructures.singlyLinkedList.SinglyLinkedListTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running dataStructures.stack.StackTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-Running dataStructures.matrix.MatrixTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running sorting.InsertionSortTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running sorting.QuickSortTest
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running sorting.BubleSortTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running sorting.MergeSortTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
-Results :
 
-Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
-```
+#### Autor
+[meugenom](https://meugenom.com)
