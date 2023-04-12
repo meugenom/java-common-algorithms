@@ -22,18 +22,19 @@
 
 #### Data Structure: [**Arrays**](src/main/java/dataStructures/arrays) 
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation  | Tests passed:
----------------------|-------|--------|-------------------|---------------
-[findMin](src/main/java/dataStructures/arrays/Arrays.java#L45) | `🍏` | [`✔️`] | `⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L14)
- merge |`🍏`|[`✍🏻`]
-[pop](src/main/java/dataStructures/arrays/Arrays.java#L20)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L44)
-[push](src/main/java/dataStructures/arrays/Arrays.java#L7)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L61)
-[remove(position)](src/main/java/dataStructures/arrays/Arrays.java#L63)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L26)
-[reverse](src/main/java/dataStructures/arrays/Arrays.java#L87)|`🍊`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L78)
-[reverse(start, end)](src/main/java/dataStructures/arrays/Arrays.java#L102)|`🍊`|[`✔️`]|`⭕️(N)`
-[size](src/main/java/dataStructures/arrays/Arrays.java#L31)|`🍏`|[`✔️`]|`⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L95)
-[sort](src/main/java/dataStructures/arrays/Arrays.java#L117)|`🍊`|[`✔️`]|`⭕️(N^2)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L109)
-[GenericArray \<T\>](src/main/java/generics/GenericArray.java)|`🍊`| |
+Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
+---------------------|-------|--------|-------------------|---------------|------------
+[findMin](src/main/java/dataStructures/arrays/Arrays.java#L53) | `🍏` | [`✔️`] | `⭕️(N)`| `⭕️(1)`|[`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L14)
+ [mergeSortedArrays](src/main/java/dataStructures/arrays/Arrays.java#L163) | `🍊` | [`✔️`] | `⭕️(N)`| `⭕️(N)`|[`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L138)
+ [mergeUnsortedArrays](src/main/java/dataStructures/arrays/Arrays.java#L203) | `🍊` | [`✔️`] | `⭕️(N^2)`| `⭕️(N)`|[`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L159)
+[pop](src/main/java/dataStructures/arrays/Arrays.java#L23)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(N)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L44)
+[push](src/main/java/dataStructures/arrays/Arrays.java#L7)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L61)
+[remove(position)](src/main/java/dataStructures/arrays/Arrays.java#L74)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L26)
+[reverse](src/main/java/dataStructures/arrays/Arrays.java#L101)|`🍊`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L78)
+[reverse(start,end)](src/main/java/dataStructures/arrays/Arrays.java#L119)|`🍊`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L180)
+[size](src/main/java/dataStructures/arrays/Arrays.java#L37)|`🍏`|[`✔️`]|`⭕️(N)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L95)
+[sort](src/main/java/dataStructures/arrays/Arrays.java#L137)|`🍊`|[`✔️`]|`⭕️(N^2)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L109)
+[genericArray \<T\>](src/main/java/generics/GenericArray.java#L1)|`🍎`|[`✔️`]| | | [`🆗`] [Open](src/test/java/generics/GenericArrayTest.java#L1)
 
 
 

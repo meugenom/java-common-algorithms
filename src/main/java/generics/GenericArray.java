@@ -2,10 +2,11 @@ package generics;
 
 public class GenericArray<T> {
 
-	public final Object[] objectArray;
-	public final int length;
+	public Object[] objectArray;
+	public int length;
 	private String output = "";
 
+	// constructor
 	public GenericArray(int length) {
 		/**
 		 * instantiate a new Object array of specified length
@@ -14,25 +15,99 @@ public class GenericArray<T> {
 		this.length = length;
 	}
 
+	/**
+	 * @param array of type T
+	 * @return the value at obj_array[i]
+	 */
 	public T get(int i) {
-
 		@SuppressWarnings("unchecked")
 		T value = (T) objectArray[i];
-
 		return value;
 	}
 
-	// set value at obj_array[i]
+	/**
+	 * @param array of type T
+	 * @param i
+	 * @param value
+	 */
 	public void set(int i, T value) {
 		objectArray[i] = value;
 	}
 
+	/**
+	 * @return the size of the array
+	 */
 	public int getSize() {
 		return this.length;
 	}
 
-	// need realize methods sort(), pop(), push(), shift(), unshift()
-	// add new methods sort() with bubles sorting, quick sorting and others
+	/**
+	 * @return sorted array
+	 */
+	public void sort() {
+		int n = this.length;
+		for (int i = 0; i < n - 1; i++) {
+			for (int j = 0; j < n - i - 1; j++) {
+				if (((Comparable<T>) objectArray[j]).compareTo((T) objectArray[j + 1]) > 0) {
+					T temp = (T) objectArray[j];
+					objectArray[j] = objectArray[j + 1];
+					objectArray[j + 1] = temp;
+				}
+			}
+		}
+	}
+	
+	public T pop() {
+		if (this.length == 0) {
+			throw new ArrayIndexOutOfBoundsException("Cannot pop from an empty array");
+		}
+		T popped = (T) objectArray[this.length - 1];
+		this.length--;
+		return popped;
+	}
+
+	public void push(T value) {
+		if (this.length == objectArray.length) {
+			Object[] newArray = new Object[this.length + 1];
+			for (int i = 0; i < this.length; i++) {
+				newArray[i] = objectArray[i];
+			}
+			this.objectArray[this.length] = value;
+			this.objectArray = newArray;
+		} else {
+			this.objectArray[this.length] = value;
+		}
+		this.length++;
+	}
+
+	public T shift() {
+		if (this.length == 0) {
+			throw new ArrayIndexOutOfBoundsException("Cannot shift from an empty array");
+		}
+		T shifted = (T) objectArray[0];
+		for (int i = 1; i < this.length; i++) {
+			objectArray[i - 1] = objectArray[i];
+		}
+		this.length--;
+		return shifted;
+	}
+
+	public void unshift(T value) {
+		if (this.length == objectArray.length) {
+			Object[] newArray = new Object[this.length + 1];
+			newArray[0] = value;
+			for (int i = 1; i < newArray.length; i++) {
+				newArray[i] = objectArray[i - 1];
+			}
+			this.objectArray = newArray;
+		} else {
+			for (int i = this.length; i > 0; i--) {
+				objectArray[i] = objectArray[i - 1];
+			}
+			objectArray[0] = value;
+		}
+		this.length++;
+	}
 
 	@Override
 	public String toString() {
@@ -45,26 +120,5 @@ public class GenericArray<T> {
 		}
 		output = output + "]";
 		return output;
-	}
-}
-
-class Main {
-	public static void main(String[] args) {
-
-		final int length = 5;
-		GenericArray<Integer> result = new GenericArray<>(length);
-
-		for (int i = 0; i < length; i++)
-			result.set(i, i * 2);
-		System.out.println(result.toString());
-		int[] expected = new int[] { 0, 2, 4, 6, 8 };
-		assert expected.equals(result) : "Expected array doesn't equal with result array";
-
-		// creating string array
-		GenericArray<String> stringArray = new GenericArray<>(length);
-		for (int i = 0; i < length; i++) {
-			stringArray.set(i, String.valueOf("test " + (char) (i + 97)));
-			// System.out.println(stringArray.toString());
-		}
 	}
 }
