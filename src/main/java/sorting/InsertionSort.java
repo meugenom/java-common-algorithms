@@ -2,6 +2,11 @@ package sorting;
 
 public class InsertionSort {
 
+	/**
+	 * @param args
+	 * @time complexity O(n^2)
+	 * @space complexity O(1)
+	 */
 	public void insertionSort(int[] arr) {
 
 		for (int i = 0; i < arr.length; i++) {

@@ -2,6 +2,13 @@ package sorting;
 
 import java.util.Arrays;
 
+/**
+ * bubble sort for Integer and String arrays
+ * 
+ * @time complexity O(n^2)
+ * @space complexity O(1)
+ */
+
 public class BubleSort<T> {
 
 	public Object[] unsortedObjectArray;

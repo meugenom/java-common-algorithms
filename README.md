@@ -38,6 +38,16 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 [sort](src/main/java/dataStructures/arrays/Arrays.java#L137)|`🍊`|[`✔️`]|`⭕️(N^2)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/arrays/ArraysTest.java#L109)
 [genericArray \<T\>](src/main/java/generics/GenericArray.java#L1)|`🍎`|[`✔️`]| | | [`🆗`] [Open](src/test/java/generics/GenericArrayTest.java#L1)
 
+#### [**Sorting**](src/main/java/sorting)
+
+The `Sorting` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
+---------------------|-------|--------|-------------------|---------------|------------
+[Buble Sort \<T\>](src/main/java/sorting/BubleSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/sorting/BubleSortTest.java#L11)
+[Quick Sort](src/main/java/sorting/QuickSort.java#L5)|`🍊`|[`✔️`]|`⭕️(N LogN)` |`⭕️(LogN)` | [`🆗`] [Open](src/test/java/sorting/QuickSortTest.java#L9)
+[MergeSort](src/main/java/sorting/MergeSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N log(N))`|`⭕️(N)`| [`🆗`] [Open](src/test/java/sorting/MergeSortTest.java#L9)
+[Insertion Sort](src/main/java/sorting/InsertionSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/sorting/InsertionSortTest.java#L9)
 
 
  #### [**Matrix**](src/main/java/dataStructures/matrix)
@@ -68,14 +78,27 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 [merge(LinkedList, LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L265)|`🍊`|[`✔️`]|`⭕️(N+M)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L208)
 [sort()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L247)|`🍊`|[`✔️`]|`⭕️(N Log(N))` | `⭕️(Log(N))` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L235)
 
-#### Data Structure: [**Doubly Linked List**](src/main/java/dataStructures/doublyLinkedList)
+#### [**Doubly Linked List**](src/main/java/dataStructures/doublyLinkedList)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[append(data)](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L17)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L8)
-[preppend(data)](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L41)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L26)
-[deleteFirst()](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L139)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L43)
-[deleteLast()](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L161)|`🍏`|[`✔️`]|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L61)
+The `Doubly Linked List` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
+---------------------|-------|--------|-------------------|---------------|------------
+[append(data)](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L17)|`🍏`|[`✔️`]|`⭕️(1)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L9)
+[preppend(data)](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L43)|`🍏`|[`✔️`]|`⭕️(1)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L27)
+[deleteFirst()](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L143)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L44)
+[deleteLast()](src/main/java/dataStructures/doublyLinkedList/DoublyLinkedList.java#L167)|`🍏`|[`✔️`]|`⭕️(1)`| `⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/doublyLinkedList/DoublyLinkedListTest.java#L62)
+
+#### [**Binary Search**](src/main/java/dataStructures/arrays)
+
+The `Binary Search in Arrays` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
+---------------------|-------|--------|------------------|--------------|------------
+[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L11)|`🍊`|[`✔️`]|`⭕️(logN)`| `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
+[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L43)|`🍊`|[`✔️`]|`⭕️(log N)`| `⭕️(log N)` |[`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
+
+
 
 #### Data Structure: [**Stack**\<Listnode\>](src/main/java/dataStructures/stack)
 
@@ -149,22 +172,6 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation
 directed             | `🍎`  | [`✍🏻`]  |
 undirected           | `🍎`  | [`✍🏻`]  |
 
-- #### Data Structure: [**Search**](src/main/java/dataStructures/search/binarySearch)
-
-Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
----------------------|-------|--------|------------------|--------------|------------
-[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L5)|`🍊`|[`✔️`]|`⭕️(logN)`| `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
-[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L32)|`🍊`|[`✔️`]|`⭕️(log N)`| `⭕️(log N)` |[`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
-
-
-- #### Data Structure: [**Sorting**](src/main/java/sorting)
-
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[Buble Sort \<T\>](src/main/java/sorting/BubleSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/BubleSortTest.java#L11)
-[Quick Sort](src/main/java/sorting/QuickSort.java#L5)|`🍊`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/QuickSortTest.java#L9)
-[MergeSort](src/main/java/sorting/MergeSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N log(N))` | [`🆗`] [Open](src/test/java/sorting/MergeSortTest.java#L9)
-[Insertion Sort](src/main/java/sorting/InsertionSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)` | [`🆗`] [Open](src/test/java/sorting/InsertionSortTest.java#L9)
 
 #### 🛠 Use Tests:
 
