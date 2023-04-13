@@ -100,16 +100,18 @@ Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Te
 
 
 
-#### Data Structure: [**Stack**\<Listnode\>](src/main/java/dataStructures/stack)
+#### [**Stack**\<SinglyLinkedList Node\>](src/main/java/dataStructures/stack)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
----------------------|-------|--------|------------------|--------------
-[getMin()](src/main/java/dataStructures/stack/Stack.java#L47)|`🍏`|[`✔️`]|`⭕️(N)` | [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L10)
-[peak()](src/main/java/dataStructures/stack/Stack.java#L37)|`🍏`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L26)
-[pop()](src/main/java/dataStructures/stack/Stack.java#L29)|`🍏`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L44)
-[push(data)](src/main/java/dataStructures/stack/Stack.java#L17)|`🍏`|[`✔️`]|`⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L63)
+The `Stack` class provides the following algorithms:
 
-#### Data Structure: [**Queue**](src/main/java/dataStructures/queue)
+Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
+---------------------|-------|--------|------------------|--------------|------------
+[getMin()](src/main/java/dataStructures/stack/Stack.java#L56)|`🍏`|[`✔️`]|`⭕️(N)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L11)
+[peak()](src/main/java/dataStructures/stack/Stack.java#L43)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L27)
+[pop()](src/main/java/dataStructures/stack/Stack.java#L32)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L45)
+[push(data)](src/main/java/dataStructures/stack/Stack.java#L17)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L64)
+
+#### [**Queue**](src/main/java/dataStructures/queue)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
