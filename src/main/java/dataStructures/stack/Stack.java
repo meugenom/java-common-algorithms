@@ -16,7 +16,10 @@ public class Stack {
 
     /**
      *  push new value to the stack
+	 * 
      * @param val
+	 * @complexity time O(1)
+	 * @complexity space O(1)
      */
     public void push(int data) {
 
@@ -28,6 +31,9 @@ public class Stack {
     
     /**
      * pop - remove last value on the stacks peak
+	 * 
+	 * @complexity time O(1)
+	 * @complexity space O(1)
      */
     public void pop() {
 
@@ -35,8 +41,11 @@ public class Stack {
     }
     
     /**
-     * 
+	 * peak - return last value on the stacks peak
+	 * 
      * @return peak
+	 * @complexity time O(1)
+	 * @complexity space O(1)
      */
     public int peak() {
 
@@ -45,7 +54,11 @@ public class Stack {
     }
 
     /**
+	 * getMin - return min value in the stack
+	 * 
      * @return min value in the stack
+	 * @complexity time O(n)
+	 * @complexity space O(1)
      */
     public int getMin() {
 

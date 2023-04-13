@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class InsertionSortTest {
 
 	@Test
-	@DisplayName(" insertionsort")
+	@DisplayName(" Insertion Sort")
 	public void testInsertionSort() {
 
 		InsertionSort inSort = new InsertionSort();
@@ -19,8 +19,8 @@ public class InsertionSortTest {
 
 		String expected = "[ 0, 1, 7, 7, 11, 13, 14, 20, 25, 65, 85, 87, 99]";
 
-		assertEquals(expected, actual, "insertonsort should work");
-		System.out.println("Test - InsertionSort: insertionSort() - passed ok");
+		assertEquals(expected, actual, "Insertion Sort should work");
+		System.out.println("Test - Insertion Sort: insertionSort() - passed ok");
 
 	}
 }

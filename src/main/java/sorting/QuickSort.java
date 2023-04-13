@@ -1,5 +1,11 @@
 package sorting;
 
+/**
+ * Quick sort for Integer arrays
+ * 
+ * @time complexity O(n log n) in the average case and O(n^2) in the worst case
+ * @space complexity O(log n)
+ */
 public class QuickSort {
 
 	public void sort(int[] elements, int left, int right) {

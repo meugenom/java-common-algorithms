@@ -5,6 +5,8 @@ public class MergeSort {
 	/**
 	 * mergesort current array
 	 * @param arr
+	 * @complexity time O(n log n)
+	 * @complexity space O(n)
 	 */
 	public void mergeSort(int[] arr) {
 
@@ -41,6 +43,8 @@ public class MergeSort {
 	 * @param arr
 	 * @param leftArr
 	 * @param rightArr
+	 * @complexity time O(n)
+	 * @complexity space O(n)
 	 */
 	public void merge(int[] arr, int[] leftArr, int[] rightArr) {
 

@@ -17,6 +17,8 @@ public class DoublyLinkedList {
 	/**
 	 * added new value to the end of the list
 	 * @param data -value
+	 * @time complexity O(1)
+	 * @space complexity O(1)
 	 */
 	public void append(int data) {
 
@@ -41,6 +43,8 @@ public class DoublyLinkedList {
 	/**
 	 * add new value to the start of the list
 	 * @param data
+	 * @time complexity O(1)
+	 * @space complexity O(1)
 	 */
 	public void preppend(int data) {
 
@@ -139,6 +143,8 @@ public class DoublyLinkedList {
 	/**
 	 *  remove first element in the list
 	 * @throws Exception then list is empty
+	 * @time complexity O(1)
+	 * @space complexity O(1)
 	 */
 	public void deleteFirst() throws Exception {
 
@@ -161,6 +167,8 @@ public class DoublyLinkedList {
 	/**
 	 * remove last element in the list
 	 * @throws Exception then the list is empty
+	 * @time complexity O(1)
+	 * @space complexity O(1)
 	 */
 	public void deleteLast() throws Exception {
 
