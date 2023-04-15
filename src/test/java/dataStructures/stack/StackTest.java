@@ -26,7 +26,7 @@ public class StackTest {
 
 	@Test
 	@DisplayName("find last added value in the stack")
-	public void testPeak() {
+	public void testPeek() {
 
 		Stack s = new Stack();
 		s.push(-1);
@@ -34,12 +34,12 @@ public class StackTest {
 		s.push(2);
 		s.push(5);
 		s.push(4);
-		int actual = s.peak();
+		int actual = s.peek();
 		int expected = 4;
 
-		assertEquals(expected, actual, "peak() should work");
+		assertEquals(expected, actual, "peek() should work");
 
-		System.out.println("Test - Stack : peak() - passed ok");
+		System.out.println("Test - Stack : peek() - passed ok");
 	}
 
 	@Test

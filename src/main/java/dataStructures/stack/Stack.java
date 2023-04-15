@@ -41,16 +41,16 @@ public class Stack {
     }
     
     /**
-	 * peak - return last value on the stacks peak
+	 * peek - return last value on the stacks peak
 	 * 
-     * @return peak
+     * @return peek
 	 * @complexity time O(1)
 	 * @complexity space O(1)
      */
-    public int peak() {
+    public int peek() {
 
-        int peak = this.stack.data;
-        return peak;  
+        int peek = this.stack.data;
+        return peek;  
     }
 
     /**
