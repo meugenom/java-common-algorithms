@@ -1,12 +1,12 @@
-package dataStructures.tree.binarySearchTree;
+package dataStructures.tree.binaryTree;
 
 import java.util.Stack;
 
-public class BinarySearchTreeIterative {
+public class BinaryTreeIterative {
 
 	public TreeNode root;
 
-	public BinarySearchTreeIterative() {
+	public BinaryTreeIterative() {
 		root = null;
 	}
 

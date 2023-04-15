@@ -1,11 +1,11 @@
-package dataStructures.tree.binarySearchTree;
+package dataStructures.tree.binaryTree;
 
-public class BinarySearchTreeRecursive {
+public class BinaryTreeRecursive {
 
 	public TreeNode root;
 	public String out;
 
-	public BinarySearchTreeRecursive() {
+	public BinaryTreeRecursive() {
 		root = null;
 		out = "";
 	}
