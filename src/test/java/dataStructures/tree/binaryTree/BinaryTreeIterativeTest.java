@@ -1,4 +1,4 @@
-package dataStructures.tree.binarySearchTreeIterative;
+package dataStructures.tree.binaryTree;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -8,10 +8,10 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import dataStructures.tree.binarySearchTree.BinarySearchTreeIterative;
 
 
-public class BinarySearchTreeIterativeTest {
+
+public class BinaryTreeIterativeTest {
 
 	@Test
 	@DisplayName("print BST preOrder - NLR Iterative")
@@ -20,7 +20,7 @@ public class BinarySearchTreeIterativeTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeIterative tree = new BinarySearchTreeIterative();
+		BinaryTreeIterative tree = new BinaryTreeIterative();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
@@ -44,7 +44,7 @@ public class BinarySearchTreeIterativeTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeIterative tree = new BinarySearchTreeIterative();
+		BinaryTreeIterative tree = new BinaryTreeIterative();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
@@ -68,7 +68,7 @@ public class BinarySearchTreeIterativeTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeIterative tree = new BinarySearchTreeIterative();
+		BinaryTreeIterative tree = new BinaryTreeIterative();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);

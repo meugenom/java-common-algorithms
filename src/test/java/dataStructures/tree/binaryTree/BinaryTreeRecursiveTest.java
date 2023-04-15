@@ -1,4 +1,4 @@
-package dataStructures.tree.binarySearchTreeRecursive;
+package dataStructures.tree.binaryTree;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -8,15 +8,15 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import dataStructures.tree.binarySearchTree.BinarySearchTreeRecursive;
 
-public class BinarySearchTreeRecursiveTest {
+
+public class BinaryTreeRecursiveTest {
 
 	@Test
 	@DisplayName("insert value into  Binary Search Tree Recursive")
 	public void testInsert() {
 
-		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		BinaryTreeRecursive tree = new BinaryTreeRecursive();
 
 		tree.insert(7);
 		tree.insert(20);
@@ -63,7 +63,7 @@ public class BinarySearchTreeRecursiveTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		BinaryTreeRecursive tree = new BinaryTreeRecursive();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
@@ -87,7 +87,7 @@ public class BinarySearchTreeRecursiveTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		BinaryTreeRecursive tree = new BinaryTreeRecursive();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
@@ -111,7 +111,7 @@ public class BinarySearchTreeRecursiveTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		BinaryTreeRecursive tree = new BinaryTreeRecursive();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
@@ -135,7 +135,7 @@ public class BinarySearchTreeRecursiveTest {
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
 
-		BinarySearchTreeRecursive tree = new BinarySearchTreeRecursive();
+		BinaryTreeRecursive tree = new BinaryTreeRecursive();
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(8);
