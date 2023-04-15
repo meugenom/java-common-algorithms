@@ -111,14 +111,17 @@ Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Te
 [pop()](src/main/java/dataStructures/stack/Stack.java#L32)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L45)
 [push(data)](src/main/java/dataStructures/stack/Stack.java#L17)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L64)
 
-#### [**Queue**](src/main/java/dataStructures/queue)
+#### [**Queue**\<int[]\>](src/main/java/dataStructures/queue)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-isEmpty | `🍏` | [`✍🏻`] |
-peak    | `🍏` | [`✍🏻`] |
-enqueue | `🍏` | [`✍🏻`] |
-dequeue | `🍏` | [`✍🏻`] |
+The `Queue` class provides the following algorithms:
+
+Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
+---------------------|-------|--------|------------------|--------------|------------
+[isEmpty()](src/main/java/dataStructures/stack/Stack.java#L12)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L12)
+[peak()](src/main/java/dataStructures/stack/Stack.java#L62)|`🍏`|[`✔️`]|`⭕️(1)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L24)
+[enqueue()](src/main/java/dataStructures/stack/Stack.java#L22)|`🍏`|[`✔️`]|`⭕️(N)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L41)
+[dequeue()](src/main/java/dataStructures/stack/Stack.java#L43)|`🍏`|[`✔️`]|`⭕️(N)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/stack/StackTest.java#L58)
+
 
 #### Data Structure: [**Hash Table**\<Listnode\>](src/main/java/dataStructures/hashTable)
 
