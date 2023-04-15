@@ -1,6 +1,8 @@
 # 🧠 📚 ⏱ Java Common Data Structures and Algorithms
 
-This repository contains an implementation of common data structures and algorithms in Java.
+This repository contains an implementation of common data structures and algorithms in Java. This code is primarily intended for understanding and learning data structures, and for finding their complexity. It is designed for students and self-learners.
+
+Great request, if you see an error or inaccuracy, please make a correction. Any help is welcome.
 
 ### Notation keys
 
@@ -40,12 +42,12 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 
 #### [**Sorting**](src/main/java/sorting)
 
-The `Sorting` class provides the following algorithms:
+The `Sort` classes provide the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
 ---------------------|-------|--------|-------------------|---------------|------------
 [Buble Sort \<T\>](src/main/java/sorting/BubleSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/sorting/BubleSortTest.java#L11)
-[Quick Sort](src/main/java/sorting/QuickSort.java#L5)|`🍊`|[`✔️`]|`⭕️(N LogN)` |`⭕️(LogN)` | [`🆗`] [Open](src/test/java/sorting/QuickSortTest.java#L9)
+[Quick Sort](src/main/java/sorting/QuickSort.java#L5)|`🍊`|[`✔️`]|`⭕️(N log(N))` |`⭕️(log(N))` | [`🆗`] [Open](src/test/java/sorting/QuickSortTest.java#L9)
 [MergeSort](src/main/java/sorting/MergeSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N log(N))`|`⭕️(N)`| [`🆗`] [Open](src/test/java/sorting/MergeSortTest.java#L9)
 [Insertion Sort](src/main/java/sorting/InsertionSort.java#L5)|`🍏`|[`✔️`]|`⭕️(N^2)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/sorting/InsertionSortTest.java#L9)
 
@@ -62,7 +64,7 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 
 #### [**Singly Linked List**](src/main/java/dataStructures/singlyLinkedList)
 
-The `Singly Linked List` class provides the following algorithms:
+The `SinglyLinkedList` class provides the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
 ---------------------|-------|--------|-------------------|---------------|------------
@@ -76,11 +78,11 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 [reverse()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L56)|`🍏`|[`✔️`]|`⭕️(N^2)` | `⭕️(N)`| [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L29)
 [getMid(LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L299)|`🍏`|[`✔️`]|`⭕️(N)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L186)
 [merge(LinkedList, LinkedList)](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L265)|`🍊`|[`✔️`]|`⭕️(N+M)` | `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L208)
-[sort()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L247)|`🍊`|[`✔️`]|`⭕️(N Log(N))` | `⭕️(Log(N))` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L235)
+[sort()](src/main/java/dataStructures/singlyLinkedList/SinglyLinkedList.java#L247)|`🍊`|[`✔️`]|`⭕️(N log(N))` | `⭕️(log(N))` | [`🆗`] [Open](src/test/java/dataStructures/singlyLinkedList/SinglyLinkedListTest.java#L235)
 
 #### [**Doubly Linked List**](src/main/java/dataStructures/doublyLinkedList)
 
-The `Doubly Linked List` class provides the following algorithms:
+The `DoublyLinkedList` class provides the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | Tests passed:
 ---------------------|-------|--------|-------------------|---------------|------------
@@ -91,12 +93,12 @@ Algorithm (operation)| Level |  Done  |  Time Complexity  | Space Complexity | T
 
 #### [**Binary Search**](src/main/java/dataStructures/arrays)
 
-The `Binary Search in Arrays` class provides the following algorithms:
+The `BinarySearchArray` class provides the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
 ---------------------|-------|--------|------------------|--------------|------------
-[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L11)|`🍊`|[`✔️`]|`⭕️(logN)`| `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
-[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L43)|`🍊`|[`✔️`]|`⭕️(log N)`| `⭕️(log N)` |[`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
+[Binary Search Iterative](src/main/java/dataStructures/arrays/BinarySearchArray.java#L11)|`🍊`|[`✔️`]|`⭕️(log(N))`| `⭕️(1)` | [`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L12)
+[Binary Search Recursive](src/main/java/dataStructures/arrays/BinarySearchArray.java#L43)|`🍊`|[`✔️`]|`⭕️(log(N))`| `⭕️(log(N))` |[`🆗`] [Open](src/test/java/dataStructures/arrays/BinarySearchArrayTest.java#L25)
 
 
 
@@ -122,34 +124,21 @@ Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Te
 [enqueue()](src/main/java/dataStructures/queue/Queue.java#L22)|`🍏`|[`✔️`]|`⭕️(N)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/queue/QueueTest.java#L41)
 [dequeue()](src/main/java/dataStructures/queue/Queue.java#L43)|`🍏`|[`✔️`]|`⭕️(N)`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/queue/QueueTest.java#L58)
 
+#### [**Binary Heap**](src/main/java/dataStructures/heap)
 
-#### Data Structure: [**Hash Table**\<Listnode\>](src/main/java/dataStructures/hashTable)
+The `BinaryHeap` class provides the following algorithms:
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-hash(key)       | `🍏` | [`✍🏻`] |
-set(key, value) | `🍏` | [`✍🏻`] |
-delete(key) | `🍏` | [`✍🏻`] |
-get(key) | `🍏` | [`✍🏻`] |
-has(key) | `🍏` | [`✍🏻`] |
-getKeys() | `🍏` | [`✍🏻`] |
-getValues() | `🍏` | [`✍🏻`] |
+Algorithm (operation)| Level |  Done  |  Time Complexity | Space Complexity | Tests passed
+---------------------|-------|--------|------------------|--------------|------------
+[insert()](src/main/java/dataStructures/heap/BinaryHeap.java#L27)|`🍎`|[`✔️`]|`⭕️(log(N))`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/heap/BinaryHeapTest.java#L10)
+[delete(index)](src/main/java/dataStructures/heap/BinaryHeap.java#L43)|`🍎`|[`✔️`]|`⭕️(log(N))`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/heap/BinaryHeapTest.java#L26)
+[sort()](src/main/java/dataStructures/heap/BinaryHeap.java#L68)|`🍎`|[`✔️`]|`⭕️(N log(N))`|`⭕️(1)`| [`🆗`] [Open](src/test/java/dataStructures/heap/BinaryHeapTest.java#L26)
+[fixHeapAbove(index)](src/main/java/dataStructures/heap/BinaryHeap.java#L83)|`🍎`|[`✔️`]|`⭕️(log(N))`|`⭕️(1)`|
+[fixHeapAbove(index, lastHeapIndex)](src/main/java/dataStructures/heap/BinaryHeap.java#L99)|`🍎`|[`✔️`]|`⭕️(log(N))`|`⭕️(1)`|
 
-#### Data Structure: [**Heap**](src/main/java/dataStructures/heap)
+#### [**Tree**](src/main/java/dataStructures/tree)
 
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-add       | `🍎` | [`✍🏻`] |
-remove       | `🍎` | [`✍🏻`] |
-
-#### Data Structure: [**Trie**](src/main/java/dataStructures/trie)
-
-Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
----------------------|-------|--------|---------------------
-addWord       | `🍎` | [`✍🏻`] |
-deleteWord      | `🍎` | [`✍🏻`] |
-
-#### Data Structure: [**Tree**](src/main/java/dataStructures/tree)
+The `Tree` class provides the following algorithms:
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 ---------------------|-------|--------|------------------|--------------
@@ -169,14 +158,33 @@ Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation | Tests passed
 [Red-Black Tree](src/main/java/dataStructures/tree)| `🍎` | [`✍🏻`] |
 [Segment Tree](src/main/java/dataStructures/tree)| `🍎` | [`✍🏻`] |
 
+#### Data Structure: [**Hash Table**\<Listnode\>](src/main/java/dataStructures/hashTable)
 
-- #### Data Structure: [**Graph**](src/main/java/dataStructures/graph)
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
+---------------------|-------|--------|---------------------
+hash(key)       | `🍏` | [`✍🏻`] |
+set(key, value) | `🍏` | [`✍🏻`] |
+delete(key) | `🍏` | [`✍🏻`] |
+get(key) | `🍏` | [`✍🏻`] |
+has(key) | `🍏` | [`✍🏻`] |
+getKeys() | `🍏` | [`✍🏻`] |
+getValues() | `🍏` | [`✍🏻`] |
+
+#### Data Structure: [**Trie**](src/main/java/dataStructures/trie)
+
+Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
+---------------------|-------|--------|---------------------
+addWord       | `🍎` | [`✍🏻`] |
+deleteWord      | `🍎` | [`✍🏻`] |
+
+#### Data Structure: [**Graph**](src/main/java/dataStructures/graph)
 
 Algorithm (operation)| Level |  Done  |  Big ⭕️ Notation 
 ---------------------|-------|--------|---------------------
 directed             | `🍎`  | [`✍🏻`]  |
 undirected           | `🍎`  | [`✍🏻`]  |
 
+---------------
 
 #### 🛠 Use Tests:
 
