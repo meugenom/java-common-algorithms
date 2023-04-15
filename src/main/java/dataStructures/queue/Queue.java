@@ -50,12 +50,10 @@ public class Queue {
 		if (isEmpty()) {
 			System.out.println("Queue is empty");
 		} else {
-			for (int i = 0; i < queue.length; i++) {
-				if (queue[i] != 0) {
-					queue[i] = 0;
-					break;
-				}
-			}
+			//remove first item from queue
+			for (int i = 0; i < queue.length - 1; i++) {
+				queue[i] = queue[i + 1];
+			}			
 		}
 	}
 
